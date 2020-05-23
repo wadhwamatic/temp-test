@@ -21,11 +21,24 @@ export interface LayerType {
   legendText: string;
 }
 
+export interface ChartConfig {
+  type: string;
+  category: string;
+  dropColumn?: number;
+  xAxis?: string;
+}
+
 export interface TableType {
   id: string;
   title: string;
   table: string;
   legendText: string;
+  chart?: {
+    dropColumn?: number;
+    type: string;
+    category: string;
+    xAxis?: string;
+  };
 }
 
 export interface LayersMap extends Map<string, LayerType> {}

@@ -11,6 +11,7 @@ import {
 } from '@material-ui/core';
 import { getCurrTable } from '../../../context/tableStateSlice';
 import DataTableRow from './DataTableRow';
+import { buildChart } from '../Chart';
 
 const useStyles = makeStyles({
   root: {
@@ -37,7 +38,7 @@ const DataTable = ({ maxResults }: DataTableConfig) => {
   const classes = useStyles();
 
   // get and destructure the currently open table
-  const { title, table, legendText } = useSelector(getCurrTable);
+  const { title, table, legendText, chart } = useSelector(getCurrTable);
   // set up state to store results from parsing the CSV
   const [tableJson, setTableJson] = useState<any[]>([]);
 
@@ -54,6 +55,9 @@ const DataTable = ({ maxResults }: DataTableConfig) => {
     });
   }, [table, tableUrl]);
 
+  const chartData =
+    chart && tableJson.length > 0 ? buildChart(tableJson, chart, title) : null;
+
   return (
     <div>
       <h2>{title}</h2>
@@ -61,6 +65,8 @@ const DataTable = ({ maxResults }: DataTableConfig) => {
       <p>
         <a href={process.env.PUBLIC_URL + table}>Download as CSV</a>
       </p>
+
+      {chartData}
 
       {tableJson.length > 0 && (
         <Paper className={classes.root}>
