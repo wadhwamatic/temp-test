@@ -24,7 +24,7 @@ export interface LayerType {
 export interface ChartConfig {
   type: string;
   category: string;
-  dropColumn?: number;
+  exclude?: string[];
   xAxis?: string;
 }
 
