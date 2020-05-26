@@ -7,7 +7,7 @@ import { LayersMap } from '../../../config/types';
 import { legendToStops } from '../../../utils/layer-utils';
 import { PopupData } from '../MapTooltip';
 
-import groundstationDataJson from '../../../data/groundstations/longterm_data.json';
+import groundstationDataJson from '../../../data/groundstations/IRIMHE_temperature_2020-01-d1.json';
 
 declare module 'geojson' {
   export const version: string;
@@ -20,8 +20,7 @@ declare module 'geojson' {
 }
 
 type GroundstationData = {
-  id: number;
-  index: number;
+  sindex: number;
   lat: number;
   lon: number;
 }[];
@@ -49,7 +48,7 @@ function GroundstationLayers({
   const circleLayout: MapboxGL.CircleLayout = { visibility: 'visible' };
   const circlePaint: MapboxGL.CirclePaint = {
     'circle-color': {
-      property: 'jan-01',
+      property: 'ttt_aver',
       stops: legendToStops(layerConfig.legend),
     },
   };
@@ -62,7 +61,7 @@ function GroundstationLayers({
       circleOnClick={(evt: any) => {
         setPopupData({
           [layerConfig.title]: {
-            data: get(evt.features[0], 'properties.rasterheight'),
+            data: get(evt.features[0], 'properties.ttt_aver'),
             coordinates: evt.lngLat,
           },
         });
