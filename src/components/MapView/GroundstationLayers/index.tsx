@@ -49,7 +49,7 @@ function GroundstationLayers({
   const circleLayout: MapboxGL.CircleLayout = { visibility: 'visible' };
   const circlePaint: MapboxGL.CirclePaint = {
     'circle-color': {
-      property: 'rasterheight',
+      property: 'jan-01',
       stops: legendToStops(layerConfig.legend),
     },
   };
