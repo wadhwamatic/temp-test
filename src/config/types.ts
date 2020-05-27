@@ -134,14 +134,6 @@ export class NSOLayerProps extends CommonLayerProps {
   adminCode: BoundaryKey;
 }
 
-export interface ChartConfig {
-  type: string;
-  category: string;
-  stacked?: boolean;
-  exclude?: string[];
-  xAxis?: string;
-}
-
 export type AggregationOperations = 'mean' | 'median';
 export type ThresholdDefinition = { below?: number; above?: number };
 export class ImpactLayerProps extends CommonLayerProps {
@@ -207,7 +199,4 @@ export class TableType {
   title: string;
   table: string;
   legendText: string;
-
-  @optional
-  chart?: ChartConfig;
 }

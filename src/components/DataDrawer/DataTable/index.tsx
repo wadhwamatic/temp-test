@@ -18,17 +18,15 @@ import {
   getCurrentData,
 } from '../../../context/tableStateSlice';
 import DataTableRow from './DataTableRow';
-import Chart from '../Chart';
 
 const styles = () =>
   createStyles({
     root: {
       width: '100%',
-      height: '100%',
+      height: '70vh',
       color: 'black',
     },
     container: {
-      height: '100%',
       maxHeight: '100%',
     },
     headCells: {
@@ -52,7 +50,7 @@ const DataTable = ({ classes, maxResults }: DataTableProps) => {
     return null;
   }
 
-  const { table, title, legendText, chart } = definition;
+  const { table, title, legendText } = definition;
 
   return (
     <div>
@@ -61,8 +59,6 @@ const DataTable = ({ classes, maxResults }: DataTableProps) => {
       <p>
         <a href={process.env.PUBLIC_URL + table}>Download as CSV</a>
       </p>
-
-      {!loading && chart && <Chart title={title} config={chart} data={data} />}
 
       {loading ? (
         <Box
