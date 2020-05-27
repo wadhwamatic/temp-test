@@ -13,30 +13,30 @@
     "zoom": 4.5
   },
   "categories": {
-    "exposure": {
-      "demographics": ["population_total"],
-      "livestock_and_herders": ["herders", "livestock"]
+    "өртсөн": {
+      "Хүн_ам_зүй": ["population_total"],
+      "Мал_сүрэг_малчид": ["herders", "livestock"]
     },
-    "vulnerability": {
-      "vulnerable_groups": ["population_below_poverty", "disabled", "elderly", "child"],
-      "herders": ["herd_200"]
+    "эмзэг": {
+      "Эмзэг_бүлгийнхэн": ["population_below_poverty", "disabled", "elderly", "child"],
+      "малчид": ["herd_200"]
     },
-    "hazards": {
-      "drought_indicators": ["pasture_anomaly", "pasture_biomass", "ndvi", "ModisVHI"],
-      "winter_conditions": ["ModisSnowPercentage","ModisLST"],
-      "ground_station_data": ["temp_groundstations","snow_groundstations","precip_groundstations","wind_groundstations","temp_anom_groundstations", "precip_anom_groundstations"]
+    "Аюул": {
+      "Гангийн_үзүүлэлтүүд": ["pasture_anomaly", "pasture_biomass", "ndvi", "ModisVHI"],
+      "Өвөлжилтийн_нөхцөл_байдал": ["ModisSnowPercentage","ModisLST"],
+      "Газар_доорх_станцын_мэдээлэл": ["temp_groundstations","snow_groundstations","precip_groundstations","wind_groundstations","temp_anom_groundstations", "precip_anom_groundstations"]
     },
-    "risk": {
-      "dzud_risk": ["DzudRiskMap"],
-      "impact_analysis": ["herd_pasture_impact", "small_herder_dzud_risk", "livestock_vhi", "livestock_dzud_risk"]
+    "эрсдэл": {
+      "Зудын_эрсдэл": ["DzudRiskMap"],
+      "Нөлөөллийн дүн шинжилгээ": ["herd_pasture_impact", "small_herder_dzud_risk", "livestock_vhi", "livestock_dzud_risk"]
     },
-    "capacity": {
-      "livestock_and_crop_preparedness": ["hay_harvest"]
+    "чадвар": {
+      "Мал аж ахуй, газар тариалангийн бэлэн байдал": ["hay_harvest"]
     },
-    "tables": {
-      "socioeconomic_data": ["poverty"],
-      "livestock_data": ["animal_deaths"],
-      "price_data": ["hay_prices"]
+    "Хүснэгт": {
+      "Нийгэм эдийн засгийн мэдээлэл": ["poverty"],
+      "Малын мэдээлэл": ["animal_deaths"],
+      "Үнийн мэдээлэл": ["hay_prices"]
     }
   }
 }

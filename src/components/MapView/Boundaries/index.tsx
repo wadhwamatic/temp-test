@@ -31,9 +31,9 @@ function Boundaries({ getCoordinates, getLocationName }: any) {
       fillOnClick={(evt: any) => {
         getCoordinates(evt.lngLat);
         getLocationName(
-          get(evt.features[0], 'properties.ADM1_EN')
+          get(evt.features[0], 'properties.ADM1_MN')
             .concat(', ')
-            .concat(get(evt.features[0], 'properties.ADM2_EN')),
+            .concat(get(evt.features[0], 'properties.ADM2_MN')),
         );
       }}
     />

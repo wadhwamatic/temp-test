@@ -1,6 +1,6 @@
 {
   "population_below_poverty": {
-    "title": "Poverty headcount (aimag)",
+    "title": "Ядуурлын хамралтын хүрээ (аймаг)",
     "type": "nso",
     "data": "nsoPoverty",
     "admin_code": "CODE1",
@@ -13,10 +13,10 @@
       { "value": "40", "color": "#e34a33" },
       { "value": "45", "color": "#b30000" }
     ],
-    "legend_text": "The poverty headcount is the share of the population whose consumption / expenditure is below the poverty line by Aimag. Year: 2018. Source: National Statistics Office"
+    "legend_text": "Ядуурлын түвшин гэдэг нь хэрэглээ / зарцуулалт нь аймгийн ядуурлын түвшингээс доогуур байгаа хүн амын эзлэх хувь юм. Он: 2018. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "disabled": {
-    "title": "Number of disabled people (aimag)",
+    "title": "Хөгжлийн бэрхшээлтэй игэдийн тоо (аймаг)",
     "type": "nso",
     "data": "nsoDisabled",
     "admin_code": "CODE",
@@ -29,10 +29,10 @@
       { "value": "5000", "color": "#e34a33" },
       { "value": "6000", "color": "#b30000" }
     ],
-    "legend_text": "Number of people whose ability was impaired for more than 12 months by Aimag. Year: 2018. Source: National Statistical Office"
+    "legend_text": "12 сараас дээш хугацаагаар харааны чадвараа алдсан хүмүүсийн тоо. (аймгаар) Он: 2018. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "hay_harvest": {
-    "title": "Hay harvest (soum)",
+    "title": "Хадлан ургац хураалт (сум)",
     "type": "nso",
     "data": "nsoHayHarvest",
     "admin_code": "CODE",
@@ -45,10 +45,10 @@
       { "value": "5000", "color": "#2ca25f" },
       { "value": "7000", "color": "#006d2c" }
     ],
-    "legend_text": "Amount of hay harvested in tonnes by Soum. Year: 2019. Source: National Statistical Office"
+    "legend_text": "Ургац хураасан хадлангийн хэмжээг хэдэн тонноор нь. Он: 2019. Эх сурвалж: Үндэсний статистикийн хороо"
   },
    "elderly": {
-    "title": "Single-headed elderly households (aimag)",
+    "title": "Өрх үүсгэн, ганц биеээр амьдардаг өндөр настай өрхийн тоо (аймаг)",
     "type": "nso",
     "data": "nsoElderly",
     "admin_code": "CODE",
@@ -61,10 +61,10 @@
       { "value": "2500", "color": "#e34a33" },
       { "value": "3000", "color": "#b30000" }
     ],
-    "legend_text": "Number of single-headed households with a female head over 55 years old or a male head over 60 years old by Aimag. Year: 2018. Source: National Statistics Office"
+    "legend_text": "Аймгийн хэмжээнд  55-аас дээш настай эмэгтэй эсвэл 60-аас дээш насны эрэгтэй өрх толгойлсон өрхийн тоо. Он: 2018. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "herders": {
-    "title": "Herder households (soum)",
+    "title": "Малчин өрхийн тоо (сум)",
     "type": "nso",
     "data": "nsoHerders",
     "admin_code": "CODE",
@@ -77,10 +77,10 @@
       { "value": "600", "color": "#e34a33" },
       { "value": "700", "color": "#b30000" }
     ],
-    "legend_text": "Number of herder households - defined as herding as the main source of income by Soum. Year: 2019. Source: National Statistical Office"
+    "legend_text": "Малчин өрхийн тоо - орлогын гол эх үүсвэр нь мал аж ахуй гэж тодорхойлсон малчин өрх. (сумдаар) Он: 2019. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "livestock": {
-    "title": "Number of livestock in thousands (soum)",
+    "title": "Малын тоо мянга (сум)",
     "type": "nso",
     "data": "nsoLivestock",
     "admin_code": "CODE",
@@ -93,10 +93,10 @@
       { "value": "250", "color": "#e34a33" },
       { "value": "300", "color": "#b30000" }
     ],
-    "legend_text": "Number of livestock raised for agricultural purposes in thousands of heads by Soum. Year: 2019. Source: National Statistical Office"
+    "legend_text": "Хөдөө аж ахуйн зориулалтаар өсгөсөн малын тоо (сумдаар). Он: 2019. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "child": {
-    "title": "Number of children under 5 (soum)",
+    "title": "5-аас доош настай хүүхдийн тоо (сум)",
     "type": "nso",
     "data": "nsoChild",
     "admin_code": "CODE",
@@ -109,10 +109,10 @@
       { "value": "800", "color": "#e34a33" },
       { "value": "1000", "color": "#b30000" }
     ],
-    "legend_text": "Number of children under five years of age by Soum. Year: 2019. Source: National Statistics Office"
+    "legend_text": "5-аас доош настай хүүхдийн тоо насны бүлгээр, (сумдаар)"
   },
   "herd_200": {
-    "title": "Small herder households (aimag)",
+    "title": "Цөөн малтай өрхийн тоо (аймаг)",
     "type": "nso",
     "data": "nsoHerdsize",
     "admin_code": "CODE1",
@@ -125,10 +125,10 @@
       { "value": "8000", "color": "#e34a33" },
       { "value": "10000", "color": "#b30000" }
     ],
-    "legend_text": "Number of households with less than 200 heads of livestock by Aimag. Year: 2019. Source: National Statistics Office"
+    "legend_text": "200-аас доош толгой малтай өрхийн тоо (аймгаар) Он: 2019. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "population_total": {
-    "title": "Total population (soum)",
+    "title": "Нийт хүн амын тоо (сум)",
     "type": "nso",
     "data": "nsoPop",
     "admin_code": "CODE",
@@ -141,17 +141,17 @@
       { "value": "10000", "color": "#e34a33" },
       { "value": "12500", "color": "#b30000" }
     ],
-    "legend_text": "Total number of residents by Soum. Year: 2019. Source: National Statistics Office"
+    "legend_text": "Нийт хүн амын тоо (аймгаар) Он: 2019. Эх сурвалж: Үндэсний статистикийн хороо"
   },
   "pasture_anomaly": {
-    "title": "Pasture anomaly",
+    "title": "Бэлчээрийн ургамалын хазайлт",
     "type": "wms",
     "server_layer": "ModisAnomaly",
     "server_uri": "https://mongolia.sibelius-datacube.org:5000/wms?layers=ModisAnomaly",
     "has_date": true,
     "date_interval": "days",
     "opacity": 0.3,
-    "legend_text": "Compares the current pasture conditions to the long term average to calculate pasture anomaly",
+    "legend_text": "Бэлчээрийн ургамалын хазайлтыг тооцоолохын тулд одоогийн бэлчээрийн нөхцлийг урт хугацааны дундажтай харьцуулж үздэг",
     "legend": [
       { "value": "-80%", "color": "#ff0000" },
       { "value": "-60%", "color": "#ff5900" },
@@ -167,37 +167,24 @@
     ]
   },
   "pasture_biomass": {
-    "title": "Pasture biomass",
+    "title": "Бэлчээрийн биомасс",
     "type": "wms",
     "server_layer": "ModisPastureBiomass",
     "server_uri": "https://mongolia.sibelius-datacube.org:5000/wms?layers=ModisPastureBiomass",
     "has_date": true,
     "date_interval": "days",
     "opacity": 0.3,
-    "legend_text": "Pasture biomass. Converts the NDVI to pasture (kg/ha) values.",
-    "legend": [
-      { "value": "-80%", "color": "#ff0000" },
-      { "value": "-60%", "color": "#ff5900" },
-      { "value": "-40%", "color": "#ff8400" },
-      { "value": "-20%", "color": "#ffce63" },
-      { "value": "-10%", "color": "#ffdd94" },
-      { "value": "0", "color": "#ffffbf" },
-      { "value": "+10%", "color": "#dee09f" },
-      { "value": "+20%", "color": "#bbbf7c" },
-      { "value": "+40%", "color": "#9da360" },
-      { "value": "+60%", "color": "#7e8745" },
-      { "value": "+80%", "color": "#5b6e00" }
-    ]
+    "legend_text": "NDVI-ийг бэлчээрийн (кг / га) утга болгон хөрвүүлдэг"
   },
   "ndvi": {
-    "title": "Vegetation index (NDVI)",
+    "title": "Ургамалжилтын индекс (NDVI)",
     "type": "wms",
     "server_layer": "ModisIndices",
     "server_uri": "https://mongolia.sibelius-datacube.org:5000/wms?styles=ndvi&layers=ModisIndices",
     "has_date": true,
     "date_interval": "days",
     "opacity": 0.3,
-    "legend_text": "Median averaged Normalized Difference Vegetation Index (NDVI) from composite satellite imagery",
+    "legend_text": "Ургамалжилтын нормчлогпсон индекс (NDVI)",
     "legend": [
       { "value": "0.00", "color": "#ece0d7" },
       { "value": "0.11", "color": "#d7c8b1" },
@@ -212,14 +199,14 @@
     ]
   },
   "ModisLST": {
-    "title": "Surface temperature",
+    "title": "Гадаргын температур",
     "type": "wms",
     "server_layer": "ModisLST",
     "server_uri": "https://mongolia.sibelius-datacube.org:5000/wms?layers=ModisLST",
     "has_date": true,
     "date_interval": "day",
     "opacity": 0.3,
-    "legend_text": "Median value of Land Surface Temperature in degrees Celsius over a 10-day period (MODIS)",
+    "legend_text": "10 хоногийн цельсийн градусаар газрын гадаргуугийн температурын дундаж утга (MODIS)",
     "legend": [
       { "value": "-53", "color": "#5c9fc8" },
       { "value": "-42", "color": "#7ab1c0" },
@@ -234,14 +221,14 @@
     ]
   },
   "ModisVHI": {
-    "title": "Agricultural drought (VHI)",
+    "title": "Гангийн мэдээ (VHI)",
     "type": "wms",
     "server_layer": "ModisVHI",
     "server_uri": "https://mongolia.sibelius-datacube.org:5000/wms?layers=ModisVHI",
     "has_date": true,
     "date_interval": "day",
     "opacity": 0.3,
-    "legend_text": "Vegetation Health Index for a 10-day period. The VHI is a combination of vegetation conditions and temperature conditions.",
+    "legend_text": "Гангийн мэдээг 10 хоног тутамд боловсруулдаг. VHI буюу vegetation health index нь ургамлын нөхцөл ба температурын нөхцлүүдийн хослол юм",
     "legend": [
       { "value": "0.10", "color": "#ef1000" },
       { "value": "0.17", "color": "#bf4000" },
@@ -251,14 +238,14 @@
     ]
   },
   "ModisSnowPercentage": {
-    "title": "Snow cover (%)",
+    "title": "Цасан бүрхэц (хувиар)",
     "type": "wms",
     "server_layer": "ModisSnowPercentage",
     "server_uri": "https://mongolia.sibelius-datacube.org:5000/wms?layers=ModisSnowPercentage",
     "has_date": true,
     "date_interval": "day",
     "opacity": 0.3,
-    "legend_text": "Snow Percentage for a 10-day period, where the value represent the percentage of times that a pixel had snow",
+    "legend_text": "10 хоногийн цасан бүрхэцийн мэдээ хувиар, энэ утга нь  тухайн цаг хугацаанд цасны хувь, хэмжээг пикселээр илэрхийлнэ",
     "legend": [
       { "value": "0", "color": "#a8a8a8" },
       { "value": "25", "color": "#c6c6c6" },
@@ -268,28 +255,28 @@
     ]
   },
   "DzudRiskMap": {
-    "title": "Dzud risk",
+    "title": "Зудын эрсдэлийн зураг",
     "type": "wms",
     "server_uri":"https://mng-wfp.ovio.org:8443/geoserver/prism/wms?layers=DZUDRM12312",
     "has_date": true,
     "date_interval": "month",
     "opacity": 0.5,
-    "legend_text": "The dzud risk map is produced by the Mongolia Information and Research Institute of Meteorology, Hydrology and Environment (IRIMHE) and measures dzud risk based on a combination of climate hazards, pasture conditions and capacity, and risk exposure to livestock. Latest version: December 2019",
+    "legend_text": "Зудын эрсдлийн зургийг Монгол улсын цаг уур, орчны шинжилгээний хүрээлэн (IRIMHE) боловсруулж, зудын эрсдлийг цаг уурын аюул, бэлчээрийн байдал, хүчин чадал, малын өртөх эрсдэл зэрэгт үндэслэн хэмждэг. Хамгийн сүүлийн хувилбар: 2019 оны 12-р сар",
     "legend": [
-      { "value": "1 Very low", "color": "#9ba7dc" },
-      { "value": "2 Low", "color": "#606b57" },
-      { "value": "3 Medium", "color": "#d0ce67" },
-      { "value": "4 High", "color": "#93522f" },
-      { "value": "5 Very high", "color": "#4c1110" }
+      { "value": "1 Маш бага", "color": "#9ba7dc" },
+      { "value": "2 Бага", "color": "#606b57" },
+      { "value": "3 Дунд", "color": "#d0ce67" },
+      { "value": "4 Өндөр", "color": "#93522f" },
+      { "value": "5 Маш өндөр", "color": "#4c1110" }
     ]
   },
   "herd_pasture_impact": {
-    "title": "Herders exposed to severe pasture anomaly (soum)",
+    "title": "Малчид хүчтэй бэлчээрийн ургамалын хазайлтын нөлөөлөлд өртөх (сум)",
     "hazard_layer": "pasture_anomaly",
     "baseline_layer": "nsoHerders",
     "threshold": 25000,
     "opacity": 0.3,
-    "legend_text": "Number of herder households within a soum where the median pasture anomaly is <= -50%",
+    "legend_text": "Бэлчээрийн ургамалын хазайлтын дундаж утгатай тэнцүү буюу түүнээс доош (<= -50%) утга бүхий суманд байгаа малчин өрхийн тоо.",
     "legend": [
       { "value": "250", "color": "#ffeda0" },
       { "value": "300", "color": "#feb24c" },
@@ -297,12 +284,12 @@
     ]
   },
   "small_herder_dzud_risk": {
-    "title": "Small herders exposed to very high dzud risk (aimag)",
+    "title": "Зудын эрсдэлд өртөх өндөр эрсдэлтэй малын тоо толгой багатай малчид (аймаг)",
     "hazard_layer": "DzudRiskMap",
     "baseline_layer": "nsoHerdsize",
     "threshold": 25,
     "opacity": 0.3,
-    "legend_text": "Number of small herder households within an aimag with very high risk of dzud",
+    "legend_text": "Зудын эрсдэл ихтэй аймагт байгаа малын тоо багатай малчин өрхийн тоо",
     "legend": [
       { "value": "250", "color": "#ffeda0" },
       { "value": "300", "color": "#feb24c" },
@@ -310,12 +297,12 @@
     ]
   },
   "livestock_dzud_risk": {
-    "title": "Livestock exposed to very high dzud risk (soum)",
+    "title": "Зудын эрсдэлд өртөх өндөр эрсдэлтэй малын тоо (сум)",
     "hazard_layer": "DzudRiskMap",
     "baseline_layer": "nsoLivestock",
     "threshold": 25,
     "opacity": 0.3,
-    "legend_text": "Number of livestock within a soum with very high risk of dzud",
+    "legend_text": "Зудын эрсдэлд өртөх өндөр эрсдэлтэй суманд байгаа малын тоо",
     "legend": [
       { "value": "5000", "color": "#ffeda0" },
       { "value": "10000", "color": "#feb24c" },
@@ -323,12 +310,12 @@
     ]
   },
   "livestock_vhi": {
-    "title": "Livestock exposed to drought (soum)",
+    "title": "Ганд нэрвэгдэж буй малын тоо (сум)",
     "hazard_layer": "ModisVHI",
     "baseline_layer": "nsoLivestock",
     "threshold": 25,
     "opacity": 0.3,
-    "legend_text": "Number of livestock within a soum with drought conditions as measured through the Vegetation Health Index",
+    "legend_text": "Vegetation health index-ээр хэмжигддэг гантай суманд байгаа малын тоо толгой",
     "legend": [
       { "value": "5000", "color": "#ffeda0" },
       { "value": "10000", "color": "#feb24c" },
@@ -337,11 +324,11 @@
   },
 
   "temp_groundstations": {
-    "title": "Temperature: 10-day average (example)",
+    "title": "Температур: 10 хоногийн дундаж (жишээ)",
     "type": "groundstation",
     "data": "groundstationTemp",
     "opacity": 0.3,
-    "legend_text": "Temperature from ground station data reported in degrees Celsius",
+    "legend_text": "Станцын мэдээний температурыг цельсийн градусаар мэдээлсэн",
     "legend": [
         { "value": "-40", "color": "#7ab1c0" },
         { "value": "-30", "color": "#9fc3b3" },
@@ -351,31 +338,31 @@
     ]
   },
   "snow_groundstations": {
-    "title": "Snow height (coming soon)",
+    "title": "Цасны өндөр (удахгүй ирнэ)",
     "type": "groundstation",
     "data": "groundstationTemp",
     "opacity": 0.3
   },
   "precip_groundstations": {
-    "title": "Precipitation: total over 10 days (coming soon)",
+    "title": "Хур тунадас: 10-аас дээш хоногийн дотор (удахгүй)",
     "type": "groundstation",
     "data": "groundstationTemp",
     "opacity": 0.3
   },
   "wind_groundstations": {
-    "title": "Maximum wind speed (coming soon)",
+    "title": "Салхины хамгийн дээд хурд (удахгүй)",
     "type": "groundstation",
     "data": "groundstationTemp",
     "opacity": 0.3
   },
   "temp_anom_groundstations": {
-    "title": "Temperature anomaly (coming soon)",
+    "title": "Температурын аномали (удахгүй болно)",
     "type": "groundstation",
     "data": "groundstationTemp",
     "opacity": 0.3
   },
   "precip_anom_groundstations": {
-    "title": "Precipitation anomaly (coming soon)",
+    "title": "Хур тунадасны аномали (удахгүй болно)",
     "type": "groundstation",
     "data": "groundstationTemp",
     "opacity": 0.3

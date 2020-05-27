@@ -30,7 +30,7 @@ function MapTooltip({
 }: MapTooltip) {
   return (
     <Popup anchor="bottom" coordinates={coordinates!} className={classes.popup}>
-      <h4>Location: {locationName}</h4>
+      <h4>Байршил: {locationName}</h4>
       {Object.entries(popupData)
         .filter(([, value]) => value.coordinates === coordinates)
         .map(([key, value]) => (

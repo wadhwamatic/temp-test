@@ -1,34 +1,34 @@
 {
   "animal_deaths": {
-    "title": "Animal deaths due to disease or natural hazards",
+    "title": "Өвчин, байгалийн аюулаас болж малын хорогдол",
     "table": "./data/tables/NSO_Animal_Deaths_Annual_Admin1.csv",
-    "legend_text": "Annual deaths of animals due to disease or natural hazards (including dzud). Source: National Statistics Office",
+    "legend_text": "Жил бүр өвчин, байгалийн аюулаас (зуд зуданд) жил бүр амь насаа алдах. Эх сурвалж: Үндэсний статистикийн газар",
     "chart": {
       "type": "bar",
       "stacked": true,
-      "category": "Category_EN",
+      "category": "Category_MN",
       "xAxis": "Year"
     }
   },
   "hay_prices": {
-    "title": "Monthly hay prices",
+    "title": "Сарын өвсний үнэ",
     "table": "./data/tables/NSO_Bale_Hay_Price_Monthly_Admin1.csv",
-    "legend_text": "Price of a bail of hay by month. Source: National Statistics Office",
+    "legend_text": "Хадлан боодлын үнэ сар бүр. Эх сурвалж: Үндэсний статистикийн газар",
     "chart": {
       "type": "bar",
       "stacked": false,
-      "category": "Category_EN",
+      "category": "Category_MN",
       "xAxis": "Month"
     }
   },
   "poverty": {
-    "title": "Poverty headcount over time",
+    "title": "Цаг хугацаа өнгөрөхөд ядуурлын ажилтнуудын тоо",
     "table": "./data/tables/NSO_Poverty_Headcount_Admin1.csv",
-    "legend_text": "Poverty headcount over two periods. Source: National Statistics Office",
+    "legend_text": "Хоёр үеэ бодвол ядуурлын тоо. Эх сурвалж: Үндэсний статистикийн газар",
     "chart": {
       "type": "bar",
       "stacked": false,
-      "category": "Category_EN",
+      "category": "Category_MN",
       "xAxis": "Year"
     }
   }

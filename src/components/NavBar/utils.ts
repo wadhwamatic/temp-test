@@ -5,21 +5,21 @@ import layersJSON from '../../config/layers.json';
 import tablesJSON from '../../config/tables.json';
 import { LayersCategoryType, MenuItemType } from '../../config/types';
 
-import vulnerability from '../images/icon_vulnerable.png';
-import exposure from '../images/icon_basemap.png';
-import hazards from '../images/icon_climate.png';
-import risk from '../images/icon_impact.png';
+import эмзэг from '../images/icon_vulnerable.png';
+import өртсөн from '../images/icon_basemap.png';
+import Аюул from '../images/icon_climate.png';
+import эрсдэл from '../images/icon_impact.png';
 // note to Ovio: wanted to use risk_and_impact but this fails. riskandimpact works, but doesn't create spaces in nav
-import capacity from '../images/icon_capacity.png';
-import tables from '../images/icon_table.png';
+import чадвар from '../images/icon_capacity.png';
+import Хүснэгт from '../images/icon_table.png';
 
 const icons: { [key: string]: string } = {
-  vulnerability,
-  exposure,
-  hazards,
-  risk,
-  capacity,
-  tables,
+  эмзэг,
+  өртсөн,
+  Аюул,
+  эрсдэл,
+  чадвар,
+  Хүснэгт,
 };
 
 type LayersCategoriesType = LayersCategoryType[];
