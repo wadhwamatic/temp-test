@@ -7,6 +7,10 @@ import nsoHayHarvest from '../data/nso/NSO_Hay_Harvest_Admin2.json';
 import nsoElderly from '../data/nso/NSO_Single_Elderly_Admin1_Total.json';
 import nsoPoverty from '../data/nso/NSO_Poverty_Headcount_Admin1.json';
 import nsoPop from '../data/nso/NSO_Population_Admin2_Total.json';
+import mvamCash from '../data/nso/mVAM_Cash_Reserves.json';
+import mvamFodder from '../data/nso/mVAM_Fodder_Reserves.json';
+import mvamHayprices from '../data/nso/mVAM_Hay_Price.json';
+import mvamHayreserves from '../data/nso/mVAM_Hay_Reserves.json';
 
 export interface NsoData {
   TBL_ID: string;
@@ -37,6 +41,10 @@ const nsoDatasets = {
   nsoElderly,
   nsoPoverty,
   nsoPop,
+  mvamCash,
+  mvamFodder,
+  mvamHayprices,
+  mvamHayreserves,
 };
 
 type DatasetKeys = keyof typeof nsoDatasets;
