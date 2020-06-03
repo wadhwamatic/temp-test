@@ -41,9 +41,9 @@ function Boundaries() {
       fillOnMouseLeave={(evt: any) => onToggleHover('', evt.target)}
       fillOnClick={(evt: any) => {
         const coordinates = evt.lngLat;
-        const locationName = get(evt.features[0], 'properties.ADM1_EN', '')
+        const locationName = get(evt.features[0], 'properties.district_n', '')
           .concat(', ')
-          .concat(get(evt.features[0], 'properties.ADM2_EN', ''));
+          .concat(get(evt.features[0], 'properties.dsd_n', ''));
         dispatch(showPopup({ coordinates, locationName }));
       }}
     />

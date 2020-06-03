@@ -1,47 +1,20 @@
 {
-  "country": "Mongolia",
+  "country": "Sri Lanka",
   "serversUrls": {
-    "wcs": ["https://mongolia.sibelius-datacube.org:5000"],
     "wms": [
-      "https://mongolia.sibelius-datacube.org:5000/wms"
+      "http://3.132.21.32:8080/geoserver/prism/wms",
+      "https://ows.wfp.eodc.eu/wms"
     ]
   },
   "map": {
-    "latitude": 46.810021,
-    "longitude": 103.111657,
-    "zoom": 4.5
+    "latitude": 7.55,
+    "longitude": 80.73,
+    "zoom": 7
   },
   "categories": {
     "hazards": {
-      "drought_indicators": ["pasture_anomaly", "ndvi", "ModisVHI"],
-      "winter_conditions": ["ModisSnowPercentage","ModisLST"],
-      "ground_station_data": ["temp_groundstations","snow_groundstations","precip_groundstations","wind_groundstations","temp_anom_groundstations", "precip_anom_groundstations"]
-    },
-    "exposure": {
-      "demographics": ["population_total"],
-      "livestock_and_herders": ["herders", "livestock"]
-    },
-    "vulnerability": {
-      "vulnerable_groups": ["population_below_poverty", "disabled", "elderly", "child"],
-      "herders": ["herd_200"]
-    },
-    "capacity": {
-      "livestock_and_crop_preparedness": ["hay_harvest", "mvam_hay_reserves", "mvam_fodder_reserves", "mvam_cash_reserves", "mvam_hay_prices"]
-    },
-    "risk": {
-      "dzud_risk": ["DzudRiskMap"],
-      "impact_analysis": ["herd_pasture_impact", "livestock_vhi", "livestock_cold"]
-    },
-    "tables": {
-      "socioeconomic_data": [
-        "poverty"
-      ],
-      "livestock_data": [
-        "animal_deaths"
-      ],
-      "price_data": [
-        "hay_prices"
-      ]
+      "drought_indicators": ["SPI_1", "r_anomaly_dekad"],
+      "floods": ["flood_recurrence_index"]    
     }
   }
 }
