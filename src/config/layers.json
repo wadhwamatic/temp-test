@@ -4,9 +4,50 @@
     "type": "wms",
     "server_layer_name": "spi_1_month",
     "base_url": "https://ows.wfp.eodc.eu",
-    "date_interval": "month",
+    "date_interval": "day",
     "opacity": 0.5,
     "legend_text": "1-month SPI from WFP Open Data Cube",
+    "legend": [
+      { "value": "-2", "color": "#760005" },
+      { "value": "-1.5", "color": "#EC0013" },
+      { "value": "-1.2", "color": "#FFA938" },
+      { "value": "-0.7", "color": "#FDD28a" },
+      { "value": "-0.5", "color": "#FEFE53" },
+      { "value": "0.5", "color": "#EEFCD0" },
+      { "value": "0.8", "color": "#a2fd6e" },
+      { "value": "1.3", "color": "#00b44a" },
+      { "value": "1.6", "color": "#008180" },
+      { "value": "2", "color": "#2a23eb" },
+      { "value": "20", "color": "#a21fec" }
+    ]
+  },
+  "viq_dekad": {
+    "title": "VIQ 10-day (Open Data Cube)",
+    "type": "wms",
+    "server_layer_name": "viq_dekad",
+    "base_url": "https://ows.wfp.eodc.eu",
+    "date_interval": "day",
+    "opacity": 0.5,
+    "legend_text": "MODIS 1km anomaly. Filtered, gapfilled and interpolated MODIS data compared to Long-Term-Average 2002-2018. Source: WFP Open Data Cube",
+    "legend": [
+      { "value": "50 or less", "color": "#7A2A00" },
+      { "value": "80", "color": "#F3B335" },
+      { "value": "100", "color": "#F4F4F0" },
+      { "value": "120", "color": "#C0FE1E" },
+      { "value": "140", "color": "#00B800" },
+      { "value": "160", "color": "#008701" },
+      { "value": "180", "color": "#016600" },
+      { "value": "200 or greater", "color": "#024C00" }
+    ]
+  },
+  "rfq": {
+    "title": "10 day Rainfall Anomaly (Open Data Cube)",
+    "type": "wms",
+    "server_layer_name": "rfq",
+    "base_url": "https://ows.wfp.eodc.eu",
+    "date_interval": "day",
+    "opacity": 0.5,
+    "legend_text": "10 day rainfall anomaly compared to the Long Term Average. Source: WFP Open Data Cube",
     "legend": [
       { "value": "-2", "color": "#760005" },
       { "value": "-1.5", "color": "#EC0013" },
