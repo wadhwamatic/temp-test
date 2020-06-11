@@ -52,19 +52,44 @@ function formatCapabilitiesInfo(
   }, {});
 }
 
-// type flatLayer = {
-//   Name: {_text: string};
-//   Dimension: {_text: string};
-// }
+type FlatLayer = {
+  Name: {
+    _text: string;
+    [key: string]: any;
+  };
+  Dimension: {
+    _text: string;
+    [key: string]: any;
+  };
+  [key: string]: any;
+};
 
-function doFlattenLayers(rawLayers: any): any[] {
-  if (rawLayers.Layer) {
-    return doFlattenLayers(get(rawLayers, 'Layer', []));
+type FlatLayerContainer = { Layer: FlatLayer; [key: string]: any };
+type LayerContainer =
+  | { Layer: LayerContainer; [key: string]: any }
+  | FlatLayerContainer[]
+  | FlatLayer[];
+
+const isArrayOfFlatLayerContainers = (
+  maybeArray: LayerContainer,
+): maybeArray is FlatLayerContainer[] => {
+  return (maybeArray as FlatLayerContainer[])[0].Layer !== undefined;
+};
+
+function flattenLayers(rawLayers: LayerContainer): FlatLayer[] {
+  if ('Layer' in rawLayers) {
+    return flattenLayers(rawLayers.Layer);
   }
-  if (Array.isArray(rawLayers) && rawLayers.length > 0 && rawLayers[0].Layer) {
-    return rawLayers.reduce((acc, { Layer }) => acc.concat(Layer), []);
+  if (!Array.isArray(rawLayers) || rawLayers.length === 0) {
+    return [];
   }
-  return rawLayers;
+  if (isArrayOfFlatLayerContainers(rawLayers)) {
+    return rawLayers.reduce(
+      (acc, { Layer }) => acc.concat(Layer),
+      [] as FlatLayer[],
+    );
+  }
+  return rawLayers as FlatLayer[];
 }
 
 /**
@@ -80,7 +105,7 @@ async function getWMSCapabilities(serverUri: string) {
     const responseJS = xml2js(responseText, xml2jsOptions);
 
     const rawLayers = get(responseJS, 'WMS_Capabilities.Capability.Layer');
-    const flatLayers = doFlattenLayers(rawLayers);
+    const flatLayers = flattenLayers(rawLayers);
 
     return formatCapabilitiesInfo(flatLayers, 'Name._text', 'Dimension._text');
   } catch (error) {
