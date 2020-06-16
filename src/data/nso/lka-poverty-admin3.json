@@ -1,0 +1,1660 @@
+{
+   "DataList": [
+ {
+   "dsd_code": 2148,
+   "DTVAL_CO": 11.03,
+   "num_poor": 3281
+ },
+ {
+   "dsd_code": 2133,
+   "DTVAL_CO": 6.53,
+   "num_poor": 1889
+ },
+ {
+   "dsd_code": 2127,
+   "DTVAL_CO": 5.99,
+   "num_poor": 7279
+ },
+ {
+   "dsd_code": 5230,
+   "DTVAL_CO": 5.03,
+   "num_poor": 1321
+ },
+ {
+   "dsd_code": 2136,
+   "DTVAL_CO": 5.53,
+   "num_poor": 5731
+ },
+ {
+   "dsd_code": 5206,
+   "DTVAL_CO": 11.93,
+   "num_poor": 2082
+ },
+ {
+   "dsd_code": 2112,
+   "DTVAL_CO": 6.37,
+   "num_poor": 5534
+ },
+ {
+   "dsd_code": 5124,
+   "DTVAL_CO": 5.26,
+   "num_poor": 2101
+ },
+ {
+   "dsd_code": 5106,
+   "DTVAL_CO": 7.73,
+   "num_poor": 1703
+ },
+ {
+   "dsd_code": 2139,
+   "DTVAL_CO": 6.9,
+   "num_poor": 7394
+ },
+ {
+   "dsd_code": 2212,
+   "DTVAL_CO": 6.83,
+   "num_poor": 1943
+ },
+ {
+   "dsd_code": 2309,
+   "DTVAL_CO": 10.92,
+   "num_poor": 11162
+ },
+ {
+   "dsd_code": 5127,
+   "DTVAL_CO": 13.98,
+   "num_poor": 4244
+ },
+ {
+   "dsd_code": 2315,
+   "DTVAL_CO": 6.8,
+   "num_poor": 13890
+ },
+ {
+   "dsd_code": 5224,
+   "DTVAL_CO": 4.14,
+   "num_poor": 1827
+ },
+ {
+   "dsd_code": 2312,
+   "DTVAL_CO": 6.13,
+   "num_poor": 12843
+ },
+ {
+   "dsd_code": 5221,
+   "DTVAL_CO": 0,
+   "num_poor": 0
+ },
+ {
+   "dsd_code": 5239,
+   "DTVAL_CO": 8.31,
+   "num_poor": 1857
+ },
+ {
+   "dsd_code": 5242,
+   "DTVAL_CO": 7.55,
+   "num_poor": 2826
+ },
+ {
+   "dsd_code": 5227,
+   "DTVAL_CO": 4.62,
+   "num_poor": 770
+ },
+ {
+   "dsd_code": 5251,
+   "DTVAL_CO": 6.73,
+   "num_poor": 584
+ },
+ {
+   "dsd_code": 5209,
+   "DTVAL_CO": 15.94,
+   "num_poor": 3146
+ },
+ {
+   "dsd_code": 5225,
+   "DTVAL_CO": 3.16,
+   "num_poor": 800
+ },
+ {
+   "dsd_code": 5212,
+   "DTVAL_CO": 6.29,
+   "num_poor": 3546
+ },
+ {
+   "dsd_code": 5112,
+   "DTVAL_CO": 24.69,
+   "num_poor": 18242
+ },
+ {
+   "dsd_code": 5115,
+   "DTVAL_CO": 10.99,
+   "num_poor": 2664
+ },
+ {
+   "dsd_code": 5104,
+   "DTVAL_CO": 10.99,
+   "num_poor": 2761
+ },
+ {
+   "dsd_code": 5103,
+   "DTVAL_CO": 27.99,
+   "num_poor": 5950
+ },
+ {
+   "dsd_code": 5121,
+   "DTVAL_CO": 45.14,
+   "num_poor": 12776
+ },
+ {
+   "dsd_code": 5324,
+   "DTVAL_CO": 15.89,
+   "num_poor": 10172
+ },
+ {
+   "dsd_code": 5306,
+   "DTVAL_CO": 8.88,
+   "num_poor": 2900
+ },
+ {
+   "dsd_code": 5303,
+   "DTVAL_CO": 5.11,
+   "num_poor": 587
+ },
+ {
+   "dsd_code": 5315,
+   "DTVAL_CO": 4.72,
+   "num_poor": 4489
+ },
+ {
+   "dsd_code": 7160,
+   "DTVAL_CO": 5.54,
+   "num_poor": 2072
+ },
+ {
+   "dsd_code": 6175,
+   "DTVAL_CO": 7.51,
+   "num_poor": 3856
+ },
+ {
+   "dsd_code": 7130,
+   "DTVAL_CO": 5.68,
+   "num_poor": 1810
+ },
+ {
+   "dsd_code": 7133,
+   "DTVAL_CO": 1.96,
+   "num_poor": 1290
+ },
+ {
+   "dsd_code": 7145,
+   "DTVAL_CO": 7.38,
+   "num_poor": 3042
+ },
+ {
+   "dsd_code": 6242,
+   "DTVAL_CO": 5.23,
+   "num_poor": 3193
+ },
+ {
+   "dsd_code": 6149,
+   "DTVAL_CO": 6.39,
+   "num_poor": 2266
+ },
+ {
+   "dsd_code": 6139,
+   "DTVAL_CO": 7.78,
+   "num_poor": 2745
+ },
+ {
+   "dsd_code": 7203,
+   "DTVAL_CO": 4.26,
+   "num_poor": 2624
+ },
+ {
+   "dsd_code": 7209,
+   "DTVAL_CO": 5.13,
+   "num_poor": 1836
+ },
+ {
+   "dsd_code": 7206,
+   "DTVAL_CO": 6.05,
+   "num_poor": 3839
+ },
+ {
+   "dsd_code": 7215,
+   "DTVAL_CO": 3.69,
+   "num_poor": 2923
+ },
+ {
+   "dsd_code": 6112,
+   "DTVAL_CO": 8,
+   "num_poor": 1764
+ },
+ {
+   "dsd_code": 6245,
+   "DTVAL_CO": 5.25,
+   "num_poor": 3515
+ },
+ {
+   "dsd_code": 6115,
+   "DTVAL_CO": 8.76,
+   "num_poor": 1789
+ },
+ {
+   "dsd_code": 6124,
+   "DTVAL_CO": 7.43,
+   "num_poor": 4103
+ },
+ {
+   "dsd_code": 6148,
+   "DTVAL_CO": 7.09,
+   "num_poor": 2251
+ },
+ {
+   "dsd_code": 6151,
+   "DTVAL_CO": 4.7,
+   "num_poor": 1584
+ },
+ {
+   "dsd_code": 6121,
+   "DTVAL_CO": 7.4,
+   "num_poor": 2890
+ },
+ {
+   "dsd_code": 6118,
+   "DTVAL_CO": 10,
+   "num_poor": 2131
+ },
+ {
+   "dsd_code": 6224,
+   "DTVAL_CO": 5.7,
+   "num_poor": 2116
+ },
+ {
+   "dsd_code": 4142,
+   "DTVAL_CO": 13.47,
+   "num_poor": 508
+ },
+ {
+   "dsd_code": 4139,
+   "DTVAL_CO": 16.75,
+   "num_poor": 2803
+ },
+ {
+   "dsd_code": 4136,
+   "DTVAL_CO": 6.58,
+   "num_poor": 3234
+ },
+ {
+   "dsd_code": 4104,
+   "DTVAL_CO": 14.42,
+   "num_poor": 1379
+ },
+ {
+   "dsd_code": 6203,
+   "DTVAL_CO": 8.28,
+   "num_poor": 6968
+ },
+ {
+   "dsd_code": 6209,
+   "DTVAL_CO": 5.69,
+   "num_poor": 1295
+ },
+ {
+   "dsd_code": 4121,
+   "DTVAL_CO": 12.35,
+   "num_poor": 5635
+ },
+ {
+   "dsd_code": 4127,
+   "DTVAL_CO": 9.13,
+   "num_poor": 4317
+ },
+ {
+   "dsd_code": 4112,
+   "DTVAL_CO": 13.45,
+   "num_poor": 3895
+ },
+ {
+   "dsd_code": 6215,
+   "DTVAL_CO": 5.78,
+   "num_poor": 4669
+ },
+ {
+   "dsd_code": 6206,
+   "DTVAL_CO": 8.85,
+   "num_poor": 1514
+ },
+ {
+   "dsd_code": 9127,
+   "DTVAL_CO": 12.25,
+   "num_poor": 4603
+ },
+ {
+   "dsd_code": 4124,
+   "DTVAL_CO": 16.37,
+   "num_poor": 2077
+ },
+ {
+   "dsd_code": 9148,
+   "DTVAL_CO": 10.02,
+   "num_poor": 13290
+ },
+ {
+   "dsd_code": 4115,
+   "DTVAL_CO": 0,
+   "num_poor": 0
+ },
+ {
+   "dsd_code": 4506,
+   "DTVAL_CO": 21.13,
+   "num_poor": 4875
+ },
+ {
+   "dsd_code": 4509,
+   "DTVAL_CO": 20.36,
+   "num_poor": 12291
+ },
+ {
+   "dsd_code": 3134,
+   "DTVAL_CO": 7.71,
+   "num_poor": 1638
+ },
+ {
+   "dsd_code": 4512,
+   "DTVAL_CO": 22.73,
+   "num_poor": 4543
+ },
+ {
+   "dsd_code": 8121,
+   "DTVAL_CO": 4.89,
+   "num_poor": 3507
+ },
+ {
+   "dsd_code": 4203,
+   "DTVAL_CO": 19.88,
+   "num_poor": 9801
+ },
+ {
+   "dsd_code": 4206,
+   "DTVAL_CO": 26.9,
+   "num_poor": 3893
+ },
+ {
+   "dsd_code": 4415,
+   "DTVAL_CO": 28.61,
+   "num_poor": 8096
+ },
+ {
+   "dsd_code": 4412,
+   "DTVAL_CO": 33.49,
+   "num_poor": 4972
+ },
+ {
+   "dsd_code": 8115,
+   "DTVAL_CO": 10.81,
+   "num_poor": 2355
+ },
+ {
+   "dsd_code": 4309,
+   "DTVAL_CO": 5.41,
+   "num_poor": 6139
+ },
+ {
+   "dsd_code": 4306,
+   "DTVAL_CO": 4.86,
+   "num_poor": 604
+ },
+ {
+   "dsd_code": 4312,
+   "DTVAL_CO": 9.45,
+   "num_poor": 2717
+ },
+ {
+   "dsd_code": 1103,
+   "DTVAL_CO": 3.97,
+   "num_poor": 12378
+ },
+ {
+   "dsd_code": 9118,
+   "DTVAL_CO": 9.33,
+   "num_poor": 7481
+ },
+ {
+   "dsd_code": 1130,
+   "DTVAL_CO": 0.62,
+   "num_poor": 533
+ },
+ {
+   "dsd_code": 9133,
+   "DTVAL_CO": 12.71,
+   "num_poor": 6432
+ },
+ {
+   "dsd_code": 9124,
+   "DTVAL_CO": 12.16,
+   "num_poor": 10776
+ },
+ {
+   "dsd_code": 9112,
+   "DTVAL_CO": 10.14,
+   "num_poor": 11985
+ },
+ {
+   "dsd_code": 3145,
+   "DTVAL_CO": 8.83,
+   "num_poor": 6727
+ },
+ {
+   "dsd_code": 1106,
+   "DTVAL_CO": 2.92,
+   "num_poor": 5455
+ },
+ {
+   "dsd_code": 1124,
+   "DTVAL_CO": 1.2,
+   "num_poor": 1224
+ },
+ {
+   "dsd_code": 1127,
+   "DTVAL_CO": 1.29,
+   "num_poor": 2766
+ },
+ {
+   "dsd_code": 1227,
+   "DTVAL_CO": 4.63,
+   "num_poor": 8085
+ },
+ {
+   "dsd_code": 1203,
+   "DTVAL_CO": 1.66,
+   "num_poor": 2305
+ },
+ {
+   "dsd_code": 1218,
+   "DTVAL_CO": 2.68,
+   "num_poor": 4567
+ },
+ {
+   "dsd_code": 3333,
+   "DTVAL_CO": 3.71,
+   "num_poor": 2627
+ },
+ {
+   "dsd_code": 3309,
+   "DTVAL_CO": 5.03,
+   "num_poor": 3347
+ },
+ {
+   "dsd_code": 3218,
+   "DTVAL_CO": 10.72,
+   "num_poor": 5579
+ },
+ {
+   "dsd_code": 3245,
+   "DTVAL_CO": 8.03,
+   "num_poor": 3806
+ },
+ {
+   "dsd_code": 3227,
+   "DTVAL_CO": 9.23,
+   "num_poor": 3667
+ },
+ {
+   "dsd_code": 3224,
+   "DTVAL_CO": 8.18,
+   "num_poor": 2804
+ },
+ {
+   "dsd_code": 3242,
+   "DTVAL_CO": 3.8,
+   "num_poor": 4237
+ },
+ {
+   "dsd_code": 3236,
+   "DTVAL_CO": 9.22,
+   "num_poor": 3026
+ },
+ {
+   "dsd_code": 8142,
+   "DTVAL_CO": 11.61,
+   "num_poor": 4276
+ },
+ {
+   "dsd_code": 8103,
+   "DTVAL_CO": 10.56,
+   "num_poor": 7765
+ },
+ {
+   "dsd_code": 8106,
+   "DTVAL_CO": 14.73,
+   "num_poor": 7361
+ },
+ {
+   "dsd_code": 8203,
+   "DTVAL_CO": 20.67,
+   "num_poor": 8085
+ },
+ {
+   "dsd_code": 8224,
+   "DTVAL_CO": 18.55,
+   "num_poor": 9597
+ },
+ {
+   "dsd_code": 8227,
+   "DTVAL_CO": 18.55,
+   "num_poor": 3219
+ },
+ {
+   "dsd_code": 8206,
+   "DTVAL_CO": 25.95,
+   "num_poor": 7830
+ },
+ {
+   "dsd_code": 8212,
+   "DTVAL_CO": 28.7,
+   "num_poor": 15041
+ },
+ {
+   "dsd_code": 8230,
+   "DTVAL_CO": 21.33,
+   "num_poor": 5561
+ },
+ {
+   "dsd_code": 8221,
+   "DTVAL_CO": 18.07,
+   "num_poor": 10584
+ },
+ {
+   "dsd_code": 1133,
+   "DTVAL_CO": 3.68,
+   "num_poor": 5979
+ },
+ {
+   "dsd_code": 1131,
+   "DTVAL_CO": 1.57,
+   "num_poor": 1439
+ },
+ {
+   "dsd_code": 1209,
+   "DTVAL_CO": 6.09,
+   "num_poor": 8649
+ },
+ {
+   "dsd_code": 1206,
+   "DTVAL_CO": 4.07,
+   "num_poor": 9288
+ },
+ {
+   "dsd_code": 1233,
+   "DTVAL_CO": 3.7,
+   "num_poor": 7507
+ },
+ {
+   "dsd_code": 1303,
+   "DTVAL_CO": 2.88,
+   "num_poor": 5155
+ },
+ {
+   "dsd_code": 1339,
+   "DTVAL_CO": 6.42,
+   "num_poor": 3430
+ },
+ {
+   "dsd_code": 2109,
+   "DTVAL_CO": 16.8,
+   "num_poor": 10451
+ },
+ {
+   "dsd_code": 2142,
+   "DTVAL_CO": 8.47,
+   "num_poor": 4158
+ },
+ {
+   "dsd_code": 2154,
+   "DTVAL_CO": 7.9,
+   "num_poor": 4286
+ },
+ {
+   "dsd_code": 2134,
+   "DTVAL_CO": 4.17,
+   "num_poor": 6118
+ },
+ {
+   "dsd_code": 2124,
+   "DTVAL_CO": 9.28,
+   "num_poor": 5555
+ },
+ {
+   "dsd_code": 2130,
+   "DTVAL_CO": 5.13,
+   "num_poor": 4421
+ },
+ {
+   "dsd_code": 2121,
+   "DTVAL_CO": 8.76,
+   "num_poor": 4428
+ },
+ {
+   "dsd_code": 2115,
+   "DTVAL_CO": 10.4,
+   "num_poor": 2702
+ },
+ {
+   "dsd_code": 2221,
+   "DTVAL_CO": 10.67,
+   "num_poor": 1643
+ },
+ {
+   "dsd_code": 2157,
+   "DTVAL_CO": 7.81,
+   "num_poor": 4605
+ },
+ {
+   "dsd_code": 2145,
+   "DTVAL_CO": 7.78,
+   "num_poor": 4406
+ },
+ {
+   "dsd_code": 2106,
+   "DTVAL_CO": 7.44,
+   "num_poor": 4183
+ },
+ {
+   "dsd_code": 2103,
+   "DTVAL_CO": 5.34,
+   "num_poor": 1953
+ },
+ {
+   "dsd_code": 5233,
+   "DTVAL_CO": 10.71,
+   "num_poor": 4315
+ },
+ {
+   "dsd_code": 2118,
+   "DTVAL_CO": 8.61,
+   "num_poor": 1878
+ },
+ {
+   "dsd_code": 2151,
+   "DTVAL_CO": 7.98,
+   "num_poor": 7223
+ },
+ {
+   "dsd_code": 2206,
+   "DTVAL_CO": 7.11,
+   "num_poor": 4890
+ },
+ {
+   "dsd_code": 2203,
+   "DTVAL_CO": 7.76,
+   "num_poor": 5304
+ },
+ {
+   "dsd_code": 2224,
+   "DTVAL_CO": 9.59,
+   "num_poor": 1128
+ },
+ {
+   "dsd_code": 2218,
+   "DTVAL_CO": 5.71,
+   "num_poor": 4176
+ },
+ {
+   "dsd_code": 2209,
+   "DTVAL_CO": 7.67,
+   "num_poor": 2298
+ },
+ {
+   "dsd_code": 2230,
+   "DTVAL_CO": 8.46,
+   "num_poor": 4261
+ },
+ {
+   "dsd_code": 2233,
+   "DTVAL_CO": 8.62,
+   "num_poor": 5740
+ },
+ {
+   "dsd_code": 2227,
+   "DTVAL_CO": 10.38,
+   "num_poor": 2978
+ },
+ {
+   "dsd_code": 2215,
+   "DTVAL_CO": 8.19,
+   "num_poor": 2413
+ },
+ {
+   "dsd_code": 5109,
+   "DTVAL_CO": 18.42,
+   "num_poor": 4244
+ },
+ {
+   "dsd_code": 2306,
+   "DTVAL_CO": 11.9,
+   "num_poor": 10252
+ },
+ {
+   "dsd_code": 2303,
+   "DTVAL_CO": 9.85,
+   "num_poor": 9813
+ },
+ {
+   "dsd_code": 5236,
+   "DTVAL_CO": 5.48,
+   "num_poor": 2143
+ },
+ {
+   "dsd_code": 5309,
+   "DTVAL_CO": 6.1,
+   "num_poor": 424
+ },
+ {
+   "dsd_code": 5215,
+   "DTVAL_CO": 4.67,
+   "num_poor": 1940
+ },
+ {
+   "dsd_code": 5203,
+   "DTVAL_CO": 7.16,
+   "num_poor": 4174
+ },
+ {
+   "dsd_code": 5234,
+   "DTVAL_CO": 12.18,
+   "num_poor": 1749
+ },
+ {
+   "dsd_code": 5216,
+   "DTVAL_CO": 12.81,
+   "num_poor": 2389
+ },
+ {
+   "dsd_code": 5248,
+   "DTVAL_CO": 12.68,
+   "num_poor": 4379
+ },
+ {
+   "dsd_code": 5218,
+   "DTVAL_CO": 12.49,
+   "num_poor": 7462
+ },
+ {
+   "dsd_code": 5245,
+   "DTVAL_CO": 10.56,
+   "num_poor": 2659
+ },
+ {
+   "dsd_code": 5110,
+   "DTVAL_CO": 37.68,
+   "num_poor": 9811
+ },
+ {
+   "dsd_code": 5118,
+   "DTVAL_CO": 8.06,
+   "num_poor": 6705
+ },
+ {
+   "dsd_code": 5136,
+   "DTVAL_CO": 13.94,
+   "num_poor": 8429
+ },
+ {
+   "dsd_code": 5130,
+   "DTVAL_CO": 28.93,
+   "num_poor": 7090
+ },
+ {
+   "dsd_code": 5133,
+   "DTVAL_CO": 25.84,
+   "num_poor": 9323
+ },
+ {
+   "dsd_code": 5321,
+   "DTVAL_CO": 4.69,
+   "num_poor": 2120
+ },
+ {
+   "dsd_code": 5312,
+   "DTVAL_CO": 7.47,
+   "num_poor": 568
+ },
+ {
+   "dsd_code": 7163,
+   "DTVAL_CO": 6.58,
+   "num_poor": 2215
+ },
+ {
+   "dsd_code": 5327,
+   "DTVAL_CO": 9.42,
+   "num_poor": 5279
+ },
+ {
+   "dsd_code": 5330,
+   "DTVAL_CO": 8.89,
+   "num_poor": 1179
+ },
+ {
+   "dsd_code": 5318,
+   "DTVAL_CO": 8.13,
+   "num_poor": 2276
+ },
+ {
+   "dsd_code": 5333,
+   "DTVAL_CO": 14.34,
+   "num_poor": 1627
+ },
+ {
+   "dsd_code": 7127,
+   "DTVAL_CO": 6.66,
+   "num_poor": 2997
+ },
+ {
+   "dsd_code": 7124,
+   "DTVAL_CO": 10.01,
+   "num_poor": 3536
+ },
+ {
+   "dsd_code": 7121,
+   "DTVAL_CO": 8.97,
+   "num_poor": 3457
+ },
+ {
+   "dsd_code": 7106,
+   "DTVAL_CO": 10.2,
+   "num_poor": 2167
+ },
+ {
+   "dsd_code": 7154,
+   "DTVAL_CO": 5.98,
+   "num_poor": 3433
+ },
+ {
+   "dsd_code": 7112,
+   "DTVAL_CO": 9.79,
+   "num_poor": 2109
+ },
+ {
+   "dsd_code": 7109,
+   "DTVAL_CO": 8.08,
+   "num_poor": 3599
+ },
+ {
+   "dsd_code": 7136,
+   "DTVAL_CO": 6.1,
+   "num_poor": 1515
+ },
+ {
+   "dsd_code": 6184,
+   "DTVAL_CO": 6.83,
+   "num_poor": 4246
+ },
+ {
+   "dsd_code": 7139,
+   "DTVAL_CO": 6.45,
+   "num_poor": 3089
+ },
+ {
+   "dsd_code": 7115,
+   "DTVAL_CO": 6.19,
+   "num_poor": 3595
+ },
+ {
+   "dsd_code": 7103,
+   "DTVAL_CO": 8.4,
+   "num_poor": 1848
+ },
+ {
+   "dsd_code": 7166,
+   "DTVAL_CO": 7.58,
+   "num_poor": 2504
+ },
+ {
+   "dsd_code": 7157,
+   "DTVAL_CO": 8.08,
+   "num_poor": 1203
+ },
+ {
+   "dsd_code": 7142,
+   "DTVAL_CO": 5.69,
+   "num_poor": 1860
+ },
+ {
+   "dsd_code": 7118,
+   "DTVAL_CO": 8.56,
+   "num_poor": 3017
+ },
+ {
+   "dsd_code": 7148,
+   "DTVAL_CO": 6.35,
+   "num_poor": 3546
+ },
+ {
+   "dsd_code": 7151,
+   "DTVAL_CO": 8.11,
+   "num_poor": 2105
+ },
+ {
+   "dsd_code": 7212,
+   "DTVAL_CO": 7.26,
+   "num_poor": 5600
+ },
+ {
+   "dsd_code": 7218,
+   "DTVAL_CO": 6.21,
+   "num_poor": 2645
+ },
+ {
+   "dsd_code": 7210,
+   "DTVAL_CO": 10.59,
+   "num_poor": 3432
+ },
+ {
+   "dsd_code": 6142,
+   "DTVAL_CO": 8.68,
+   "num_poor": 5317
+ },
+ {
+   "dsd_code": 6109,
+   "DTVAL_CO": 8.08,
+   "num_poor": 2008
+ },
+ {
+   "dsd_code": 6106,
+   "DTVAL_CO": 8.37,
+   "num_poor": 4421
+ },
+ {
+   "dsd_code": 6133,
+   "DTVAL_CO": 7.36,
+   "num_poor": 2866
+ },
+ {
+   "dsd_code": 6169,
+   "DTVAL_CO": 8.22,
+   "num_poor": 4254
+ },
+ {
+   "dsd_code": 6103,
+   "DTVAL_CO": 8.75,
+   "num_poor": 2661
+ },
+ {
+   "dsd_code": 6130,
+   "DTVAL_CO": 7.25,
+   "num_poor": 6038
+ },
+ {
+   "dsd_code": 6172,
+   "DTVAL_CO": 5.89,
+   "num_poor": 4440
+ },
+ {
+   "dsd_code": 6154,
+   "DTVAL_CO": 4.33,
+   "num_poor": 3390
+ },
+ {
+   "dsd_code": 6157,
+   "DTVAL_CO": 5.66,
+   "num_poor": 2933
+ },
+ {
+   "dsd_code": 6187,
+   "DTVAL_CO": 5.87,
+   "num_poor": 3733
+ },
+ {
+   "dsd_code": 6160,
+   "DTVAL_CO": 6.05,
+   "num_poor": 3826
+ },
+ {
+   "dsd_code": 6181,
+   "DTVAL_CO": 6.33,
+   "num_poor": 3486
+ },
+ {
+   "dsd_code": 6145,
+   "DTVAL_CO": 7.64,
+   "num_poor": 4776
+ },
+ {
+   "dsd_code": 6178,
+   "DTVAL_CO": 6.78,
+   "num_poor": 8257
+ },
+ {
+   "dsd_code": 6127,
+   "DTVAL_CO": 9.04,
+   "num_poor": 6638
+ },
+ {
+   "dsd_code": 6163,
+   "DTVAL_CO": 6.87,
+   "num_poor": 5944
+ },
+ {
+   "dsd_code": 6136,
+   "DTVAL_CO": 6.53,
+   "num_poor": 3867
+ },
+ {
+   "dsd_code": 6166,
+   "DTVAL_CO": 5.76,
+   "num_poor": 1934
+ },
+ {
+   "dsd_code": 3142,
+   "DTVAL_CO": 6.55,
+   "num_poor": 3174
+ },
+ {
+   "dsd_code": 6230,
+   "DTVAL_CO": 6.22,
+   "num_poor": 2522
+ },
+ {
+   "dsd_code": 6233,
+   "DTVAL_CO": 5.2,
+   "num_poor": 3218
+ },
+ {
+   "dsd_code": 6248,
+   "DTVAL_CO": 5.42,
+   "num_poor": 3331
+ },
+ {
+   "dsd_code": 6236,
+   "DTVAL_CO": 5.76,
+   "num_poor": 2712
+ },
+ {
+   "dsd_code": 6221,
+   "DTVAL_CO": 6.23,
+   "num_poor": 1138
+ },
+ {
+   "dsd_code": 6239,
+   "DTVAL_CO": 5.58,
+   "num_poor": 2808
+ },
+ {
+   "dsd_code": 6218,
+   "DTVAL_CO": 8.34,
+   "num_poor": 5043
+ },
+ {
+   "dsd_code": 6212,
+   "DTVAL_CO": 6.19,
+   "num_poor": 867
+ },
+ {
+   "dsd_code": 6227,
+   "DTVAL_CO": 6.94,
+   "num_poor": 1675
+ },
+ {
+   "dsd_code": 4103,
+   "DTVAL_CO": 15.25,
+   "num_poor": 1476
+ },
+ {
+   "dsd_code": 4118,
+   "DTVAL_CO": 13.18,
+   "num_poor": 9528
+ },
+ {
+   "dsd_code": 4133,
+   "DTVAL_CO": 7.33,
+   "num_poor": 4914
+ },
+ {
+   "dsd_code": 4130,
+   "DTVAL_CO": 11.51,
+   "num_poor": 7391
+ },
+ {
+   "dsd_code": 4109,
+   "DTVAL_CO": 12.44,
+   "num_poor": 6436
+ },
+ {
+   "dsd_code": 4106,
+   "DTVAL_CO": 14.63,
+   "num_poor": 6751
+ },
+ {
+   "dsd_code": 4503,
+   "DTVAL_CO": 18.64,
+   "num_poor": 1541
+ },
+ {
+   "dsd_code": 4209,
+   "DTVAL_CO": 22,
+   "num_poor": 1631
+ },
+ {
+   "dsd_code": 4215,
+   "DTVAL_CO": 25.74,
+   "num_poor": 2064
+ },
+ {
+   "dsd_code": 4212,
+   "DTVAL_CO": 15.97,
+   "num_poor": 2766
+ },
+ {
+   "dsd_code": 4406,
+   "DTVAL_CO": 33.68,
+   "num_poor": 2336
+ },
+ {
+   "dsd_code": 4409,
+   "DTVAL_CO": 35.66,
+   "num_poor": 8466
+ },
+ {
+   "dsd_code": 4403,
+   "DTVAL_CO": 34.03,
+   "num_poor": 3244
+ },
+ {
+   "dsd_code": 4418,
+   "DTVAL_CO": 0,
+   "num_poor": 0
+ },
+ {
+   "dsd_code": 4303,
+   "DTVAL_CO": 10.74,
+   "num_poor": 1176
+ },
+ {
+   "dsd_code": 9209,
+   "DTVAL_CO": 7.1,
+   "num_poor": 4741
+ },
+ {
+   "dsd_code": 9224,
+   "DTVAL_CO": 9.82,
+   "num_poor": 4548
+ },
+ {
+   "dsd_code": 9230,
+   "DTVAL_CO": 9.76,
+   "num_poor": 7814
+ },
+ {
+   "dsd_code": 9233,
+   "DTVAL_CO": 11.85,
+   "num_poor": 5341
+ },
+ {
+   "dsd_code": 9215,
+   "DTVAL_CO": 7.44,
+   "num_poor": 5418
+ },
+ {
+   "dsd_code": 9212,
+   "DTVAL_CO": 6.62,
+   "num_poor": 5837
+ },
+ {
+   "dsd_code": 9206,
+   "DTVAL_CO": 6.25,
+   "num_poor": 6810
+ },
+ {
+   "dsd_code": 9203,
+   "DTVAL_CO": 6.36,
+   "num_poor": 5127
+ },
+ {
+   "dsd_code": 9221,
+   "DTVAL_CO": 8.17,
+   "num_poor": 5140
+ },
+ {
+   "dsd_code": 9218,
+   "DTVAL_CO": 7.32,
+   "num_poor": 8096
+ },
+ {
+   "dsd_code": 9227,
+   "DTVAL_CO": 11.12,
+   "num_poor": 6702
+ },
+ {
+   "dsd_code": 9130,
+   "DTVAL_CO": 11.97,
+   "num_poor": 3664
+ },
+ {
+   "dsd_code": 9103,
+   "DTVAL_CO": 9.82,
+   "num_poor": 6859
+ },
+ {
+   "dsd_code": 9142,
+   "DTVAL_CO": 12.12,
+   "num_poor": 9128
+ },
+ {
+   "dsd_code": 9115,
+   "DTVAL_CO": 9.36,
+   "num_poor": 5330
+ },
+ {
+   "dsd_code": 9139,
+   "DTVAL_CO": 13.18,
+   "num_poor": 5659
+ },
+ {
+   "dsd_code": 9109,
+   "DTVAL_CO": 9.16,
+   "num_poor": 2950
+ },
+ {
+   "dsd_code": 9151,
+   "DTVAL_CO": 13.15,
+   "num_poor": 5953
+ },
+ {
+   "dsd_code": 9106,
+   "DTVAL_CO": 12.42,
+   "num_poor": 11642
+ },
+ {
+   "dsd_code": 9136,
+   "DTVAL_CO": 11.96,
+   "num_poor": 7116
+ },
+ {
+   "dsd_code": 9121,
+   "DTVAL_CO": 11.5,
+   "num_poor": 3027
+ },
+ {
+   "dsd_code": 9145,
+   "DTVAL_CO": 11.22,
+   "num_poor": 3421
+ },
+ {
+   "dsd_code": 3133,
+   "DTVAL_CO": 6.3,
+   "num_poor": 3528
+ },
+ {
+   "dsd_code": 3127,
+   "DTVAL_CO": 8.99,
+   "num_poor": 6590
+ },
+ {
+   "dsd_code": 3106,
+   "DTVAL_CO": 8.7,
+   "num_poor": 5736
+ },
+ {
+   "dsd_code": 3103,
+   "DTVAL_CO": 9.28,
+   "num_poor": 4519
+ },
+ {
+   "dsd_code": 3112,
+   "DTVAL_CO": 8.64,
+   "num_poor": 5444
+ },
+ {
+   "dsd_code": 3139,
+   "DTVAL_CO": 5.74,
+   "num_poor": 5639
+ },
+ {
+   "dsd_code": 3154,
+   "DTVAL_CO": 9.01,
+   "num_poor": 5450
+ },
+ {
+   "dsd_code": 3136,
+   "DTVAL_CO": 7.9,
+   "num_poor": 7798
+ },
+ {
+   "dsd_code": 3151,
+   "DTVAL_CO": 10.31,
+   "num_poor": 4550
+ },
+ {
+   "dsd_code": 3109,
+   "DTVAL_CO": 10.06,
+   "num_poor": 6183
+ },
+ {
+   "dsd_code": 3124,
+   "DTVAL_CO": 9.6,
+   "num_poor": 5071
+ },
+ {
+   "dsd_code": 3121,
+   "DTVAL_CO": 11.3,
+   "num_poor": 3168
+ },
+ {
+   "dsd_code": 3115,
+   "DTVAL_CO": 9.86,
+   "num_poor": 3422
+ },
+ {
+   "dsd_code": 3118,
+   "DTVAL_CO": 11.87,
+   "num_poor": 3801
+ },
+ {
+   "dsd_code": 3130,
+   "DTVAL_CO": 10.25,
+   "num_poor": 2941
+ },
+ {
+   "dsd_code": 3148,
+   "DTVAL_CO": 11.37,
+   "num_poor": 5148
+ },
+ {
+   "dsd_code": 3315,
+   "DTVAL_CO": 5.31,
+   "num_poor": 3775
+ },
+ {
+   "dsd_code": 3318,
+   "DTVAL_CO": 6.01,
+   "num_poor": 2860
+ },
+ {
+   "dsd_code": 3330,
+   "DTVAL_CO": 4.97,
+   "num_poor": 2726
+ },
+ {
+   "dsd_code": 3312,
+   "DTVAL_CO": 5.35,
+   "num_poor": 2991
+ },
+ {
+   "dsd_code": 3324,
+   "DTVAL_CO": 7.2,
+   "num_poor": 3296
+ },
+ {
+   "dsd_code": 3306,
+   "DTVAL_CO": 6.82,
+   "num_poor": 2086
+ },
+ {
+   "dsd_code": 3327,
+   "DTVAL_CO": 6.69,
+   "num_poor": 1243
+ },
+ {
+   "dsd_code": 3303,
+   "DTVAL_CO": 8.13,
+   "num_poor": 3429
+ },
+ {
+   "dsd_code": 3325,
+   "DTVAL_CO": 6.49,
+   "num_poor": 2695
+ },
+ {
+   "dsd_code": 3321,
+   "DTVAL_CO": 5.82,
+   "num_poor": 2371
+ },
+ {
+   "dsd_code": 3215,
+   "DTVAL_CO": 11.41,
+   "num_poor": 3589
+ },
+ {
+   "dsd_code": 3248,
+   "DTVAL_CO": 8.52,
+   "num_poor": 4575
+ },
+ {
+   "dsd_code": 3230,
+   "DTVAL_CO": 10.63,
+   "num_poor": 3290
+ },
+ {
+   "dsd_code": 3233,
+   "DTVAL_CO": 9.17,
+   "num_poor": 1823
+ },
+ {
+   "dsd_code": 3206,
+   "DTVAL_CO": 11.7,
+   "num_poor": 7290
+ },
+ {
+   "dsd_code": 3212,
+   "DTVAL_CO": 10.29,
+   "num_poor": 5088
+ },
+ {
+   "dsd_code": 3209,
+   "DTVAL_CO": 11.43,
+   "num_poor": 6680
+ },
+ {
+   "dsd_code": 3203,
+   "DTVAL_CO": 11.38,
+   "num_poor": 5741
+ },
+ {
+   "dsd_code": 3239,
+   "DTVAL_CO": 8.3,
+   "num_poor": 5913
+ },
+ {
+   "dsd_code": 3221,
+   "DTVAL_CO": 11.92,
+   "num_poor": 6114
+ },
+ {
+   "dsd_code": 8133,
+   "DTVAL_CO": 5.99,
+   "num_poor": 3810
+ },
+ {
+   "dsd_code": 8136,
+   "DTVAL_CO": 9.94,
+   "num_poor": 4401
+ },
+ {
+   "dsd_code": 8124,
+   "DTVAL_CO": 8.91,
+   "num_poor": 7915
+ },
+ {
+   "dsd_code": 8139,
+   "DTVAL_CO": 8.66,
+   "num_poor": 4121
+ },
+ {
+   "dsd_code": 8112,
+   "DTVAL_CO": 13.19,
+   "num_poor": 2955
+ },
+ {
+   "dsd_code": 8119,
+   "DTVAL_CO": 14.6,
+   "num_poor": 4519
+ },
+ {
+   "dsd_code": 8109,
+   "DTVAL_CO": 14.77,
+   "num_poor": 2826
+ },
+ {
+   "dsd_code": 8118,
+   "DTVAL_CO": 10.67,
+   "num_poor": 5087
+ },
+ {
+   "dsd_code": 8127,
+   "DTVAL_CO": 9.01,
+   "num_poor": 6868
+ },
+ {
+   "dsd_code": 8130,
+   "DTVAL_CO": 7.72,
+   "num_poor": 7598
+ },
+ {
+   "dsd_code": 8218,
+   "DTVAL_CO": 19.13,
+   "num_poor": 7497
+ },
+ {
+   "dsd_code": 8209,
+   "DTVAL_CO": 23.66,
+   "num_poor": 8245
+ },
+ {
+   "dsd_code": 8215,
+   "DTVAL_CO": 19.56,
+   "num_poor": 9297
+ },
+ {
+   "dsd_code": 8233,
+   "DTVAL_CO": 18.34,
+   "num_poor": 7573
+ },
+ {
+   "dsd_code": 1112,
+   "DTVAL_CO": 2.75,
+   "num_poor": 6335
+ },
+ {
+   "dsd_code": 1109,
+   "DTVAL_CO": 1.93,
+   "num_poor": 4733
+ },
+ {
+   "dsd_code": 1136,
+   "DTVAL_CO": 1.85,
+   "num_poor": 4390
+ },
+ {
+   "dsd_code": 1121,
+   "DTVAL_CO": 1.09,
+   "num_poor": 2035
+ },
+ {
+   "dsd_code": 1118,
+   "DTVAL_CO": 4.53,
+   "num_poor": 2893
+ },
+ {
+   "dsd_code": 1115,
+   "DTVAL_CO": 5.21,
+   "num_poor": 5740
+ },
+ {
+   "dsd_code": 1239,
+   "DTVAL_CO": 3.33,
+   "num_poor": 6068
+ },
+ {
+   "dsd_code": 1230,
+   "DTVAL_CO": 5.51,
+   "num_poor": 8321
+ },
+ {
+   "dsd_code": 1224,
+   "DTVAL_CO": 2.86,
+   "num_poor": 5562
+ },
+ {
+   "dsd_code": 1221,
+   "DTVAL_CO": 3.08,
+   "num_poor": 6072
+ },
+ {
+   "dsd_code": 1236,
+   "DTVAL_CO": 2.16,
+   "num_poor": 2822
+ },
+ {
+   "dsd_code": 1215,
+   "DTVAL_CO": 4.85,
+   "num_poor": 8508
+ },
+ {
+   "dsd_code": 1212,
+   "DTVAL_CO": 6,
+   "num_poor": 9591
+ },
+ {
+   "dsd_code": 1333,
+   "DTVAL_CO": 5.51,
+   "num_poor": 1974
+ },
+ {
+   "dsd_code": 1306,
+   "DTVAL_CO": 3.98,
+   "num_poor": 4273
+ },
+ {
+   "dsd_code": 1324,
+   "DTVAL_CO": 6.7,
+   "num_poor": 10856
+ },
+ {
+   "dsd_code": 1312,
+   "DTVAL_CO": 6.96,
+   "num_poor": 4434
+ },
+ {
+   "dsd_code": 1327,
+   "DTVAL_CO": 5.88,
+   "num_poor": 3704
+ },
+ {
+   "dsd_code": 1309,
+   "DTVAL_CO": 3.95,
+   "num_poor": 4391
+ },
+ {
+   "dsd_code": 1310,
+   "DTVAL_CO": 5.45,
+   "num_poor": 2876
+ },
+ {
+   "dsd_code": 1321,
+   "DTVAL_CO": 4.2,
+   "num_poor": 6499
+ },
+ {
+   "dsd_code": 1315,
+   "DTVAL_CO": 4.41,
+   "num_poor": 1495
+ },
+ {
+   "dsd_code": 1330,
+   "DTVAL_CO": 6.41,
+   "num_poor": 5123
+ },
+ {
+   "dsd_code": 1318,
+   "DTVAL_CO": 5.8,
+   "num_poor": 2981
+ },
+ {
+   "dsd_code": 1336,
+   "DTVAL_CO": 8.4,
+   "num_poor": 4207
+ }
+     ],
+ "Response": "success"
+}

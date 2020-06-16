@@ -15,6 +15,9 @@
     "hazards": {
       "drought_indicators": ["SPI_1", "r_anomaly_dekad", "viq_dekad","rfq"],
       "floods": ["flood_recurrence_index"]    
+    },
+    "vulnerability": {
+      "vulnerable_groups": ["poverty_hc"]
     }
   }
 }

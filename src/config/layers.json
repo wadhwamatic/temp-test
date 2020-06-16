@@ -1,4 +1,20 @@
 {
+    "poverty_hc": {
+      "title": "Poverty headcount",
+      "type": "nso",
+      "path": "nsoPovertyHc",
+      "admin_code": "dsd_code",
+      "opacity": 0.5,
+      "legend": [
+        { "value": "5", "color": "#fef0d9" },
+        { "value": "10", "color": "#fdcc8a" },
+        { "value": "15", "color": "#fc8d59" },
+        { "value": "20", "color": "#e34a33" },
+        { "value": "25", "color": "#b30000" }
+      ],
+      "legend_text": "The poverty headcount is the share of the population whose consumption / expenditure is below the poverty line by Aimag. Year: 2018. Source: National Statistics Office"
+    },
+
   "SPI_1": {
     "title": "SPI (Open Data Cube)",
     "type": "wms",
@@ -54,41 +70,6 @@
       }
     ]
   },
-      "r_anomaly_dekad": {
-      "title": "10-day rainfall anomaly (GeoServer)",
-      "type": "wms",
-      "server_layer_name": "rainfall_anomaly_dekad",
-      "base_url": "http://3.132.21.32:8080/geoserver/prism/wms",
-      "date_interval": "day",
-      "opacity": 0.5,
-      "legend_text": "10-day rainfall anomaly",
-      "legend": [
-        {
-          "value": "30",
-          "color": "#4c1504"
-        },
-        {
-          "value": "50",
-          "color": "#ac591c"
-        },
-        {
-          "value": "85",
-          "color": "#f4c242"
-        },
-        {
-          "value": "115",
-          "color": "#fefe53"
-        },
-        {
-          "value": "150",
-          "color": "#86b638"
-        },
-        {
-          "value": "200",
-          "color": "#0a8137"
-        }
-      ]
-    },
   "r_anomaly_dekad": {
     "title": "10-day rainfall anomaly (GeoServer)",
     "type": "wms",
