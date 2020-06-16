@@ -141,8 +141,7 @@ export async function fetchImpactLayerData(
       extent,
       date,
     } as LayerDataParams<WMSLayerProps>);
-    const url =
-      'http://ec2-18-188-224-11.us-east-2.compute.amazonaws.com/stats';
+    const url = 'http://localhost/stats';
     const apiData = {
       geotiff_url: wcsUrl,
       zones_url:
