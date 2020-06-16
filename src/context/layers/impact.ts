@@ -1,4 +1,4 @@
-import { has, isString, isNull } from 'lodash';
+import { has, isString, isNull, stubTrue } from 'lodash';
 import { FeatureCollection } from 'geojson';
 import bbox from '@turf/bbox';
 import { LayerData, LayerDataParams, loadLayerData } from './layer-data';
@@ -18,7 +18,7 @@ import {
   pixelsInFeature,
 } from '../../components/MapView/Layers/raster-utils';
 import { NSOLayerData } from './nso';
-import { WMSLayerData } from './wms';
+import { getWCSLayerUrl, WMSLayerData } from './wms';
 import adminBoundariesRaw from '../../config/admin_boundaries.json';
 
 const adminBoundaries = adminBoundariesRaw as FeatureCollection;
@@ -27,6 +27,20 @@ export type ImpactLayerData = {
   boundaries: FeatureCollection;
   impactFeatures: FeatureCollection;
 };
+
+const fetchAsyncApiData = async (url = '', data = {}) =>
+  (
+    await fetch(url, {
+      method: 'POST',
+      mode: 'cors',
+      cache: 'no-cache',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      redirect: 'follow',
+      body: JSON.stringify(data), // body data type must match "Content-Type" header
+    })
+  ).json();
 
 type BaselineLayerData = NSOLayerData;
 type BaselineRecord = BaselineLayerData['layerData'][0];
@@ -119,6 +133,28 @@ export async function fetchImpactLayerData(
 ) {
   const { getState, dispatch } = api;
   const { layer, extent, date } = params;
+
+  if (2 * 2 === 1 * 4) {
+    const hazardLayerDef = LayerDefinitions[layer.hazardLayer];
+    const wcsUrl = getWCSLayerUrl({
+      layer: hazardLayerDef,
+      extent,
+      date,
+    } as LayerDataParams<WMSLayerProps>);
+    const url =
+      'http://ec2-18-188-224-11.us-east-2.compute.amazonaws.com/stats';
+    const apiData = {
+      geotiff_url: wcsUrl,
+      zones_url:
+        'https://prism-admin-boundaries.s3.us-east-2.amazonaws.com/lka_admin_boundaries.json',
+      geojson_out: true,
+    };
+    const impactFeatures = await fetchAsyncApiData(url, apiData);
+    return {
+      boundaries: adminBoundaries,
+      impactFeatures,
+    };
+  }
 
   const existingHazardLayer = layerDataSelector(
     layer.hazardLayer,
