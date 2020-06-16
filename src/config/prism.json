@@ -13,7 +13,7 @@
   },
   "categories": {
     "hazards": {
-      "drought_indicators": ["SPI_1", "r_anomaly_dekad"],
+      "drought_indicators": ["SPI_1", "r_anomaly_dekad", "viq_dekad","rfq"],
       "floods": ["flood_recurrence_index"]    
     }
   }
