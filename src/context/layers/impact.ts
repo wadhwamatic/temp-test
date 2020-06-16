@@ -1,4 +1,4 @@
-import { has, isString, isNull, stubTrue } from 'lodash';
+import { has, isString, isNull } from 'lodash';
 import { FeatureCollection } from 'geojson';
 import bbox from '@turf/bbox';
 import { LayerData, LayerDataParams, loadLayerData } from './layer-data';
@@ -141,7 +141,8 @@ export async function fetchImpactLayerData(
       extent,
       date,
     } as LayerDataParams<WMSLayerProps>);
-    const url = 'http://localhost/stats';
+    const url =
+      'http://ec2-18-188-224-11.us-east-2.compute.amazonaws.com/stats';
     const apiData = {
       geotiff_url: wcsUrl,
       zones_url:
