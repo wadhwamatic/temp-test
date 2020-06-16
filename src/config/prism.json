@@ -18,6 +18,9 @@
     },
     "vulnerability": {
       "vulnerable_groups": ["poverty_hc"]
+    },
+    "risk": {
+      "impact": ["drought_poverty"]
     }
   }
 }
