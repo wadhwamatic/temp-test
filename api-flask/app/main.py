@@ -8,7 +8,7 @@ from flask import Flask, jsonify, request
 
 from flask_caching import Cache
 
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 from timer import timed
 
@@ -79,7 +79,6 @@ def stats():
 
 
 @app.route('/demo', methods=['GET'])
-@cross_origin()
 @timed
 def stats_demo():
     """Return examples of zonal statistics."""
