@@ -13,14 +13,25 @@
   },
   "categories": {
     "hazards": {
-      "drought_indicators": ["SPI_1", "r_anomaly_dekad", "viq_dekad","rfq"],
-      "floods": ["flood_recurrence_index"]    
+      "drought_indicators": [
+        "SPI_1",
+        "r_anomaly_dekad",
+        "viq_dekad",
+        "rfq"
+      ],
+      "floods": [
+        "flood_recurrence_index"
+      ]
     },
     "vulnerability": {
-      "vulnerable_groups": ["poverty_hc"]
+      "vulnerable_groups": [
+        "poverty_hc"
+      ]
     },
     "risk": {
-      "impact": ["drought_poverty"]
+      "impact": [
+        "drought_poverty"
+      ]
     }
   }
 }
