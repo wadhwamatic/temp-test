@@ -1,4 +1,4 @@
-import { has, isString, isNull } from 'lodash';
+import { has, get, isString, isNull } from 'lodash';
 import { FeatureCollection } from 'geojson';
 import bbox from '@turf/bbox';
 import { LayerData, LayerDataParams, loadLayerData } from './layer-data';
@@ -28,17 +28,16 @@ export type ImpactLayerData = {
   impactFeatures: FeatureCollection;
 };
 
-const fetchAsyncApiData = async (url = '', data = {}) =>
+const fetchApiData = async (url: string, apiData: any) =>
   (
     await fetch(url, {
       method: 'POST',
-      mode: 'cors',
       cache: 'no-cache',
       headers: {
+        Accept: 'application/json',
         'Content-Type': 'application/json',
       },
-      redirect: 'follow',
-      body: JSON.stringify(data), // body data type must match "Content-Type" header
+      body: JSON.stringify(apiData), // body data type must match "Content-Type" header
     })
   ).json();
 
@@ -141,18 +140,23 @@ export async function fetchImpactLayerData(
       extent,
       date,
     } as LayerDataParams<WMSLayerProps>);
-    const url =
-      'http://ec2-18-188-224-11.us-east-2.compute.amazonaws.com/stats';
+    const apiUrl = 'http://localhost/stats';
+
     const apiData = {
       geotiff_url: wcsUrl,
       zones_url:
         'https://prism-admin-boundaries.s3.us-east-2.amazonaws.com/lka_admin_boundaries.json',
-      geojson_out: true,
+      geojson_out: 'true',
     };
-    const impactFeatures = await fetchAsyncApiData(url, apiData);
+
+    const features = await fetchApiData(apiUrl, apiData);
+
     return {
       boundaries: adminBoundaries,
-      impactFeatures,
+      impactFeatures: {
+        ...adminBoundaries,
+        features,
+      },
     };
   }
 

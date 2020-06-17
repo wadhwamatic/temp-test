@@ -79,7 +79,7 @@ export const ImpactLayer = ({ classes, layer }: ComponentProps) => {
     'fill-color': noMatchingDistricts
       ? 'gray'
       : {
-          property: 'impactValue',
+          property: 'stats_max',
           stops: legendToStops(layer.legend),
         },
   };
@@ -97,7 +97,7 @@ export const ImpactLayer = ({ classes, layer }: ComponentProps) => {
       fillOnClick={(evt: any) => {
         const popupData = {
           [layer.title]: {
-            data: get(evt.features[0], 'properties.impactValue', 'No Data'),
+            data: get(evt.features[0], 'properties.stats_max', 'No Data'),
             coordinates: evt.lngLat,
           },
           [hazardTitle]: {
