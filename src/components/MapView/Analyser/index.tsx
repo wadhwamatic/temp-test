@@ -12,7 +12,6 @@ import {
   withStyles,
   WithStyles,
 } from '@material-ui/core';
-import { extent as calculateExtentFromGeoJSON } from 'geojson-bounds';
 import { useSelector } from 'react-redux';
 import { ArrowDropDown, Assessment } from '@material-ui/icons';
 import { map, find } from 'lodash';
@@ -26,6 +25,7 @@ import {
   WMSLayerProps,
 } from '../../../config/types';
 import { ApiData, fetchApiData } from '../../../utils/flask-api-utils';
+import { extent as calculateExtentFromGeoJSON } from '../../../utils/geojson-utils';
 import { getWCSLayerUrl } from '../../../context/layers/wms';
 import { LayerData } from '../../../context/layers/layer-data';
 import { layerDataSelector } from '../../../context/mapStateSlice';
@@ -259,7 +259,7 @@ function Analyser({ classes }: AnalyserProps) {
             </FormControl>
           </div>
           <div>
-            <Typography>Step 5 - Choose a baseline Layer:</Typography>
+            <Typography>Step 3 - Choose a baseline Layer:</Typography>
             <FormControl component="div">
               <RadioGroup
                 name="baselineLayer"
