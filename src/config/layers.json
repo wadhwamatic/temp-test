@@ -234,7 +234,7 @@
     ],
     "legend_text": "Hazard-specific vulnerability is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
   }, 
-  "risk_drought": {
+  "wfp_risk_drought": {
     "title": "Drought risk",
     "type": "nso",
     "path": "./data/nso/all-vuln-layers.json",
@@ -266,7 +266,7 @@
     ],
     "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
   },
-  "risk_floods": {
+  "wfp_risk_floods": {
     "title": "Flood risk",
     "type": "nso",
     "path": "./data/nso/all-vuln-layers.json",
@@ -298,7 +298,7 @@
     ],
     "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
   },
-  "risk_storms": {
+  "wfp_risk_storms": {
     "title": "Storm risk",
     "type": "nso",
     "path": "./data/nso/all-vuln-layers.json",
@@ -329,5 +329,257 @@
       }
     ],
     "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
-  }                         
+  },
+  "mudra_risk_river_floods": {
+    "title": "Population risk to river floods",
+    "type": "nso",
+    "path": "./data/mudra/River_Flood_Present_conditions.json",
+    "data_field": "risk_population",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fb6a4a"
+      },   
+      {
+        "value": "3 High",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Level of population risk to river floods based on historical model (MUDRA)"
+  },
+  "mudra_risk_cyclone_winds": {
+    "title": "Economic risk to cyclone winds",
+    "type": "nso",
+    "path": "./data/mudra/Cyclone_wind_Present.json",
+    "data_field": "risk_economic",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fb6a4a"
+      },   
+      {
+        "value": "3 High",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Level of economic risk to cyclone winds based on historical model (MUDRA)"
+  },
+  "mudra_risk_cyclone_floods": {
+    "title": "Population risk to storm surges",
+    "type": "nso",
+    "path": "./data/mudra/cyclone_flood_present.json",
+    "data_field": "risk_population",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fb6a4a"
+      },   
+      {
+        "value": "3 High",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Level of population risk to storm surges based on historical model (MUDRA)"
+  },
+  "annual_damage_river_floods": {
+    "title": "Annual damage (expected) from river floods",
+    "type": "nso",
+    "path": "./data/mudra/River_Flood_Present_conditions.json",
+    "data_field": "t_ead_alll",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 10",
+        "color": "#ffffd4"
+      },
+      {
+        "value": "11 to 100",
+        "color": "#fee391"
+      },   
+      {
+        "value": "101 to 500",
+        "color": "#fec44f"
+      },
+      {
+        "value": "501 to 1000",
+        "color": "#fe9929"
+      },
+      {
+        "value": "1001 to 5000",
+        "color": "#d95f0e"
+      },
+      {
+        "value": "5001 and above",
+        "color": "#993404"
+      }     
+    ],
+    "legend_text": "Expected annual damage from river floods in millions of MMK based on historical model (MUDRA)"
+  },
+  "annual_damage_storm_surges": {
+    "title": "Annual damage (expected) from storm surges",
+    "type": "nso",
+    "path": "./data/mudra/cyclone_flood_present.json",
+    "data_field": "t_ead_alll",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 10",
+        "color": "#ffffd4"
+      },
+      {
+        "value": "11 to 100",
+        "color": "#fee391"
+      },   
+      {
+        "value": "101 to 500",
+        "color": "#fec44f"
+      },
+      {
+        "value": "501 to 1000",
+        "color": "#fe9929"
+      },
+      {
+        "value": "1001 to 5000",
+        "color": "#d95f0e"
+      },
+      {
+        "value": "5001 and above",
+        "color": "#993404"
+      }     
+    ],
+    "legend_text": "Expected annual damage from river floods in millions of MMK based on historical model (MUDRA)"
+  }, 
+"annual_damage_cyclone_winds": {
+  "title": "Annual damage (expected) from strong cyclone winds",
+  "type": "nso",
+  "path": "./data/mudra/Cyclone_wind_Present.json",
+  "data_field": "t_ead_alll",
+  "admin_level": 3,
+  "admin_code": "ts_pcode",
+  "opacity": 0.7,
+  "legend": [
+    {
+      "value": "0 to 10",
+      "color": "#ffffd4"
+    },
+    {
+      "value": "11 to 100",
+      "color": "#fee391"
+    },   
+    {
+      "value": "101 to 500",
+      "color": "#fec44f"
+    },
+    {
+      "value": "501 to 1000",
+      "color": "#fe9929"
+    },
+    {
+      "value": "1001 to 5000",
+      "color": "#d95f0e"
+    },
+    {
+      "value": "5001 and above",
+      "color": "#993404"
+    }     
+  ],
+  "legend_text": "Expected annual damage from strong cyclone winds in millions of MMK based on historical model (MUDRA)"
+}, 
+"population_exposed_historical_river_floods": {
+  "title": "Population exposed to historical river floods per year",
+  "type": "nso",
+  "path": "./data/mudra/River_Flood_Present_conditions.json",
+  "data_field": "affected_popluation_risk",
+  "admin_level": 3,
+  "admin_code": "ts_pcode",
+  "opacity": 0.7,
+  "legend": [
+    {
+      "value": "0 to 100",
+      "color": "#feedde"
+    },
+    {
+      "value": "101 to 500",
+      "color": "#fdd0a2"
+    },   
+    {
+      "value": "501 to 1000",
+      "color": "#fdae6b"
+    },
+    {
+      "value": "1001 to 5000",
+      "color": "#fd8d3c"
+    },
+    {
+      "value": "5001 to 10000",
+      "color": "#e6550d"
+    },
+    {
+      "value": "10001 and above",
+      "color": "#a63603"
+    }     
+  ],
+  "legend_text": "Population exposed to historical river floods per year (MUDRA)"                                    
+},
+"population_exposed_historical_storm_surge": {
+  "title": "Population exposed to historical storm surges per year",
+  "type": "nso",
+  "path": "./data/mudra/cyclone_flood_present.json",
+  "data_field": "affected_popluation_risk",
+  "admin_level": 3,
+  "admin_code": "ts_pcode",
+  "opacity": 0.7,
+  "legend": [
+    {
+      "value": "0 to 100",
+      "color": "#feedde"
+    },
+    {
+      "value": "101 to 500",
+      "color": "#fdd0a2"
+    },   
+    {
+      "value": "501 to 1000",
+      "color": "#fdae6b"
+    },
+    {
+      "value": "1001 to 5000",
+      "color": "#fd8d3c"
+    },
+    {
+      "value": "5001 to 10000",
+      "color": "#e6550d"
+    },
+    {
+      "value": "10001 and above",
+      "color": "#a63603"
+    }     
+  ],
+  "legend_text": "Population exposed to historical storm surges per year (MUDRA)"                                    
+}
 }
