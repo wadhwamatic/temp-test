@@ -12,8 +12,14 @@
   },
   "categories": {
     "hazards": {
-      "test": [
-        "test"
+      "CHIRPS_products": [
+        "rfh_dekad",
+        "rnh_dekad",
+        "rnq_dekad",
+        "days_dry",
+        "dlx_dekad",
+        "xnn_dekad",
+        "xln_dekad"
       ]
     }
   }
