@@ -5,14 +5,612 @@
     "opacity": 0.8,
     "admin_code": "TS_PCODE",
     "admin_level_names": [
+      "ST",
       "DT",
       "TS"
     ],
     "admin_level_local_names": [
+      "ST_MMR4",
       "DT_MMR4",
       "TS_MMR4"
     ]
   },
+  "inform": {
+    "title": "Vulnerability index",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "mmr_inform",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.5,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#1a9641"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#a6d96a"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#ffffbf"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#fdae61"
+      },
+      {
+        "value": "0.8 to 1 Very high",
+        "color": "#d7191c"
+      }
+    ],
+    "legend_text": "The INFORM model is based on risk concepts published in scientific literature and envisages three dimensions of risk: hazards & exposure, vulnerability and lack of coping capacity dimensions. See https://drmkc.jrc.ec.europa.eu/inform-index"
+  },
+  "sensitvity_drought": {
+    "title": "Sensitivity to droughts",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "drought_se",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#f1eef6"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#d7b5d8"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#df65b0"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#dd1c77"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#980043"
+      }
+    ],
+    "legend_text": "Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with WFP Myanmar"
+  },
+  "sensitvity_flood": {
+    "title": "Sensitivity to floods",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "flood_sens",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#f1eef6"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#d7b5d8"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#df65b0"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#dd1c77"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#980043"
+      }
+    ],
+    "legend_text": "Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with WFP Myanmar"
+  },
+  "poverty": {
+    "title": "Poverty by township",
+    "type": "nso",
+    "path": "./data/nso/poverty.json",
+    "data_field": "Poverty",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 10 Very low",
+        "color": "#ffffb2"
+      },
+      {
+        "value": "10 to 20 Low",
+        "color": "#d7b5d8"
+      },
+      {
+        "value": "20 to 30 Medium",
+        "color": "#df65b0"
+      }
+    ],
+    "legend_text": "Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with WFP Myanmar"
+  },
+  "sensitvity_storms": {
+    "title": "Sensitivity to storms",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "storm_sens",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#f1eef6"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#d7b5d8"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#df65b0"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#dd1c77"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#980043"
+      }
+    ],
+    "legend_text": "Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with WFP Myanmar"
+  },
+  "vulnerability_drought": {
+    "title": "Vulnerability to drought",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "drought_vu",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#fef0d9"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#fdcc8a"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#fc8d59"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#e34a33"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#b30000"
+      }
+    ],
+    "legend_text": "Hazard-specific vulnerability is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
+  },
+  "vulnerability_floods": {
+    "title": "Vulnerability to floods",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "flood_vuln",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#fef0d9"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#fdcc8a"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#fc8d59"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#e34a33"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#b30000"
+      }
+    ],
+    "legend_text": "Hazard-specific vulnerability is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
+  },
+  "vulnerability_storms": {
+    "title": "Vulnerability to storms",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "storm_vuln",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#fef0d9"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#fdcc8a"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#fc8d59"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#e34a33"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#b30000"
+      }
+    ],
+    "legend_text": "Hazard-specific vulnerability is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
+  }, 
+  "wfp_risk_drought": {
+    "title": "Drought risk",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "drought_ri",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#fcae91"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#fb6a4a"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#de2d26"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
+  },
+  "wfp_risk_floods": {
+    "title": "Flood risk",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "flood_risk",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#fcae91"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#fb6a4a"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#de2d26"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
+  },
+  "wfp_risk_storms": {
+    "title": "Storm risk",
+    "type": "nso",
+    "path": "./data/nso/all-vuln-layers.json",
+    "data_field": "storm_risk",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 0.2 Very Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "0.21 to 0.4 Low",
+        "color": "#fcae91"
+      },
+      {
+        "value": "0.41 to 0.6 Medium",
+        "color": "#fb6a4a"
+      },
+      {
+        "value": "0.61 to 0.8 High",
+        "color": "#de2d26"
+      },
+      {
+        "value": "0.81 to 1 Very high",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
+  },
+  "mudra_risk_river_floods": {
+    "title": "Population risk to river floods",
+    "type": "nso",
+    "path": "./data/mudra/River_Flood_Present_conditions.json",
+    "data_field": "risk_population",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fb6a4a"
+      },   
+      {
+        "value": "3 High",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Level of population risk to river floods based on historical model (MUDRA)"
+  },
+  "mudra_risk_cyclone_winds": {
+    "title": "Economic risk to cyclone winds",
+    "type": "nso",
+    "path": "./data/mudra/Cyclone_wind_Present.json",
+    "data_field": "risk_economic",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fb6a4a"
+      },   
+      {
+        "value": "3 High",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Level of economic risk to cyclone winds based on historical model (MUDRA)"
+  },
+  "mudra_risk_cyclone_floods": {
+    "title": "Population risk to storm surges",
+    "type": "nso",
+    "path": "./data/mudra/cyclone_flood_present.json",
+    "data_field": "risk_population",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fb6a4a"
+      },   
+      {
+        "value": "3 High",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Level of population risk to storm surges based on historical model (MUDRA)"
+  },
+  "annual_damage_river_floods": {
+    "title": "Annual damage (expected) from river floods",
+    "type": "nso",
+    "path": "./data/mudra/River_Flood_Present_conditions.json",
+    "data_field": "t_ead_alll",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 10",
+        "color": "#ffffd4"
+      },
+      {
+        "value": "11 to 100",
+        "color": "#fee391"
+      },   
+      {
+        "value": "101 to 500",
+        "color": "#fec44f"
+      },
+      {
+        "value": "501 to 1000",
+        "color": "#fe9929"
+      },
+      {
+        "value": "1001 to 5000",
+        "color": "#d95f0e"
+      },
+      {
+        "value": "5001 and above",
+        "color": "#993404"
+      }     
+    ],
+    "legend_text": "Expected annual damage from river floods in millions of MMK based on historical model (MUDRA)"
+  },
+  "annual_damage_storm_surges": {
+    "title": "Annual damage (expected) from storm surges",
+    "type": "nso",
+    "path": "./data/mudra/cyclone_flood_present.json",
+    "data_field": "t_ead_alll",
+    "admin_level": 3,
+    "admin_code": "ts_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 to 10",
+        "color": "#ffffd4"
+      },
+      {
+        "value": "11 to 100",
+        "color": "#fee391"
+      },   
+      {
+        "value": "101 to 500",
+        "color": "#fec44f"
+      },
+      {
+        "value": "501 to 1000",
+        "color": "#fe9929"
+      },
+      {
+        "value": "1001 to 5000",
+        "color": "#d95f0e"
+      },
+      {
+        "value": "5001 and above",
+        "color": "#993404"
+      }     
+    ],
+    "legend_text": "Expected annual damage from river floods in millions of MMK based on historical model (MUDRA)"
+  }, 
+"annual_damage_cyclone_winds": {
+  "title": "Annual damage (expected) from strong cyclone winds",
+  "type": "nso",
+  "path": "./data/mudra/Cyclone_wind_Present.json",
+  "data_field": "t_ead_alll",
+  "admin_level": 3,
+  "admin_code": "ts_pcode",
+  "opacity": 0.7,
+  "legend": [
+    {
+      "value": "0 to 10",
+      "color": "#ffffd4"
+    },
+    {
+      "value": "11 to 100",
+      "color": "#fee391"
+    },   
+    {
+      "value": "101 to 500",
+      "color": "#fec44f"
+    },
+    {
+      "value": "501 to 1000",
+      "color": "#fe9929"
+    },
+    {
+      "value": "1001 to 5000",
+      "color": "#d95f0e"
+    },
+    {
+      "value": "5001 and above",
+      "color": "#993404"
+    }     
+  ],
+  "legend_text": "Expected annual damage from strong cyclone winds in millions of MMK based on historical model (MUDRA)"
+}, 
+"population_exposed_historical_river_floods": {
+  "title": "Population exposed to historical river floods per year",
+  "type": "nso",
+  "path": "./data/mudra/River_Flood_Present_conditions.json",
+  "data_field": "affected_popluation_risk",
+  "admin_level": 3,
+  "admin_code": "ts_pcode",
+  "opacity": 0.7,
+  "legend": [
+    {
+      "value": "0 to 100",
+      "color": "#feedde"
+    },
+    {
+      "value": "101 to 500",
+      "color": "#fdd0a2"
+    },   
+    {
+      "value": "501 to 1000",
+      "color": "#fdae6b"
+    },
+    {
+      "value": "1001 to 5000",
+      "color": "#fd8d3c"
+    },
+    {
+      "value": "5001 to 10000",
+      "color": "#e6550d"
+    },
+    {
+      "value": "10001 and above",
+      "color": "#a63603"
+    }     
+  ],
+  "legend_text": "Population exposed to historical river floods per year (MUDRA)"                                    
+},
+"population_exposed_historical_storm_surge": {
+  "title": "Population exposed to historical storm surges per year",
+  "type": "nso",
+  "path": "./data/mudra/cyclone_flood_present.json",
+  "data_field": "affected_popluation_risk",
+  "admin_level": 3,
+  "admin_code": "ts_pcode",
+  "opacity": 0.7,
+  "legend": [
+    {
+      "value": "0 to 100",
+      "color": "#feedde"
+    },
+    {
+      "value": "101 to 500",
+      "color": "#fdd0a2"
+    },   
+    {
+      "value": "501 to 1000",
+      "color": "#fdae6b"
+    },
+    {
+      "value": "1001 to 5000",
+      "color": "#fd8d3c"
+    },
+    {
+      "value": "5001 to 10000",
+      "color": "#e6550d"
+    },
+    {
+      "value": "10001 and above",
+      "color": "#a63603"
+    }     
+  ],
+  "legend_text": "Population exposed to historical storm surges per year (MUDRA)"                                    
+},
   "rfh_dekad": {
     "title": "10-day rainfall estimate (mm)",
     "type": "wms",

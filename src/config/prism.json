@@ -20,7 +20,20 @@
         "dlx_dekad",
         "xnn_dekad",
         "xln_dekad"
-      ]
-    }
+      ],
+    "hazard_sensitivity": ["sensitvity_drought", "sensitvity_flood", "sensitvity_storms"]
+  },
+  "vulnerability": {
+    "vulnerability_index": ["inform", "poverty"],
+    "hazard_vulnerability": ["vulnerability_drought", "vulnerability_floods", "vulnerability_storms"]
+  },
+  "exposure": {
+    "historical_climate_exposure": ["population_exposed_historical_river_floods", "population_exposed_historical_storm_surge"]
+  },
+  "risk": {
+    "wfp_hazard_risk": ["wfp_risk_drought", "wfp_risk_floods", "wfp_risk_storms"],
+    "mudra_hazard_risk": ["mudra_risk_river_floods", "mudra_risk_cyclone_winds", "mudra_risk_cyclone_floods"],
+    "expected_annual_damage": ["annual_damage_river_floods", "annual_damage_cyclone_winds", "annual_damage_storm_surges"]
   }
+}
 }
