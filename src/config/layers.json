@@ -670,8 +670,8 @@
   "DzudRiskMap": {
     "title": "Dzud risk",
     "type": "wms",
-    "base_url": "https://mng-wfp.ovio.org:8443/geoserver/prism",
-    "server_layer_name": "DZUDRM12312",
+    "base_url": "https://mongolia.sibelius-datacube.org:5000",
+    "server_layer_name": "DzudRisk",
     "date_interval": "month",
     "opacity": 0.5,
     "legend_text": "The dzud risk map is produced by the Mongolia Information and Research Institute of Meteorology, Hydrology and Environment (IRIMHE) and measures dzud risk based on a combination of climate hazards, pasture conditions and capacity, and risk exposure to livestock. Latest version: December 2019",
@@ -709,39 +709,39 @@
     "legend": [
       {
         "value": "-40",
-        "color": "#7ab1c0"
+        "color": "#081d58"
       },
       {
         "value": "-30",
-        "color": "#9fc3b3"
+        "color": "#225ea8"
       },
       {
         "value": "-20",
-        "color": "#d9e79a"
+        "color": "#41b6c4"
       },
       {
         "value": "-10",
-        "color": "#f3f88e"
+        "color": "#c7e9b4"
       },
       {
         "value": "0",
-        "color": "#f0d779"
+        "color": "#ffffb2"
       },
       {
         "value": "10",
-        "color": "#fdae61"
+        "color": "#fed976"
       },
       {
         "value": "20",
-        "color": "#f46d43"
+        "color": "#fd8d3c"
       },
       {
         "value": "30",
-        "color": "#d53e4f"
+        "color": "#e31a1c"
       },
       {
         "value": "40",
-        "color": "#9e0142"
+        "color": "#800026"
       }
     ]
   },
@@ -756,39 +756,39 @@
     "legend": [
       {
         "value": "-40",
-        "color": "#7ab1c0"
+        "color": "#081d58"
       },
       {
         "value": "-30",
-        "color": "#9fc3b3"
+        "color": "#225ea8"
       },
       {
         "value": "-20",
-        "color": "#d9e79a"
+        "color": "#41b6c4"
       },
       {
         "value": "-10",
-        "color": "#f3f88e"
+        "color": "#c7e9b4"
       },
       {
         "value": "0",
-        "color": "#f0d779"
+        "color": "#ffffb2"
       },
       {
         "value": "10",
-        "color": "#fdae61"
+        "color": "#fed976"
       },
       {
         "value": "20",
-        "color": "#f46d43"
+        "color": "#fd8d3c"
       },
       {
         "value": "30",
-        "color": "#d53e4f"
+        "color": "#e31a1c"
       },
       {
         "value": "40",
-        "color": "#9e0142"
+        "color": "#800026"
       }
     ]
   },
@@ -803,39 +803,39 @@
     "legend": [
       {
         "value": "-40",
-        "color": "#7ab1c0"
+        "color": "#081d58"
       },
       {
         "value": "-30",
-        "color": "#9fc3b3"
+        "color": "#225ea8"
       },
       {
         "value": "-20",
-        "color": "#d9e79a"
+        "color": "#41b6c4"
       },
       {
         "value": "-10",
-        "color": "#f3f88e"
+        "color": "#c7e9b4"
       },
       {
         "value": "0",
-        "color": "#f0d779"
+        "color": "#ffffb2"
       },
       {
         "value": "10",
-        "color": "#fdae61"
+        "color": "#fed976"
       },
       {
         "value": "20",
-        "color": "#f46d43"
+        "color": "#fd8d3c"
       },
       {
         "value": "30",
-        "color": "#d53e4f"
+        "color": "#e31a1c"
       },
       {
         "value": "40",
-        "color": "#9e0142"
+        "color": "#800026"
       }
     ]
   },

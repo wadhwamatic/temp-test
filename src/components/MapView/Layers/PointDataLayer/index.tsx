@@ -40,8 +40,9 @@ function PointDataLayer({ layer }: { layer: PointDataLayerProps }) {
       property: layer.measure,
       stops: legendToStops(layer.legend),
     },
+    'circle-stroke-color': '#000000',
+    'circle-stroke-width': 0.5,
   };
-
   return (
     <GeoJSONLayer
       below="boundaries"
