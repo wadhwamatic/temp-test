@@ -57,11 +57,6 @@
         "mvam_hay_prices"
       ]
     },
-    "risk": {
-      "dzud_risk": [
-        "DzudRiskMap"
-      ]
-    },
     "tables": {
       "socioeconomic_data": [
         "poverty"
