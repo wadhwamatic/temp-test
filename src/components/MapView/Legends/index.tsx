@@ -67,7 +67,7 @@ function Legends({ classes, layers }: LegendsProps) {
   return (
     <div className={classes.container}>
       <button type="button" onClick={() => setOpen(!open)}>
-        <FontAwesomeIcon icon={open ? faEyeSlash : faEye} /> Legend
+        <FontAwesomeIcon icon={open ? faEyeSlash : faEye} /> Домог
       </button>
 
       {open && <List className={classes.list}>{legendItems}</List>}

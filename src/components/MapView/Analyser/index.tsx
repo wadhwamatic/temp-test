@@ -83,7 +83,7 @@ function Analyser({ classes }: AnalyserProps) {
 
   // form elements
   const [hazardLayerId, setHazardLayerId] = useState<LayerKey>();
-  const [statistic, setStatistic] = useState(AggregationOperations.Mean);
+  const [statistic, setStatistic] = useState(AggregationOperations.Дундаж);
   const [baselineLayerId, setBaselineLayerId] = useState<LayerKey>();
   const [selectedDate, setSelectedDate] = useState<number | null>(null);
 
@@ -202,7 +202,7 @@ function Analyser({ classes }: AnalyserProps) {
           style={{ marginRight: '10px', fontSize: '1.6em' }}
           icon={faChartBar}
         />
-        <Typography variant="body2">Run Analysis</Typography>
+        <Typography variant="body2">ДҮН ШИНЖИЛГЭЭ ХИЙХ</Typography>
         <FontAwesomeIcon icon={faCaretDown} style={{ marginLeft: '10px' }} />
       </Button>
 
@@ -215,18 +215,18 @@ function Analyser({ classes }: AnalyserProps) {
           <div>
             <div className={classes.newAnalyserContainer}>
               <div className={classes.analyserOptions}>
-                <Typography variant="body2">Hazard Layer</Typography>
+                <Typography variant="body2">АЮУЛЫН ДАВХАРГА</Typography>
                 <LayerDropdown
                   type="wms"
                   value={hazardLayerId}
                   setValue={setHazardLayerId}
                   title="Hazard Layer"
                   className={classes.selector}
-                  placeholder="Choose hazard layer"
+                  placeholder="Аюулын давхарга сонгох"
                 />
               </div>
               <div className={classes.analyserOptions}>
-                <Typography variant="body2">Statistic</Typography>
+                <Typography variant="body2">СТАТИСТИК</Typography>
                 <FormControl component="div">
                   <RadioGroup
                     name="statistics"
@@ -239,24 +239,24 @@ function Analyser({ classes }: AnalyserProps) {
                 </FormControl>
               </div>
               <div className={classes.analyserOptions}>
-                <Typography variant="body2">Baseline Layer</Typography>
+                <Typography variant="body2">СУУРЬ ДАВХАРГА</Typography>
                 <LayerDropdown
                   type="nso"
                   value={baselineLayerId}
                   setValue={setBaselineLayerId}
                   title="Baseline Layer"
                   className={classes.selector}
-                  placeholder="Choose baseline layer"
+                  placeholder="Суурь давхарга сонгох"
                 />
               </div>
               <div className={classes.analyserOptions}>
-                <Typography variant="body2">Threshold</Typography>
+                <Typography variant="body2">БОСГО УТГА</Typography>
                 <TextField
                   id="filled-number"
                   error={!!thresholdError}
                   helperText={thresholdError}
                   className={classes.numberField}
-                  label="Min"
+                  label="Хамгийн бага"
                   type="number"
                   value={aboveThreshold}
                   onChange={onThresholdOptionChange('above')}
@@ -264,7 +264,7 @@ function Analyser({ classes }: AnalyserProps) {
                 />
                 <TextField
                   id="filled-number"
-                  label="Max"
+                  label="Хамгийн их"
                   className={classes.numberField}
                   value={belowThreshold}
                   onChange={onThresholdOptionChange('below')}
@@ -273,7 +273,7 @@ function Analyser({ classes }: AnalyserProps) {
                 />
               </div>
               <div className={classes.analyserOptions}>
-                <Typography variant="body2">Date</Typography>
+                <Typography variant="body2">Огноо</Typography>
                 <DatePicker
                   selected={selectedDate ? new Date(selectedDate) : null}
                   onChange={date =>
@@ -357,7 +357,7 @@ function Analyser({ classes }: AnalyserProps) {
                   isAnalysisLoading // or analysis is currently loading
                 }
               >
-                <Typography variant="body2">Run Analysis</Typography>
+                <Typography variant="body2">ДҮН ШИНЖИЛГЭЭ ХИЙХ</Typography>
               </Button>
             )}
             {isAnalysisLoading ? <LinearProgress /> : null}

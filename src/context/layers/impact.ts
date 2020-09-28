@@ -33,7 +33,7 @@ export const fetchImpactLayerData: LazyLoader<ImpactLayerProps> = loadLayerData 
   const { getState, dispatch } = api;
   const { layer, extent, date } = params;
 
-  const operation = layer.operation || AggregationOperations.Mean;
+  const operation = layer.operation || AggregationOperations.Дундаж;
 
   const hazardLayerDef = LayerDefinitions[layer.hazardLayer] as WMSLayerProps;
 

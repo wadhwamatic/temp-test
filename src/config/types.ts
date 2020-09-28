@@ -208,8 +208,8 @@ export class StatsApi {
 }
 // first is display name, second is name we store in computers
 export enum AggregationOperations {
-  Mean = 'mean',
-  Median = 'median',
+  Дундаж = 'mean',
+  Дундын = 'median',
 }
 
 export type ThresholdDefinition = { below?: number; above?: number };

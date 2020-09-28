@@ -11,45 +11,45 @@
     "zoom": 4.5
   },
   "categories": {
-    "hazards": {
-      "drought_indicators": [
+    "Аюул": {
+      "Гангийн_үзүүлэлтүүд": [
         "pasture_anomaly",
         "ndvi",
         "ModisVHI"
       ],
-      "winter_conditions": [
+      "Өвөлжилтийн_нөхцөл_байдал": [
         "ModisSnowPercentage",
         "ModisLST"
       ],
-      "ground_station_data": [
+      "Газрын_ажиглалтын_мэдээ": [
         "avg_temperature_groundstations",
         "min_temperature_groundstations",
         "max_temperature_groundstations",
         "total_precipitation_groundstations"
       ]
     },
-    "exposure": {
-      "demographics": [
+    "өртсөн": {
+      "Хүн_ам_зүйн_статистик": [
         "population_total"
       ],
-      "livestock_and_herders": [
+      "Мал_сүрэг_малчид": [
         "herders",
         "livestock"
       ]
     },
-    "vulnerability": {
-      "vulnerable_groups": [
+    "эмзэг": {
+      "Эмзэг_бүлгийнхэн": [
         "population_below_poverty",
         "disabled",
         "elderly",
         "child"
       ],
-      "herders": [
+      "Малчид": [
         "herd_200"
       ]
     },
-    "capacity": {
-      "livestock_and_crop_preparedness": [
+    "чадвар": {
+      "Мал_аж_ахуй_газар_тариалангийн_бэлэн_байдал": [
         "hay_harvest",
         "mvam_hay_reserves",
         "mvam_fodder_reserves",
@@ -57,14 +57,14 @@
         "mvam_hay_prices"
       ]
     },
-    "tables": {
-      "socioeconomic_data": [
+    "Хүснэгт": {
+      "Нийгэм_эдийн_засгийн_мэдээлэл": [
         "poverty"
       ],
-      "livestock_data": [
+      "Малын_мэдээлэл": [
         "animal_deaths"
       ],
-      "price_data": [
+      "Үнийн_мэдээлэл": [
         "hay_prices"
       ]
     }
