@@ -20,12 +20,6 @@
       "Өвөлжилтийн_нөхцөл_байдал": [
         "ModisSnowPercentage",
         "ModisLST"
-      ],
-      "Газрын_ажиглалтын_мэдээ": [
-        "avg_temperature_groundstations",
-        "min_temperature_groundstations",
-        "max_temperature_groundstations",
-        "total_precipitation_groundstations"
       ]
     },
     "өртсөн": {
