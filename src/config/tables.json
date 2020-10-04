@@ -13,7 +13,7 @@
   },
   "hay_prices": {
     "title": "Сарын өвсний үнэ",
-    "table": "./data/tables/NSO_Bale_Hay_Price_Monthly_Avg2.csv",
+    "table": "./data/tables/NSO_Bale_Hay_Price_Monthly_Admin1_0930.csv",
     "legend_text": "Хадлан боодлын үнэ сар бүр. Эх сурвалж: Үндэсний статистикийн газар",
     "chart": {
       "type": "line",
