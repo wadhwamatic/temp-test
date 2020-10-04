@@ -13,7 +13,7 @@
   },
   "hay_prices": {
     "title": "Monthly hay prices",
-    "table": "./data/tables/NSO_Bale_Hay_Price_Monthly_Avg2.csv",
+    "table": "./data/tables/NSO_Bale_Hay_Price_Monthly_Admin1_0930.csv",
     "legend_text": "Price of a bail of hay by month. Source: National Statistics Office",
     "chart": {
       "type": "line",
