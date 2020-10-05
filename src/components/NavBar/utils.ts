@@ -15,19 +15,19 @@ import {
 } from '../../config/types';
 
 import эмзэг from '../images/icon_vulnerable.png';
-import өртсөн from '../images/icon_basemap.png';
+import Өртөнгө from '../images/icon_basemap.png';
 import Аюул from '../images/icon_climate.png';
 import risk from '../images/icon_impact.png';
 // note to Ovio: wanted to use risk_and_impact but this fails. riskandimpact works, but doesn't create spaces in nav
-import чадвар from '../images/icon_capacity.png';
+import Чадавх from '../images/icon_capacity.png';
 import Хүснэгт from '../images/icon_table.png';
 
 const icons: { [key: string]: string } = {
   эмзэг,
-  өртсөн,
+  Өртөнгө,
   Аюул,
   risk,
-  чадвар,
+  Чадавх,
   Хүснэгт,
 };
 

@@ -20,9 +20,15 @@
       "Өвөлжилтийн_нөхцөл_байдал": [
         "ModisSnowPercentage",
         "ModisLST"
+      ],
+      "Газрын_ажиглалтын_мэдээ": [
+        "avg_temperature_groundstations",
+        "min_temperature_groundstations",
+        "max_temperature_groundstations",
+        "total_precipitation_groundstations"
       ]
     },
-    "өртсөн": {
+    "Өртөнгө": {
       "Хүн_ам_зүйн_статистик": [
         "population_total"
       ],
@@ -42,7 +48,7 @@
         "herd_200"
       ]
     },
-    "чадвар": {
+    "Чадавх": {
       "Мал_аж_ахуй_газар_тариалангийн_бэлэн_байдал": [
         "hay_harvest",
         "mvam_hay_reserves",
@@ -52,10 +58,10 @@
       ]
     },
     "Хүснэгт": {
-      "Нийгэм_эдийн_засгийн_мэдээлэл": [
+      "Ядуурлын_хамрах_хүрээ": [
         "poverty"
       ],
-      "Малын_мэдээлэл": [
+      "Өвчнөөр_хорогдсон_малын_тоо": [
         "animal_deaths"
       ],
       "Үнийн_мэдээлэл": [

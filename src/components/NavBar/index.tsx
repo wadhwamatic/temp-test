@@ -22,7 +22,7 @@ import { menuList } from './utils';
 
 const rightSideLinks = [
   {
-    title: 'ТУХАЙ',
+    title: 'PRISM тухай',
     icon: faInfoCircle,
     href: 'https://innovation.wfp.org/project/prism',
   },
