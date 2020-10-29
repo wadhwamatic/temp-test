@@ -359,6 +359,10 @@
       {
         "value": "+80%",
         "color": "#5b6e00"
+      },
+      {
+        "value": "N/A - snow cover",
+        "color": "#eaebeb"
       }
     ]
   },
