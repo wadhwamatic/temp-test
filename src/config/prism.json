@@ -1,5 +1,5 @@
 {
-  "country": "Mongolia",
+  "country": "Cambodia",
   "serversUrls": {
     "wms": [
       "https://www.prism-kh.info:8443/geoserver/Prism/wms",
@@ -13,6 +13,14 @@
   },
   "categories": {
     "hazards": {
+      "Drought": [
+        "soil_veg_moisture",
+        "SPI1",
+        "SPI3",
+        "SRI3",
+        "soil_moisture",
+        "root_zone_moisure"
+      ],
       "CHIRPS_products": [
         "rfh_dekad",
         "rnh_dekad",
@@ -24,8 +32,15 @@
       ],
       "Floods": [
         "flood_frequency",
+        "flood_events",
         "hydra_fused"
       ]
-    }
+    },
+    "vulnerability": {
+      "baseline": [
+        "pop_density",
+        "IDPoor"
+      ]
   }
+}
 }
