@@ -6,10 +6,13 @@
     "zoom": 4.58
   },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "categories": {
     "hazards": {
       "drought": [],
 =======
+=======
+>>>>>>> Stashed changes
   "serversUrls": {
     "wms": [
       "https://odc.ovio.org/wms"
@@ -20,6 +23,7 @@
       "rainfall": ["rainfall_dekad", "rain_anomaly_dekad", "rain_anomaly_monthly", "rainfall_agg_month", "streak_dry_days", "days_heavy_rain", "streak_heavy_rain"],
       "vegetation_conditions": ["ndvi_dekad", "ndvi_dekad_anomaly"],
       "temperature": ["lst_daytime","lst_anomaly","lst_amplitude"],
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
       "floods": [],
       "cyclones": [],
@@ -29,6 +33,12 @@
 <<<<<<< Updated upstream
       "vulnerability_index": ["inform"],
 =======
+      "vulnerability_index": ["inform", "poverty"],
+>>>>>>> Stashed changes
+=======
+      "hazard_sensitivity": ["sensitvity_drought", "sensitvity_flood", "sensitvity_storms"]
+    },
+    "vulnerability": {
       "vulnerability_index": ["inform", "poverty"],
 >>>>>>> Stashed changes
       "hazard_vulnerability": ["vulnerability_drought", "vulnerability_floods", "vulnerability_storms"]
