@@ -46,6 +46,146 @@
     ],
     "legend_text": "The INFORM model is based on risk concepts published in scientific literature and envisages three dimensions of risk: hazards & exposure, vulnerability and lack of coping capacity dimensions. See https://drmkc.jrc.ec.europa.eu/inform-index"
   },
+  "total_pop" :{
+    "title": "Total population",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"total_pop",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {"value": 50000, "color": "#eff3ff"},
+      {"value": 100000, "color": "#bdd7e7"},
+      {"value": 150000, "color": "#6baed6"},
+      {"value": 200000, "color": "#3182bd"},
+      {"value": 255000, "color": "#08519c"}
+    ],
+    "legend_text": "" 
+  }, 
+  "improved_sanitation" :{
+    "title": "Improved sanitation",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"improved_sanitation",
+    "admin_level": 3,
+    "admin_code": "TS_PCODE",
+    "opacity": 0.7,
+    "legend": [
+      {"value": "0-20", "color": "#a50f15"},
+      {"value": "21-40", "color": "#de2d26"},
+      {"value": "41-60", "color": "#fb6a4a"},
+      {"value": "61-80", "color": "#fcae91"},
+      {"value": "81-100", "color": "#fee5d9"}
+    ],
+    "legend_text": "Percent of households with access to improved sanitation facilities" 
+  }, 
+  "improved_drinking_water": {
+    "title": "Improved drinking water",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"improved_drinking_water",
+    "admin_level":3,
+    "admin_code":"TS_PCODE",
+    "opacity":0.7,
+    "legend":[
+      {"value": "0-20", "color": "#a50f15"},
+      {"value": "21-40", "color": "#de2d26"},
+      {"value": "41-60", "color": "#fb6a4a"},
+      {"value": "61-80", "color": "#fcae91"},
+      {"value": "81-100", "color": "#fee5d9"}  
+    ],
+    "legend_text": "Percent of households with improved source of drinking water"
+  },
+  "poor_quality_house":{
+    "title": "Poor quality housing",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"poor_quality_house",
+    "admin_level":3,
+    "admin_code":"TS_PCODE",
+    "opacity":0.7,
+    "legend":[
+      {"value": "0-20", "color": "#fee5d9"},
+      {"value": "21-40", "color": "#fcae91"},
+      {"value": "41-60", "color": "#fb6a4a"},
+      {"value": "61-80", "color": "#de2d26"},
+      {"value": "81-100", "color": "#a50f15"}  
+    ],
+    "legend_text": "Percent of households with poor quality housing"  
+  }, 
+  "multidimensional_disadvantage_index":{
+    "title": "Multidimensional disadvantage index",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"multidimensional_disadvantage_index",
+    "admin_level":3,
+    "admin_code":"TS_PCODE",
+    "opacity":0.7,
+    "legend":[
+      {"value": "0-15", "color": "#fee5d9"},
+      {"value": "16-20", "color": "#fcbba1"},
+      {"value": "21-25", "color": "#fc9272"},
+      {"value": "26-30", "color": "#fb6a4a"},
+      {"value": "30-35", "color": "#ef3b2c"},
+      {"value": "35-40", "color": "#cb181d"},
+      {"value": "41 or more", "color": "#99000d"}
+    ],
+    "legend_text": "The Multidimensional Welfare in Myanmar report uses detailed data available in the 2014 Myanmar Population and Housing Census, which covers a wide range of topics than most censuses. This includes demographic characteristics, disability and mortality, literacy and education, employment and education, housing conditions, as well as household assets and amenities."  
+  }, 
+  "age_dependency_ratio":{
+    "title": "Age dependency ratio",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"age_dependency_ratio",
+    "admin_level":3,
+    "admin_code":"TS_PCODE",
+    "opacity":0.7,
+    "legend":[
+      {"value": "0-40", "color": "#fee5d9"},
+      {"value": "40-49", "color": "#fcbba1"},
+      {"value": "50-59", "color": "#fc9272"},
+      {"value": "60-69", "color": "#fb6a4a"},
+      {"value": "70-79", "color": "#ef3b2c"},
+      {"value": "80-89", "color": "#cb181d"},
+      {"value": "90-100", "color": "#99000d"}
+    ],
+    "legend_text": "Age dependency ratio"  
+  },
+  "female_headed_hhs":{
+    "title": "Female headed households",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"female_headed_hhs",
+    "admin_level":3,
+    "admin_code":"TS_PCODE",
+    "opacity":0.7,
+    "legend":[
+      {"value": "0-20", "color": "#fee5d9"},
+      {"value": "21-25", "color": "#fcae91"},
+      {"value": "26-30", "color": "#fb6a4a"},
+      {"value": "31-35", "color": "#de2d26"},
+      {"value": "36 or more", "color": "#a50f15"}  
+    ],
+    "legend_text": "Percent of female headed households"  
+  }, 
+  "disability_prev_rate":{
+    "title": "Disability prevalence",
+    "type": "nso",
+    "path":"./data/nso/vulnerability-layers.json",
+    "data_field":"disability_prev_rate",
+    "admin_level":3,
+    "admin_code":"TS_PCODE",
+    "opacity":0.7,
+    "legend":[
+      {"value": "0-2", "color": "#fee5d9"},
+      {"value": "3-5", "color": "#fcae91"},
+      {"value": "6-8", "color": "#fb6a4a"},
+      {"value": "9-11", "color": "#de2d26"},
+      {"value": "12 or more", "color": "#a50f15"}  
+    ],
+    "legend_text": "Prevalence of disability"  
+  },   
   "wfp_risk_storms": {
     "title": "Storm risk",
     "type": "nso",
@@ -879,5 +1019,41 @@
       }     
     ],
     "legend_text": "Population exposed to historical storm surges per year (MUDRA)"                                    
+  },
+  "adamts_buffers": {
+    "title": "Wind buffers",
+    "type": "wms",
+    "server_layer_name": "wld_gdacs_tc_events_buffers",
+    "opacity": 0.5,
+    "legend": [],
+    "legend_text": "",
+    "base_url": "https://geonode.wfp.org/geoserver"
+  },
+  "adamts_nodes": {
+    "title": "Current nodes",
+    "type": "wms",
+    "server_layer_name": "wld_gdacs_tc_events_nodes",
+    "opacity": 0.5,
+    "legend": [],
+    "legend_text": "",
+    "base_url": "https://geonode.wfp.org/geoserver"
+  },
+  "adamts_tracks": {
+    "title": "Current tracks",
+    "type": "wms",
+    "server_layer_name": "wld_gdacs_tc_events_tracks",
+    "opacity": 0.5,
+    "legend": [],
+    "legend_text": "",
+    "base_url": "https://geonode.wfp.org/geoserver"
+  },
+  "forecast": {
+    "title": "10-day precipitation forecast",
+    "type": "wms",
+    "server_layer_name": "wld_cli_tp_10d_ecmwf",
+    "opacity": 0.5,
+    "legend": [],
+    "legend_text": "",
+    "base_url": "https://geonode.wfp.org/geoserver"
   }
 }
