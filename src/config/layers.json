@@ -698,10 +698,59 @@
       }
     ]
   },
+  "example_wms_vector": {
+    "title": "Example WMS Vector",
+    "type": "point_data",
+    "data": "https://geonode.wfp.org/geoserver/wfs/?service=wfs&version=2.0.0&request=GetFeature&typeNames=prism%3Awld_ibtracs&outputFormat=application/json&time={YYYY-MM-DD}",
+    "data_format": "wms",
+    "server_layer_name": "wld_ibtracs",
+    "opacity": 0.5,
+    "measure": "storm_speed",
+    "legend_text": "Storm Speed",
+    "legend": [
+      {
+        "value": "-40",
+        "color": "#7ab1c0"
+      },
+      {
+        "value": "-30",
+        "color": "#9fc3b3"
+      },
+      {
+        "value": "-20",
+        "color": "#d9e79a"
+      },
+      {
+        "value": "-10",
+        "color": "#f3f88e"
+      },
+      {
+        "value": "0",
+        "color": "#f0d779"
+      },
+      {
+        "value": "10",
+        "color": "#fdae61"
+      },
+      {
+        "value": "20",
+        "color": "#f46d43"
+      },
+      {
+        "value": "30",
+        "color": "#d53e4f"
+      },
+      {
+        "value": "40",
+        "color": "#9e0142"
+      }
+    ]
+  },
   "avg_temperature_groundstations": {
     "title": "10-day average temperature",
     "type": "point_data",
-    "data": "https://mng.prism.services/temp/Temperature",
+    "data": "https://mng.prism.services/temp/Temperature?beginDateTime={YYYY-MM-DD}&endDateTime={YYYY-MM-DD}",
+    "data_format": "base",
     "date_url": "https://mng.prism.services/temp/getDates",
     "fallback_data": "./data/groundstations/IRIMHE_temperature_2020-01-d1.json",
     "opacity": 0.5,
@@ -749,7 +798,8 @@
   "min_temperature_groundstations": {
     "title": "10-day minimum temperature",
     "type": "point_data",
-    "data": "https://mng.prism.services/temp/Temperature",
+    "data": "https://mng.prism.services/temp/Temperature?beginDateTime={YYYY-MM-DD}&endDateTime={YYYY-MM-DD}",
+    "data_format": "base",
     "date_url": "https://mng.prism.services/temp/getDates",
     "fallback_data": "./data/groundstations/IRIMHE_temperature_2020-01-d1.json",
     "opacity": 0.5,
@@ -797,7 +847,8 @@
   "max_temperature_groundstations": {
     "title": "10-day maximum temperature",
     "type": "point_data",
-    "data": "https://mng.prism.services/temp/Temperature",
+    "data": "https://mng.prism.services/temp/Temperature?beginDateTime={YYYY-MM-DD}&endDateTime={YYYY-MM-DD}",
+    "data_format": "base",
     "date_url": "https://mng.prism.services/temp/getDates",
     "fallback_data": "./data/groundstations/IRIMHE_temperature_2020-01-d1.json",
     "opacity": 0.5,
@@ -845,7 +896,8 @@
   "total_precipitation_groundstations": {
     "title": "Total 10-day precipitation",
     "type": "point_data",
-    "data": "https://mng.prism.services/temp/percipitation",
+    "data": "https://mng.prism.services/temp/percipitation?beginDateTime={YYYY-MM-DD}&endDateTime={YYYY-MM-DD}",
+    "data_format": "base",
     "date_url": "https://mng.prism.services/temp/getDates",
     "fallback_data": "./data/groundstations/IRIMHE_precipitation_2020-05-01.json",
     "opacity": 0.5,
@@ -877,7 +929,8 @@
   "avg_precipitation_groundstations": {
     "title": "10-day average precipitation",
     "type": "point_data",
-    "data": "https://mng.prism.services/temp/soil",
+    "data": "https://mng.prism.services/temp/soil?beginDateTime={YYYY-MM-DD}&endDateTime={YYYY-MM-DD}",
+    "data_format": "base",
     "date_url": "https://mng.prism.services/temp/getDates",
     "opacity": 0.5,
     "measure": "ttt_aver",

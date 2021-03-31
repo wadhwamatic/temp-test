@@ -243,6 +243,9 @@ export class PointDataLayerProps extends CommonLayerProps {
   data: string;
 
   @makeRequired
+  dataFormat: 'base' | 'wms';
+
+  @makeRequired
   title: string;
 
   @makeRequired
@@ -254,8 +257,15 @@ export class PointDataLayerProps extends CommonLayerProps {
   measure: string;
   @optional
   fallbackData?: string;
+
   // URL to fetch all possible dates from
-  dateUrl: string;
+  // required for dataFormat 'base'
+  @optional
+  dateUrl?: string;
+
+  // required for dataFormat 'wms'
+  @optional
+  serverLayerName: string;
 }
 
 export type RequiredKeys<T> = {

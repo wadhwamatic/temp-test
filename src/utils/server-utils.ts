@@ -187,14 +187,23 @@ type PointDataDates = Array<{
 }>;
 // used to cache repeat date requests to same URL
 const pointDataFetchPromises: {
-  [k in PointDataLayerProps['dateUrl']]: Promise<PointDataDates>;
+  [url: string]: Promise<PointDataDates>;
 } = {};
 
 /**
  * Gets the available dates for a point data layer.
  */
-async function getPointDataCoverage(layer: PointDataLayerProps) {
+async function getPointDataCoverage(
+  layer: PointDataLayerProps,
+  wmsWcsLayerDates: AvailableDates,
+) {
   const { dateUrl: url, fallbackData: fallbackUrl, id } = layer;
+  if (layer.dataFormat === 'wms') {
+    return wmsWcsLayerDates[layer.serverLayerName];
+  }
+  if (!url) {
+    throw new Error('Non wms dataFormat should have dateUrl');
+  }
   const loadPointLayerDataFromURL = async (fetchUrl: string) => {
     const data = (await (await fetch(fetchUrl || '')).json()) as PointDataDates; // raw data comes in as { date: yyyy-mm-dd }[]
     return data;
@@ -231,17 +240,26 @@ export async function getLayersAvailableDates(): Promise<AvailableDates> {
   const wmsServerUrls: string[] = get(config, 'serversUrls.wms', []);
   const wcsServerUrls: string[] = get(config, 'serversUrls.wcs', []);
 
+  const wmsWcsLayerDates: AvailableDates = merge(
+    {},
+    ...(await Promise.all([
+      ...wmsServerUrls.map(url => getWMSCapabilities(url)),
+      ...wcsServerUrls.map(url => getWCSCoverage(url)),
+    ])),
+  );
+
   const pointDataLayers = Object.values(LayerDefinitions).filter(
     (layer): layer is PointDataLayerProps => layer.type === 'point_data',
   );
 
-  const layerDates: AvailableDates[] = await Promise.all([
-    ...wmsServerUrls.map(url => getWMSCapabilities(url)),
-    ...wcsServerUrls.map(url => getWCSCoverage(url)),
-    ...pointDataLayers.map(async layer => ({
-      [layer.id]: await getPointDataCoverage(layer),
-    })),
-  ]);
+  const pointDataLayerDates: AvailableDates = merge(
+    {},
+    ...(await Promise.all(
+      pointDataLayers.map(async layer => ({
+        [layer.id]: await getPointDataCoverage(layer, wmsWcsLayerDates),
+      })),
+    )),
+  );
 
-  return merge({}, ...layerDates);
+  return merge({}, wmsWcsLayerDates, pointDataLayerDates);
 }
