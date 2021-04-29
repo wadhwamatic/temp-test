@@ -76,7 +76,7 @@ const theme: any = createMuiTheme({
       },
       content: {
         '&$expanded': {
-          margin: '12px 0px', // keep height the same before/after epanded
+          margin: '12px 0px', // keep height the same before/after expanded
         },
       },
     },

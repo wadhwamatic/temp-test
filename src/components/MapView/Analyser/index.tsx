@@ -12,6 +12,7 @@ import {
   FormControl,
   FormControlLabel,
   FormGroup,
+  Grid,
   Input,
   LinearProgress,
   Radio,
@@ -185,7 +186,7 @@ function Analyser({ classes }: AnalyserProps) {
   };
 
   return (
-    <div className={classes.analyser}>
+    <Grid item className={classes.analyser}>
       <Button
         variant="contained"
         color="primary"
@@ -358,7 +359,7 @@ function Analyser({ classes }: AnalyserProps) {
           </div>
         ) : null}
       </Box>
-    </div>
+    </Grid>
   );
 }
 
@@ -381,6 +382,7 @@ const styles = (theme: Theme) =>
       borderBottomRightRadius: '10px',
       height: 'auto',
       maxHeight: '60vh',
+      position: 'absolute',
     },
     analyserButton: {
       height: '36px',

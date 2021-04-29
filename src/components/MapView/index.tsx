@@ -14,6 +14,7 @@ import ReactMapboxGl from 'react-mapbox-gl';
 import { Map } from 'mapbox-gl';
 import MapTooltip from './MapTooltip';
 import Legends from './Legends';
+import InfoBox from './InfoBox';
 import Download from './Download';
 // layers
 import {
@@ -238,7 +239,10 @@ function MapView({ classes }: MapViewProps) {
         className={classes.buttonContainer}
       >
         <Grid item>
-          <Analyser />
+          <Grid container spacing={1}>
+            <Analyser />
+            <InfoBox />
+          </Grid>
         </Grid>
         <Grid item>
           <Grid container spacing={1}>

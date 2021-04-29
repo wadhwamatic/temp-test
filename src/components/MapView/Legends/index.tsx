@@ -202,7 +202,7 @@ const styles = () =>
       overflow: 'auto',
       maxHeight: '70vh',
       position: 'absolute',
-      right: '16px',
+      right: 16,
     },
     select: {
       color: '#333',
