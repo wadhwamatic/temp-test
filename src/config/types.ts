@@ -128,11 +128,6 @@ export type GroupDefinition = {
   main: boolean;
 };
 
-export type DownloadDefinition = {
-  label: string;
-  url: string;
-};
-
 export type RawDataConfiguration = {
   scale?: number;
   offset?: number;
@@ -163,7 +158,7 @@ export class CommonLayerProps {
   group?: GroupDefinition;
 
   @optional
-  downloads?: DownloadDefinition[];
+  popupUrl?: string;
 }
 
 export class BoundaryLayerProps extends CommonLayerProps {
