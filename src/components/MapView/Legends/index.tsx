@@ -21,6 +21,7 @@ import ColorIndicator from './ColorIndicator';
 import { LayerFormInput, LayerType } from '../../../config/types';
 import { setFormInputValue } from '../../../context/mapStateSlice';
 import { layerFormSelector } from '../../../context/mapStateSlice/selectors';
+import { formatWMSLegendUrl } from '../../../utils/server-utils';
 import {
   analysisResultSelector,
   isAnalysisLayerActiveSelector,
