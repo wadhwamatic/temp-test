@@ -2,21 +2,25 @@ import React, { PropsWithChildren, useState } from 'react';
 import {
   createStyles,
   Divider,
+  FormControl,
   Grid,
   Hidden,
   List,
   ListItem,
+  MenuItem,
   Paper,
+  Select,
   Typography,
   WithStyles,
   withStyles,
   Button,
 } from '@material-ui/core';
 import { Visibility, VisibilityOff } from '@material-ui/icons';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import ColorIndicator from './ColorIndicator';
-import { LayerType } from '../../../config/types';
-import { formatWMSLegendUrl } from '../../../utils/server-utils';
+import { LayerFormInput, LayerType } from '../../../config/types';
+import { setFormInputValue } from '../../../context/mapStateSlice';
+import { layerFormSelector } from '../../../context/mapStateSlice/selectors';
 import {
   analysisResultSelector,
   isAnalysisLayerActiveSelector,
@@ -42,6 +46,7 @@ function Legends({ classes, layers }: LegendsProps) {
 
       return (
         <LegendItem
+          layerId={layer.id}
           classes={classes}
           key={layer.title}
           title={layer.title}
@@ -103,11 +108,26 @@ function Legends({ classes, layers }: LegendsProps) {
 // Children here is legendText
 function LegendItem({
   classes,
+  layerId,
   title,
   legend,
   children,
   legendUrl,
 }: LegendItemProps) {
+  const dispatch = useDispatch();
+  const form = useSelector(layerFormSelector(layerId));
+
+  const handleChangeFormInput = (event: any, input: LayerFormInput) => {
+    const { value } = event.target;
+    dispatch(
+      setFormInputValue({
+        layerId: layerId!,
+        inputId: input.id,
+        value,
+      }),
+    );
+  };
+
   return (
     <ListItem disableGutters dense>
       <Paper className={classes.paper}>
@@ -117,6 +137,28 @@ function LegendItem({
           </Grid>
 
           <Divider />
+
+          {form &&
+            form.inputs.map(input => {
+              return (
+                <Grid key={input.id} item>
+                  <Typography variant="h4">{input.label}</Typography>
+                  <FormControl>
+                    <Select
+                      className={classes.select}
+                      value={input.value}
+                      onChange={e => handleChangeFormInput(e, input)}
+                    >
+                      {input.values.map(v => (
+                        <MenuItem key={v.value} value={v.value}>
+                          {v.label}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </Grid>
+              );
+            })}
 
           {legend && (
             <Grid item>
@@ -161,6 +203,9 @@ const styles = () =>
       position: 'absolute',
       right: '16px',
     },
+    select: {
+      color: '#333',
+    },
     paper: {
       padding: 8,
       width: 180,
@@ -174,6 +219,7 @@ export interface LegendsProps extends WithStyles<typeof styles> {
 interface LegendItemProps
   extends WithStyles<typeof styles>,
     PropsWithChildren<{}> {
+  layerId?: LayerType['id'];
   title: LayerType['title'];
   legend: LayerType['legend'];
   legendUrl?: string;
