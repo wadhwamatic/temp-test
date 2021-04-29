@@ -197,6 +197,9 @@ export class NSOLayerProps extends CommonLayerProps {
   type: 'nso';
   path: string;
 
+  @optional
+  dateUrl?: string;
+
   @makeRequired
   title: string;
 
