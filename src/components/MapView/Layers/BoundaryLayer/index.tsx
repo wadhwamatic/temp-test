@@ -53,7 +53,8 @@ function BoundaryLayer({ layer }: { layer: BoundaryLayerProps }) {
   }
   // use last layer as reference for popup content
   // start with index 1 because index 0 is boundary layer itself
-  const lastLayer = layers.length > 1 ? layers[layers.length - 1] : null;
+  // FIXME: idn mosa specific
+  const lastLayer = layers[0];
   return (
     <GeoJSONLayer
       id="boundaries"

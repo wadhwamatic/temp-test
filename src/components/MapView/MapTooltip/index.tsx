@@ -38,12 +38,7 @@ const styles = () =>
   createStyles({
     popup: {
       '& div.mapboxgl-popup-content': {
-        background: 'black',
-        color: 'white',
         padding: '10px 10px 10px',
-      },
-      '& div.mapboxgl-popup-tip': {
-        'border-top-color': 'black',
       },
     },
   });
