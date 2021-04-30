@@ -20,7 +20,7 @@ import {
 } from '@material-ui/core';
 import {
   ExpandMore,
-  Image,
+  Group,
   Visibility,
   VisibilityOff,
 } from '@material-ui/icons';
@@ -94,7 +94,7 @@ function InfoBox({ classes }: InfoBoxProps) {
                     >
                       <Box className={classes.itemAvatar}>
                         <Avatar className={classes.blueGrey}>
-                          <Image />
+                          <Group />
                         </Avatar>
                       </Box>
                       <Box>
