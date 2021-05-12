@@ -14,21 +14,23 @@
   },
   "categories": {
     "hazards": {
-      "CHIRPS_products": [
-        "rfh_dekad",
-        "rnh_dekad",
-        "rnq_dekad",
+      "rainfall": [
+        "rainfall_dekad",
+        "rain_anomaly_dekad",
+        "rain_anomaly_monthly",
+        "rainfall_agg_dekad",
         "days_dry",
-        "dlx_dekad",
-        "xnn_dekad",
-        "xln_dekad"
+        "streak_dry_days",
+        "days_heavy_rain",
+        "streak_heavy_rain"
       ],
-      "disaster_management": [
+      "tropical_storms": [
         "adamts_buffers",
         "adamts_nodes",
-        "adamts_tracks",
-        "adam_earthquakes"
-      ]
+        "adamts_tracks"
+      ],
+      "vegetation_conditions": ["ndvi_dekad_5","ndvi_dekad_1", "ndvi_dekad_anomaly_5", "ndvi_dekad_anomaly_1"],
+      "temperature": ["lst_daytime_5","lst_daytime_1", "lst_day_anomaly_5", "lst_day_anomaly_1"]
     }
   }
 }

@@ -7,7 +7,7 @@
     "admin_level_names": ["ADM1_PT", "ADM2_PT"],
     "admin_level_local_names": ["ADM1_PT", "ADM2_PT"]
   },
-  "rfh_dekad": {
+  "rainfall_dekad": {
     "title": "10-day rainfall estimate (mm)",
     "type": "wms",
     "server_layer_name": "rfh_dekad",
@@ -30,7 +30,7 @@
       { "value": "> 600", "color": "#ffc4ee" }
     ]
   },
-  "rnq_dekad": {
+  "rain_anomaly_dekad": {
     "title": "10-day rainfall anomaly",
     "type": "wms",
     "server_layer_name": "rnq_dekad",
@@ -50,7 +50,31 @@
       { "value": "> 180%", "color": "#0fb0fb" }
     ]
   },
-  "rnh_dekad": {
+  "rain_anomaly_monthly": {
+    "title": "Monthly rainfall anomaly",
+    "type": "wms",
+    "server_layer_name": "rnq_dekad",
+    "additional_query_params": {
+      "styles": "r1q"
+    },
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "opacity": 0.5,
+    "legend_text": "Monthly precipitation anomaly compared to the long term average. Derived from CHIRPS (UCSB Climate Hazards Group). https://www.chc.ucsb.edu/data/chirps",
+    "legend": [
+      { "value": -0, "color": "#ffffff", "alpha": 0 },
+      { "value": 1, "color": "#d79b0b" },
+      { "value": 60, "color": "#e1b344" },
+      { "value": 80, "color": "#ebcb7d" },
+      { "value": 90, "color": "#f5e3b6" },
+      { "value": 110, "color": "#f2f2f2" },
+      { "value": 120, "color": "#b5e7fe" },
+      { "value": 140, "color": "#7dd4fd" },
+      { "value": 180, "color": "#45c1fc" },
+      { "value": 400, "color": "#0fb0fb" }
+    ]
+  },
+  "rainfall_agg_dekad": {
     "title": "10-day rainfall aggregate",
     "type": "wms",
     "server_layer_name": "rnh_dekad",
@@ -93,7 +117,7 @@
       { "value": 30, "color": "#8b3005" }
     ]
   },
-  "dlx_dekad": {
+  "streak_dry_days": {
     "title": "Longest number of consecutive dry days",
     "type": "wms",
     "server_layer_name": "dlx_dekad",
@@ -114,7 +138,7 @@
       { "value": 30, "color": "#8b3005" }
     ]
   },
-  "xnn_dekad": {
+  "days_heavy_rain": {
     "title": "Number of days with heavy rainfall in the last 30 days",
     "type": "wms",
     "server_layer_name": "xnn_dekad",
@@ -135,7 +159,7 @@
       { "value": 30, "color": "#1d2e83" }
     ]
   },
-  "xln_dekad": {
+  "streak_heavy_rain": {
     "title": "Longest consecutive number of days with heavy rainfall in the last 30 days",
     "type": "wms",
     "server_layer_name": "xln_dekad",
@@ -157,15 +181,218 @@
       { "value": "255 - no value", "color": "#ffffff", "alpha": 0 }
     ]
   },
-  "adam_earthquakes": {
-    "title": "Global Earthquakes Epicenters",
+  "ndvi_dekad_5": {
+    "title": "10-day NDVI 5km (MODIS)",
     "type": "wms",
-    "server_layer_name": "wld_eq_historical_moz",
-    "opacity": 0.9,
-    "legend": [],
-    "legend_text": "",
-    "base_url": "https://geonode.wfp.org/geoserver"
+    "server_layer_name": "mxd13c1_vim_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "opacity": 0.5,
+    "legend_text": "LEGEND",
+    "legend": [
+      { "value": 1000, "color": "#a50026" },
+      { "value": 2000, "color": "#de3f2e" },
+      { "value": 3000, "color": "#f88d52" },
+      { "value": 4000, "color": "#fed380" },
+      { "value": 5000, "color": "#ffffbf" },
+      { "value": 6000, "color": "#ccea83" },
+      { "value": 7000, "color": "#86cb66" },
+      { "value": 8000, "color": "#2da155" },
+      { "value": 9000, "color": "#006837" }
+    ]
   },
+  "ndvi_dekad_1": {
+    "title": "10-day NDVI 1km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "mxd13a2_vim_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "opacity": 0.5,
+    "legend_text": "LEGEND",
+    "legend": [
+      { "value": 1000, "color": "#a50026" },
+      { "value": 2000, "color": "#de3f2e" },
+      { "value": 3000, "color": "#f88d52" },
+      { "value": 4000, "color": "#fed380" },
+      { "value": 5000, "color": "#ffffbf" },
+      { "value": 6000, "color": "#ccea83" },
+      { "value": 7000, "color": "#86cb66" },
+      { "value": 8000, "color": "#2da155" },
+      { "value": 9000, "color": "#006837" }
+    ]
+  },
+  "ndvi_dekad_anomaly_5": {
+    "title": "10-day NDVI anomaly 5km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "mxd13c1_viq_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "additional_query_params": {
+      "styles": "viq"
+    },
+    "opacity": 0.5,
+    "legend_text": "NDVI Anomaly compared to LTA",
+    "legend": [
+      { "value": 50, "color": "#732600" },
+      { "value": 70, "color": "#f06405" },
+      { "value": 80, "color": "#f5af28" },
+      { "value": 90, "color": "#e6dc96" },
+      { "value": 110, "color": "#f5f5f5" },
+      { "value": 120, "color": "#cbff1f" },
+      { "value": 130, "color": "#00f200" },
+      { "value": 150, "color": "#008f00" },
+      { "value": 200, "color": "#004d00" }
+    ]
+  },
+  "ndvi_dekad_anomaly_1": {
+    "title": "10-day NDVI anomaly 1km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "mxd13a2_viq_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "additional_query_params": {
+      "styles": "viq"
+    },
+    "opacity": 0.5,
+    "legend_text": "NDVI Anomaly compared to LTA",
+    "legend": [
+      { "value": 50, "color": "#732600" },
+      { "value": 70, "color": "#f06405" },
+      { "value": 80, "color": "#f5af28" },
+      { "value": 90, "color": "#e6dc96" },
+      { "value": 110, "color": "#f5f5f5" },
+      { "value": 120, "color": "#cbff1f" },
+      { "value": 130, "color": "#00f200" },
+      { "value": 150, "color": "#008f00" },
+      { "value": 200, "color": "#004d00" }
+    ]
+  },  
+  "lst_amplitude": {
+    "title": "Land Surface Temperature - 10-day Amplitude (MODIS)",
+    "type": "wms",
+    "server_layer_name": "myd11c2_taa_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "opacity": 0.5,
+    "legend_text": "LEGEND",
+    "legend": [
+      { "value": -0, "color": "#ffffff", "alpha": 0 },
+      { "value": 50, "color": "#ffffd9" },
+      { "value": 200, "color": "#e8f6b1" },
+      { "value": 400, "color": "#b2e1b6" },
+      { "value": 600, "color": "#64c3bf" },
+      { "value": 800, "color": "#2ca1c2" },
+      { "value": 1000, "color": "#216daf" },
+      { "value": 1200, "color": "#253a97" },
+      { "value": 1400, "color": "#081d58" }
+    ]
+  },
+  "lst_daytime_5": {
+    "title": "Daytime Land Surface Temperature - 10-day 5km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "myd11c2_txa_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "wcsConfig": {
+      "scale": 0.02,
+      "offset": -273,
+      "pixelResolution": 64
+    },
+    "opacity": 0.5,
+    "legend_text": "LEGEND",
+    "additional_query_params": {
+      "styles": "lst_day"
+    },
+    "legend": [
+      { "value": 0, "color": "#f0f9ba" },
+      { "value": 5, "color": "#edeba4" },
+      { "value": 10, "color": "#ebdd8f" },
+      { "value": 15, "color": "#eace7c" },
+      { "value": 20, "color": "#e9bf6a" },
+      { "value": 25, "color": "#e9af59" },
+      { "value": 30, "color": "#e99e4c" },
+      { "value": 35, "color": "#e98d41" },
+      { "value": 40, "color": "#e87a3a" },
+      { "value": 45, "color": "#e76636" },
+      { "value": 50, "color": "#e54f35" }
+    ]
+  },
+  "lst_daytime_1": {
+    "title": "Daytime Land Surface Temperature - 10-day 1km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "myd11a2_txa_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "wcsConfig": {
+      "scale": 0.02,
+      "offset": -273,
+      "pixelResolution": 64
+    },
+    "opacity": 0.5,
+    "legend_text": "LEGEND",
+    "additional_query_params": {
+      "styles": "lst_day"
+    },
+    "legend": [
+      { "value": 0, "color": "#f0f9ba" },
+      { "value": 5, "color": "#edeba4" },
+      { "value": 10, "color": "#ebdd8f" },
+      { "value": 15, "color": "#eace7c" },
+      { "value": 20, "color": "#e9bf6a" },
+      { "value": 25, "color": "#e9af59" },
+      { "value": 30, "color": "#e99e4c" },
+      { "value": 35, "color": "#e98d41" },
+      { "value": 40, "color": "#e87a3a" },
+      { "value": 45, "color": "#e76636" },
+      { "value": 50, "color": "#e54f35" }
+    ]
+  },
+  "lst_day_anomaly_5": {
+    "title": "Daytime Land Surface Temperature - 10-day Anomaly 5km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "myd11c2_txd_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "opacity": 0.5,
+    "additional_query_params": {
+      "styles": "lst_day"
+    },
+    "legend_text": "LEGEND",
+    "legend": [
+      { "value": -300.0, "color": "#000004" },
+      { "value": -200.0, "color": "#210c4a" },
+      { "value": -100.0, "color": "#57106e" },
+      { "value": -50.0, "color": "#8a226a" },
+      { "value": 50.0, "color": "#bc3754" },
+      { "value": 100.0, "color": "#e45a31" },
+      { "value": 200.0, "color": "#f98e09" },
+      { "value": 300.0, "color": "#f9cb35" },
+      { "value": 5000.0, "color": "#fcffa4" }
+    ]
+  },
+  "lst_day_anomaly_1": {
+    "title": "Daytime Land Surface Temperature - 10-day Anomaly 1km (MODIS)",
+    "type": "wms",
+    "server_layer_name": "myd11a2_txd_dekad",
+    "base_url": "https://odc.ovio.org/",
+    "date_interval": "days",
+    "opacity": 0.5,
+    "additional_query_params": {
+      "styles": "lst_day"
+    },
+    "legend_text": "LEGEND",
+    "legend": [
+      { "value": -300.0, "color": "#000004" },
+      { "value": -200.0, "color": "#210c4a" },
+      { "value": -100.0, "color": "#57106e" },
+      { "value": -50.0, "color": "#8a226a" },
+      { "value": 50.0, "color": "#bc3754" },
+      { "value": 100.0, "color": "#e45a31" },
+      { "value": 200.0, "color": "#f98e09" },
+      { "value": 300.0, "color": "#f9cb35" },
+      { "value": 5000.0, "color": "#fcffa4" }
+    ]
+  },  
   "adamts_buffers": {
     "title": "Tropical Storms - Wind buffers",
     "type": "wms",
