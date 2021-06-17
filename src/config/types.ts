@@ -404,3 +404,8 @@ export interface RequestFeatureInfo extends FeatureInfoType {
   format: string;
   styles: string;
 }
+
+export enum DownloadFormat {
+  CSV,
+  JSON,
+}

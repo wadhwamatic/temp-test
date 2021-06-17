@@ -32,6 +32,7 @@ import {
   WMSLayerProps,
   LayerKey,
   GeometryType,
+  DownloadFormat,
 } from '../../../config/types';
 import { formatWMSLegendUrl } from '../../../utils/server-utils';
 import { getWCSLayerUrl, getWFSLayerUrl } from '../../../context/layers/wms';
@@ -243,6 +244,7 @@ function LegendItem({
   const handleLayerDownload = (
     legendLayer: LayerType,
     e: React.ChangeEvent<{}>,
+    format: DownloadFormat,
   ): void => {
     e.preventDefault();
 
@@ -292,15 +294,45 @@ function LegendItem({
         break;
       }
       case 'nso': {
-        const { data } = (legendLayerData as LayerData<NSOLayerProps>) || {};
-        const { features } = data || {};
+        const { data } = legendLayerData as LayerData<NSOLayerProps>;
+        const featureCollection = data.features;
+
+        const [content, contentType]: [string, string] = ((
+          downloadFormat: DownloadFormat,
+        ) => {
+          switch (downloadFormat) {
+            case DownloadFormat.JSON:
+              return [
+                JSON.stringify(featureCollection),
+                'application/json',
+              ] as [string, string];
+            case DownloadFormat.CSV: {
+              const { features } = featureCollection;
+
+              const headers: string[] = Object.keys(features[0].properties!);
+
+              const rows = features
+                .map(f => f.properties!)
+                .map(p => headers.map(h => p[h] || ''));
+
+              const csvData = [headers, ...rows]
+                .map(r => r.join(','))
+                .join('\n') as string;
+
+              return [csvData, 'text/csv'] as [string, string];
+            }
+            default:
+              return ['', ''] as [string, string];
+          }
+        })(format);
+
         downloadToFile(
           {
-            content: JSON.stringify(features),
+            content,
             isUrl: false,
           },
           legendLayer.title,
-          'application/json',
+          contentType,
         );
         break;
       }
@@ -386,52 +418,64 @@ function LegendItem({
           )}
 
           <Divider />
-
           <Grid item>
-            <Button
+            <Typography variant="h4">Download:</Typography>
+            <LegendButton
               variant="contained"
               color="primary"
               size="small"
-              onClick={e => handleLayerDownload(layer, e)}
-              fullWidth
+              onClick={e => handleLayerDownload(layer, e, DownloadFormat.JSON)}
             >
-              Download
-            </Button>
+              JSON
+            </LegendButton>
+
+            {layer.type === 'nso' && (
+              <LegendButton
+                variant="contained"
+                color="primary"
+                size="small"
+                onClick={e => handleLayerDownload(layer, e, DownloadFormat.CSV)}
+              >
+                CSV
+              </LegendButton>
+            )}
+
+            {exposure && <Typography variant="h4">Analysis:</Typography>}
+            {exposure && !analysisResult && (
+              <LegendButton
+                variant="contained"
+                color="primary"
+                size="small"
+                onClick={runExposureAnalysis}
+              >
+                Exposure Analysis
+              </LegendButton>
+            )}
+
+            {exposure && analysisResult && (
+              <LegendButton
+                variant="contained"
+                color="secondary"
+                size="small"
+                onClick={() => dispatch(clearAnalysisResult())}
+              >
+                clear analysis
+              </LegendButton>
+            )}
+
+            {exposure && analysisExposureLoading && <LinearProgress />}
           </Grid>
-
-          {exposure && !analysisResult && (
-            <AnalysisButton
-              variant="contained"
-              color="primary"
-              size="small"
-              onClick={runExposureAnalysis}
-            >
-              Exposure Analysis
-            </AnalysisButton>
-          )}
-
-          {exposure && analysisResult && (
-            <AnalysisButton
-              variant="contained"
-              color="secondary"
-              size="small"
-              onClick={() => dispatch(clearAnalysisResult())}
-            >
-              clear analysis
-            </AnalysisButton>
-          )}
-
-          {exposure && analysisExposureLoading && <LinearProgress />}
         </Grid>
       </Paper>
     </ListItem>
   );
 }
 
-const AnalysisButton = withStyles(() => ({
+const LegendButton = withStyles(() => ({
   root: {
     marginTop: '1em',
     marginBottom: '1em',
+    marginRight: '0.4em',
     fontSize: '0.7em',
   },
 }))(Button);
