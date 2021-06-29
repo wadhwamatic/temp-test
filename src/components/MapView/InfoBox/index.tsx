@@ -28,7 +28,7 @@ import clsx from 'clsx';
 import { ITEMS } from './utils';
 
 function InfoBox({ classes }: InfoBoxProps) {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const [expandItem, setExpandItem] = useState(true);
   const [expandChart, setExpandChart] = useState(true);
 

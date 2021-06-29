@@ -61,7 +61,7 @@ function MenuSwitch({ classes, title, layers, tables }: MenuSwitchProps) {
           <Box key={layerId} display="flex" mb={1}>
             <Switch
               size="small"
-              color="default"
+              color="secondary"
               checked={selected}
               onChange={toggleLayerValue(layer)}
               inputProps={{

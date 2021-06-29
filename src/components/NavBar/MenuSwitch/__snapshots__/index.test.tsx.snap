@@ -17,7 +17,7 @@ exports[`renders as expected 1`] = `
     >
       <mock-switch
         checked="false"
-        color="default"
+        color="secondary"
         inputprops="[object Object]"
         size="small"
       />

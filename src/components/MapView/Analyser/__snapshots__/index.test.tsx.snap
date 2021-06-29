@@ -3,7 +3,7 @@
 exports[`renders as expected 1`] = `
 <div>
   <div
-    class="Analyser-analyser-1"
+    class="MuiGrid-root Analyser-analyser-1 MuiGrid-item"
   >
     <mock-button
       color="primary"

@@ -40,7 +40,7 @@ type ExtraDownloadRequest = {
 const ExportMenu = withStyles((theme: Theme) => ({
   paper: {
     border: '1px solid #d3d4d5',
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: theme.palette.primary.dark,
   },
 }))((props: MenuProps) => (
   <Menu
@@ -228,6 +228,9 @@ const styles = (theme: Theme) =>
   createStyles({
     label: {
       marginLeft: '10px',
+    },
+    menuList: {
+      color: theme.palette.primary.dark,
     },
     title: {
       color: theme.palette.text.secondary,

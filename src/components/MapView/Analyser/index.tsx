@@ -373,7 +373,7 @@ const styles = (theme: Theme) =>
       marginLeft: '10px',
     },
     analyserMenu: {
-      backgroundColor: '#5A686C',
+      backgroundColor: theme.palette.primary.dark,
       maxWidth: '100vw',
       color: 'white',
       overflowX: 'hidden',
@@ -396,11 +396,13 @@ const styles = (theme: Theme) =>
       marginTop: '10px',
     },
     radioOptions: {
+      color: 'white',
       '&.Mui-checked': { color: grey[50] },
       padding: '2px 10px 2px 20px',
     },
     innerAnalysisButton: {
-      backgroundColor: '#3d474a',
+      backgroundColor: theme.palette.primary.main,
+      color: 'white',
       margin: '10px',
       '&.Mui-disabled': { opacity: 0.5 },
     },

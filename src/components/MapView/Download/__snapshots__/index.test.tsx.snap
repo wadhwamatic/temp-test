@@ -58,7 +58,7 @@ exports[`renders as expected 1`] = `
       open="false"
     >
       <mock-dialogtitle
-        classname="Download-title-2"
+        classname="Download-title-3"
         id="dialog-preview"
       >
         Map Preview
