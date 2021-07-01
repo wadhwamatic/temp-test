@@ -1,0 +1,2580 @@
+{
+  "DataList": [
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505207,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505207,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505226,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505230,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505246,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505226,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505220,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505226,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505220,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505230,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505246,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505230,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505246,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505217,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505217,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505217,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507254,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507245,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505242,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505242,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509019,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 2,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 4b",
+   "ICA_Categ": "4"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509019,
+   "NS_Class": 2,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 4b",
+   "ICA_Categ": "4"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "NS_Class": 2,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 4b",
+   "ICA_Categ": "4"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "NS_Class": 2,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 4b",
+   "ICA_Categ": "4"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507254,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507245,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507245,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 3,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2a",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 2,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 2b",
+   "ICA_Categ": "2"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 1,
+   "FI_Class": 0,
+   "ICA_Areas": "",
+   "ICA_Categ": "4"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "NS_Class": 1,
+   "FI_Class": 0,
+   "ICA_Areas": "",
+   "ICA_Categ": "4"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 3,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1a",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "NS_Class": 2,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 1b",
+   "ICA_Categ": "1"
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "NS_Class": 1,
+   "FI_Class": 3,
+   "ICA_Areas": "Area 3a",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "NS_Class": 1,
+   "FI_Class": 1,
+   "ICA_Areas": "Area 5",
+   "ICA_Categ": "5"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "NS_Class": 1,
+   "FI_Class": 2,
+   "ICA_Areas": "Area 3b",
+   "ICA_Categ": "3"
+ }
+]
+}

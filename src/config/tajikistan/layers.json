@@ -286,5 +286,137 @@
     "legend": [],
     "legend_text": "",
     "base_url": "https://geonode.wfp.org/geoserver"
+  },
+  "ica_food_security": {
+    "title": "Food insecurity recurrence",
+    "type": "nso",
+    "path": "../data/tajikistan/tjk-ica-2015.json",
+    "data_field": "FI_Class",
+    "admin_level": 2,
+    "admin_code": "admin2_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 to 2 Low",
+        "color": "#abdda4"
+      },
+      {
+        "value": "3 to 5 Medium",
+        "color": "#fdae61"
+      },
+      {
+        "value": "6 to 9 High",
+        "color": "#d7191c"
+      }
+    ],
+    "legend_text": "Recurrence of food insecurity. ICA 2015."
+  },
+  "ica_natural_shocks": {
+    "title": "Natural shock recurrence",
+    "type": "nso",
+    "path": "../data/tajikistan/tjk-ica-2015.json",
+    "data_field": "NS_Class",
+    "admin_level": 2,
+    "admin_code": "admin2_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#abdda4"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fdae61"
+      },
+      {
+        "value": "3 High",
+        "color": "#d7191c"
+      }
+    ],
+    "legend_text": "Recurrence of natural shocks. ICA 2015."
+  },
+  "ica_category": {
+    "title": "ICA category",
+    "type": "nso",
+    "path": "../data/tajikistan/tjk-ica-2015.json",
+    "data_field": "ICA_Categ",
+    "admin_level": 2,
+    "admin_code": "admin2_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Most vulnerable",
+        "color": "#d7191c"
+      },
+      {
+        "value": "2",
+        "color": "#fdae61"
+      },
+      {
+        "value": "3",
+        "color": "#ffffbf"
+      },
+      {
+        "value": "4",
+        "color": "#a6d96a"
+      },
+      {
+        "value": "5 Least vulnerable",
+        "color": "#1a9641"
+      }
+    ],
+    "legend_text": "Overall category. ICA 2015."
+  },
+  "ica_land_cover_change": {
+    "title": "Negative land cover change",
+    "type": "nso",
+    "path": "../data/tajikistan/tjk-land-degradation-2015.json",
+    "data_field": "NegChaClas",
+    "admin_level": 2,
+    "admin_code": "admin2_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "0 No change",
+        "color": "#f0f0f0"
+      },
+      {
+        "value": "1 Low",
+        "color": "#fee0d2"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fc9272"
+      },
+      {
+        "value": "3 High",
+        "color": "#de2d26"
+      }
+    ],
+    "legend_text": "Negative land cover change. ICA 2015."
+  },
+  "ica_soil_erosion": {
+    "title": "Soil erosion",
+    "type": "nso",
+    "path": "../data/tajikistan/tjk-land-degradation-2015.json",
+    "data_field": "ErosPrClas",
+    "admin_level": 2,
+    "admin_code": "admin2_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "1 Low",
+        "color": "#fee0d2"
+      },
+      {
+        "value": "2 Medium",
+        "color": "#fc9272"
+      },
+      {
+        "value": "3 High",
+        "color": "#de2d26"
+      }
+    ],
+    "legend_text": "Classification of the percent of area affected by soil erosion. ICA 2015."
   }
 }

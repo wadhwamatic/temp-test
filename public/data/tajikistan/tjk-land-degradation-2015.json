@@ -1,0 +1,2580 @@
+{
+    "DataList": [
+   {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505207,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505207,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505226,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505230,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505246,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505226,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505220,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505226,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505220,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505230,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505246,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505230,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505246,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505217,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505217,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505217,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 13,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 13,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 13,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 13,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507254,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507245,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505251,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505242,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 10,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 10,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505259,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505242,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 50,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505213,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 58,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 58,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 58,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 58,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505228,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509019,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 19,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509019,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 19,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 19,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 19,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509084,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 15,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509038,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509033,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 45,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 47,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 47,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 47,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 47,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 47,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 5,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 5,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 5,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 5,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 5,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 5,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 29,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 39,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 39,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 39,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 39,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 39,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 16,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 16,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 16,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509036,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509074,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 53,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 24,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 24,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 24,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 24,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 24,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 66,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 66,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 66,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 66,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 66,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 68,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 68,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 68,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 68,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 56,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 56,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 56,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 56,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 56,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 56,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 62,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 62,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 62,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 62,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 52,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 52,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 52,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 52,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509042,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590204,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590220,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590208,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590219,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 38,
+   "ErosPrClas": 3
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507254,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507245,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "PosChaClas": 3,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507245,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507213,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507223,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507215,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507234,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507209,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 0,
+   "NegChaClas": 3,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509065,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507211,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507219,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 0,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507217,
+   "PosChaClas": 0,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507236,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507256,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507250,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 0,
+   "NegChaClas": 2,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590226,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507252,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507207,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 1,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509081,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509068,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509047,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 11,
+   "ErosPrClas": 2
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509072,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507203,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507238,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 2,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507232,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507205,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507221,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "PosChaClas": 2,
+   "NegChaClas": 0,
+   "ErosPr": 1,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3590000,
+   "admin2_pcode": 3590213,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507242,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507229,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507226,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3507000,
+   "admin2_pcode": 3507246,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 7,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3509000,
+   "admin2_pcode": 3509058,
+   "PosChaClas": 0,
+   "NegChaClas": 1,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ },
+ {
+   "admin1Pcode": 3505000,
+   "admin2_pcode": 3505256,
+   "PosChaClas": 0,
+   "NegChaClas": 0,
+   "ErosPr": 0,
+   "ErosPrClas": 1
+ }
+]
+}
