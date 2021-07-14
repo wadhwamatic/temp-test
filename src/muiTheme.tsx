@@ -1,9 +1,9 @@
 import { createMuiTheme } from '@material-ui/core/styles';
 
 const skyBlue: string = '#009EE0';
-const greyBlue: string = '#007DBC';
-const darkGreyBlue: string = '#1A4262';
-const beige: string = '#ECDFBB';
+const greyBlue: string = '#418fde';
+const darkGreyBlue: string = '#1f69b3';
+const green: string = '#c6e69b';
 const white: string = '#FFFFFF';
 const lightGray = '#CCCCCC';
 
@@ -16,7 +16,7 @@ const theme: any = createMuiTheme({
       dark: darkGreyBlue,
     },
     secondary: {
-      main: beige,
+      main: green,
     },
     text: {
       primary: white,

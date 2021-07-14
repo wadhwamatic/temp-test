@@ -16,8 +16,13 @@ exports[`renders as expected 1`] = `
           class="MuiGrid-root NavBar-logoContainer-2 MuiGrid-item MuiGrid-grid-xs-3"
         >
           <img
+            alt="logo mosa"
+            class="NavBar-orgLogo-3"
+            src="mosa_logo.png"
+          />
+          <img
             alt="logo wfp"
-            class="NavBar-wfpLogo-3"
+            class="NavBar-orgLogo-3"
             src="wfp_logo_small.png"
           />
           <mock-typography

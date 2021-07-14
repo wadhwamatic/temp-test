@@ -19,6 +19,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import MenuItem from './MenuItem';
 import MenuItemMobile from './MenuItemMobile';
 import { menuList } from './utils';
+import mosaLogo from '../images/mosa_logo.png';
 import wfpLogo from '../images/wfp_logo_small.png';
 
 const rightSideLinks = [
@@ -75,7 +76,8 @@ function NavBar({ classes }: NavBarProps) {
       <Toolbar variant="dense">
         <Grid container>
           <Grid item xs={3} className={classes.logoContainer}>
-            <img className={classes.wfpLogo} src={wfpLogo} alt="logo wfp" />
+            <img className={classes.orgLogo} src={mosaLogo} alt="logo mosa" />
+            <img className={classes.orgLogo} src={wfpLogo} alt="logo wfp" />
             <Typography
               variant="h6"
               className={classes.logo}
@@ -150,7 +152,7 @@ const styles = (theme: Theme) =>
       alignItems: 'center',
     },
 
-    wfpLogo: {
+    orgLogo: {
       width: 28,
       marginRight: 15,
     },
