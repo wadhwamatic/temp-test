@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import {
@@ -34,6 +34,7 @@ import {
 } from '../../../config/types';
 import { TableDefinitions } from '../../../config/utils';
 import { Extent } from '../Layers/raster-utils';
+import { useUrlHistory, AnalysisType } from '../../../utils/url-utils';
 
 const AnalysisButton = withStyles(() => ({
   root: {
@@ -62,8 +63,9 @@ const ExposedPopulationAnalysis = ({
   );
 
   const dispatch = useDispatch();
+  const { urlParams, updateHistory, clearAnalysisFromUrl } = useUrlHistory();
 
-  const runExposureAnalysis = async () => {
+  const runExposureAnalysis = useCallback(async () => {
     if (!id || !extent || !exposure) {
       return;
     }
@@ -81,7 +83,17 @@ const ExposedPopulationAnalysis = ({
     };
 
     await dispatch(requestAndStoreExposedPopulation(params));
-  };
+  }, [selectedDate, dispatch, exposure, extent, id]);
+
+  useEffect(() => {
+    const { analysis } = urlParams;
+
+    if (result || !analysis || analysis !== AnalysisType.Exposure) {
+      return;
+    }
+
+    runExposureAnalysis();
+  }, [result, urlParams, runExposureAnalysis]);
 
   const ResultSwitches = () => {
     const data = useSelector(analysisResultSelector);
@@ -134,7 +146,7 @@ const ExposedPopulationAnalysis = ({
           variant="contained"
           color="primary"
           size="small"
-          onClick={runExposureAnalysis}
+          onClick={() => updateHistory({ analysis: AnalysisType.Exposure })}
         >
           Exposure Analysis
         </AnalysisButton>
@@ -150,7 +162,10 @@ const ExposedPopulationAnalysis = ({
         variant="contained"
         color="secondary"
         size="small"
-        onClick={() => dispatch(clearAnalysisResult())}
+        onClick={() => {
+          clearAnalysisFromUrl();
+          dispatch(clearAnalysisResult());
+        }}
       >
         clear analysis
       </AnalysisButton>

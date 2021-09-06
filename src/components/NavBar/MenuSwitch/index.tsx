@@ -15,21 +15,26 @@ import {
   LayerType,
   TableType,
 } from '../../../config/types';
-import { addLayer, removeLayer } from '../../../context/mapStateSlice';
+import { removeLayer } from '../../../context/mapStateSlice';
 import { loadTable } from '../../../context/tableStateSlice';
 import { layersSelector } from '../../../context/mapStateSlice/selectors';
+import { useUrlHistory } from '../../../utils/url-utils';
 
 function MenuSwitch({ classes, title, layers, tables }: MenuSwitchProps) {
   const selectedLayers = useSelector(layersSelector);
   const dispatch = useDispatch();
+  const { updateHistory, clearHistory } = useUrlHistory();
 
   const toggleLayerValue = (layer: LayerType) => (
     event: React.ChangeEvent<HTMLInputElement>,
   ) => {
     const { checked } = event.target;
     if (checked) {
-      dispatch(addLayer(layer));
+      updateHistory({
+        [layer.type === 'nso' ? 'baselineLayerId' : 'hazardLayerId']: layer.id,
+      });
     } else {
+      clearHistory();
       dispatch(removeLayer(layer));
     }
   };
