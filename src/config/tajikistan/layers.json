@@ -315,5 +315,37 @@
         "label": "Modified mercalli intensity"
       }
     }
+  },
+  "crop_areas": {
+    "title": "Amount of land used for crops",
+    "type": "admin_level_data",
+    "path": "../data/tajikistan/crop_area.json",
+    "data_field": "Crop_area",
+    "admin_level": 2,
+    "admin_code": "text_pcode",
+    "opacity": 0.7,
+    "legend": [
+      {
+        "value": "13",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "96",
+        "color": "#fcae91"
+      },
+      {
+        "value": "174",
+        "color": "#fb6a4a"
+      },
+      {
+        "value": "252",
+        "color": "#de2d26"
+      },
+      {
+        "value": "433",
+        "color": "#a50f15"
+      }
+    ],
+    "legend_text": "Crop area estimates generated for testing"
   }
 }
