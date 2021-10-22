@@ -16,6 +16,8 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfoCircle, faBars } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { useTranslation } from 'react-i18next';
+import i18n from '../../i18n/config';
 import MenuItem from './MenuItem';
 import MenuItemMobile from './MenuItemMobile';
 import { menuList } from './utils';
@@ -35,6 +37,7 @@ const rightSideLinks = [
 
 function NavBar({ classes }: NavBarProps) {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
+  const { t } = useTranslation();
 
   const menu = menuList.map(({ title, ...category }) => (
     <MenuItem key={title} title={title} {...category} />
@@ -80,7 +83,7 @@ function NavBar({ classes }: NavBarProps) {
               component={Link}
               to="/"
             >
-              Prism
+              {t('title')}
             </Typography>
           </Grid>
 
@@ -97,6 +100,17 @@ function NavBar({ classes }: NavBarProps) {
               item
               xs={3}
             >
+              <Grid item key="trans">
+                <Typography
+                  variant="body2"
+                  component="a"
+                  target="_blank"
+                  onClick={() => i18n.changeLanguage('es')}
+                >
+                  Change
+                </Typography>
+              </Grid>
+
               {buttons}
             </Grid>
           </Hidden>
