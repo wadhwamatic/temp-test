@@ -41,7 +41,9 @@ export const notificationStateSlice = createSlice({
       { payload }: PayloadAction<NotificationConstructor>,
     ) => ({
       ...rest,
-      notifications: notifications.concat(new Notification(payload)),
+      notifications: notifications.map(n => n.message).includes(payload.message)
+        ? notifications
+        : notifications.concat(new Notification(payload)),
     }),
     removeNotification: (
       { notifications, ...rest },
