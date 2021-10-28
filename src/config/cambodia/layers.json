@@ -9,7 +9,7 @@
     },
     "idpoor": {
       "title": "IDPoor",
-      "type": "nso",
+      "type": "admin_level_data",
       "path": "../data/cambodia/idpoor.json",
       "data_field": "num_idpoor",
       "admin_level": 3,
@@ -39,181 +39,7 @@
       ],
       "legend_text": "This layer shows number of households of IDPoor level 1 and 2 at commune level. The identification of poor households (IDPoor) is established to collect and share poor household information nationwide in order to enhance targeting services and assistance for poverty reduction."
     },
-    "total_pop": {
-      "title": "Total population",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "total_pop",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": 50000, "color": "#eff3ff" },
-        { "value": 100000, "color": "#bdd7e7" },
-        { "value": 150000, "color": "#6baed6" },
-        { "value": 200000, "color": "#3182bd" },
-        { "value": 255000, "color": "#08519c" }
-      ],
-      "legend_text": ""
-    },
-    "improved_sanitation": {
-      "title": "Improved sanitation",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "improved_sanitation",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "0-20", "color": "#a50f15" },
-        { "value": "21-40", "color": "#de2d26" },
-        { "value": "41-60", "color": "#fb6a4a" },
-        { "value": "61-80", "color": "#fcae91" },
-        { "value": "81-100", "color": "#fee5d9" }
-      ],
-      "legend_text": "Percent of households with access to improved sanitation facilities. Source: Myanmar Population and Housing Census 2014, Department of Population, Ministry of Immigration and Population"
-    },
-    "improved_drinking_water": {
-      "title": "Improved drinking water",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "improved_drinking_water",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "0-20", "color": "#a50f15" },
-        { "value": "21-40", "color": "#de2d26" },
-        { "value": "41-60", "color": "#fb6a4a" },
-        { "value": "61-80", "color": "#fcae91" },
-        { "value": "81-100", "color": "#fee5d9" }
-      ],
-      "legend_text": "Percent of households with improved source of drinking water. Source: Myanmar Population and Housing Census 2014, Department of Population, Ministry of Immigration and Population"
-    },
-    "poor_quality_house": {
-      "title": "Poor quality housing",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "poor_quality_house",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "0-20", "color": "#fee5d9" },
-        { "value": "21-40", "color": "#fcae91" },
-        { "value": "41-60", "color": "#fb6a4a" },
-        { "value": "61-80", "color": "#de2d26" },
-        { "value": "81-100", "color": "#a50f15" }
-      ],
-      "legend_text": "Percent of households with poor quality housing. Source: Myanmar Population and Housing Census 2014, Department of Population, Ministry of Immigration and Population"
-    },
-    "multidimensional_disadvantage_index": {
-      "title": "Multidimensional disadvantage index",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "multidimensional_disadvantage_index",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "5.6 - 10", "color": "#4091C6" },
-        { "value": "10.1 - 14.4", "color": "#5AA5B3" },
-        { "value": "14.5 - 17", "color": "#8EBDA2" },
-        { "value": "17.1 - 18.5", "color": "#BDD38F" },
-        { "value": "18.6 - 20.5", "color": "#E4E57F" },
-        { "value": "20.6 - 22.6", "color": "#FAE66A" },
-        { "value": "22.7 - 24.6", "color": "#EFB258" },
-        { "value": "24.7 - 29.3", "color": "#E58A49" },
-        { "value": "29.4 - 35.0", "color": "#DF633D" },
-        { "value": "35.1 or more", "color": "#DB3E35" }
-      ],
-      "legend_text": "The index analyzes welfare using a multidimensional approach, and focuses on examining whether people are unable to fulfil their basic needs in a variety of non-monetary dimensions. Source: Ministry of Labour, Immigration and Population and the World Bank - 2018 based on census data from 2014"
-    },
-    "age_dependency_ratio": {
-      "title": "Age dependency ratio",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "age_dependency_ratio",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "0-40", "color": "#fee5d9" },
-        { "value": "40-49", "color": "#fcbba1" },
-        { "value": "50-59", "color": "#fc9272" },
-        { "value": "60-69", "color": "#fb6a4a" },
-        { "value": "70-79", "color": "#ef3b2c" },
-        { "value": "80-89", "color": "#cb181d" },
-        { "value": "90-100", "color": "#99000d" }
-      ],
-      "legend_text": "Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those aged 15-64. Data are shown as the proportion of dependents per 100 working-age population. Source: Myanmar Population and Housing Census 2014, Department of Population, Ministry of Immigration and Population"
-    },
-    "female_headed_hhs": {
-      "title": "Female headed households",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "female_headed_hhs",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "0-20", "color": "#fee5d9" },
-        { "value": "21-25", "color": "#fcae91" },
-        { "value": "26-30", "color": "#fb6a4a" },
-        { "value": "31-35", "color": "#de2d26" },
-        { "value": "36 or more", "color": "#a50f15" }
-      ],
-      "legend_text": "Percent of female headed households"
-    },
-    "disability_prev_rate": {
-      "title": "Disability prevalence",
-      "type": "nso",
-      "path": "../data/myanmar/nso/vulnerability-layers.json",
-      "data_field": "disability_prev_rate",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        { "value": "0-2", "color": "#fee5d9" },
-        { "value": "3-5", "color": "#fcae91" },
-        { "value": "6-8", "color": "#fb6a4a" },
-        { "value": "9-11", "color": "#de2d26" },
-        { "value": "12 or more", "color": "#a50f15" }
-      ],
-      "legend_text": "Prevalence of disability"
-    },
-    "wfp_risk_storms": {
-      "title": "Storm risk",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "storm_risk",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very Low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fcae91"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#de2d26"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
-    },
+    
     "rainfall_dekad": {
       "title": "10-day rainfall estimate (mm)",
       "type": "wms",
@@ -488,536 +314,6 @@
         { "value": 5000.0, "color": "#fcffa4" }
       ]
     },
-    "sensitvity_flood": {
-      "title": "Sensitivity to floods",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "flood_sens",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very Low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fcae91"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#de2d26"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Sensitivity describes the characteristics of a community adversely affected by a flood. Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with the WFP Country Office in Myanmar"
-    },
-    "mudra_risk_river_floods": {
-      "title": "Population risk to river floods",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/River_Flood_Present_conditions.json",
-      "data_field": "risk_population",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "1 Low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "2 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "3 High",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Level of population risk to river floods based on historical model (MUDRA)"
-    },
-    "mudra_risk_cyclone_winds": {
-      "title": "Economic risk to cyclone winds",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/Cyclone_wind_Present.json",
-      "data_field": "risk_economic",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "1 Low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "2 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "3 High",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Level of economic risk to cyclone winds based on historical model (MUDRA)"
-    },
-    "mudra_risk_cyclone_floods": {
-      "title": "Population risk to storm surges",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/cyclone_flood_present.json",
-      "data_field": "risk_population",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "1 Low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "2 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "3 High",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Level of population risk to storm surges based on historical model (MUDRA)"
-    },
-    "annual_damage_river_floods": {
-      "title": "Annual damage (expected) from river floods",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/River_Flood_Present_conditions.json",
-      "data_field": "t_ead_alll",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 10",
-          "color": "#ffffd4"
-        },
-        {
-          "value": "11 to 100",
-          "color": "#fee391"
-        },
-        {
-          "value": "101 to 500",
-          "color": "#fec44f"
-        },
-        {
-          "value": "501 to 1000",
-          "color": "#fe9929"
-        },
-        {
-          "value": "1001 to 5000",
-          "color": "#d95f0e"
-        },
-        {
-          "value": "5001 and above",
-          "color": "#993404"
-        }
-      ],
-      "legend_text": "Expected annual damage from river floods in millions of MMK based on historical model (MUDRA)"
-    },
-    "annual_damage_storm_surges": {
-      "title": "Annual damage (expected) from storm surges",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/cyclone_flood_present.json",
-      "data_field": "t_ead_alll",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 10",
-          "color": "#ffffd4"
-        },
-        {
-          "value": "11 to 100",
-          "color": "#fee391"
-        },
-        {
-          "value": "101 to 500",
-          "color": "#fec44f"
-        },
-        {
-          "value": "501 to 1000",
-          "color": "#fe9929"
-        },
-        {
-          "value": "1001 to 5000",
-          "color": "#d95f0e"
-        }
-      ],
-      "legend_text": "Source: MUDRA"
-    },
-    "annual_damage_cyclone_winds": {
-      "title": "Annual damage (expected) from strong cyclone winds",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/Cyclone_wind_Present.json",
-      "data_field": "t_ead_alll",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 10",
-          "color": "#ffffd4"
-        },
-        {
-          "value": "11 to 100",
-          "color": "#fee391"
-        },
-        {
-          "value": "101 to 500",
-          "color": "#fec44f"
-        },
-        {
-          "value": "501 to 1000",
-          "color": "#fe9929"
-        },
-        {
-          "value": "1001 to 5000",
-          "color": "#d95f0e"
-        },
-        {
-          "value": "5001 and above",
-          "color": "#993404"
-        }
-      ],
-      "legend_text": "Expected annual damage from strong cyclone winds in millions of MMK based on historical model (MUDRA)"
-    },
-    "sensitvity_drought": {
-      "title": "Sensitivity to droughts",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "drought_se",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very low",
-          "color": "#f1eef6"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#d7b5d8"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#df65b0"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#dd1c77"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#980043"
-        }
-      ],
-      "legend_text": "Sensitivity describes the characteristics of a community adversely affected by a drought. Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with the WFP Country Office in Myanmar"
-    },
-  
-    "poverty": {
-      "title": "Poverty by township",
-      "type": "nso",
-      "path": "../data/myanmar/nso/poverty.json",
-      "data_field": "Poverty",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 10 Very low",
-          "color": "#ffffb2"
-        },
-        {
-          "value": "10 to 20 Low",
-          "color": "#d7b5d8"
-        },
-        {
-          "value": "20 to 30 Medium",
-          "color": "#df65b0"
-        }
-      ],
-      "legend_text": "Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with WFP Myanmar"
-    },
-  
-    "sensitvity_storms": {
-      "title": "Sensitivity to storms",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "storm_sens",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very low",
-          "color": "#f1eef6"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#d7b5d8"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#df65b0"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#dd1c77"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#980043"
-        }
-      ],
-      "legend_text": "Sensitivity describes the characteristics of a community adversely affected by a storm. Sensitivity scores were assigned based on a review of the literature on climate sensitivity of livelihoods and consultation with the WFP Country Office in Myanmar"
-    },
-    "vulnerability_drought": {
-      "title": "Vulnerability to drought",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "drought_vu",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very low",
-          "color": "#fef0d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fdcc8a"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fc8d59"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#e34a33"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#b30000"
-        }
-      ],
-      "legend_text": "Vulnerability is defined as the susceptibility or sensitivity of exposures to the impact of hazards in the absence of their capacity to cope and adapt to droughts. In this analysis, vulnerability to droughts is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
-    },
-    "vulnerability_floods": {
-      "title": "Vulnerability to floods",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "flood_vuln",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very low",
-          "color": "#fef0d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fdcc8a"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fc8d59"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#e34a33"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#b30000"
-        }
-      ],
-      "legend_text": "Vulnerability is defined as the susceptibility or sensitivity of exposures to the impact of hazards in the absence of their capacity to cope and adapt to floods. In this analysis, vulnerability to droughts is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
-    },
-    "vulnerability_storms": {
-      "title": "Vulnerability to storms",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "storm_vuln",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very low",
-          "color": "#fef0d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fdcc8a"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fc8d59"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#e34a33"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#b30000"
-        }
-      ],
-      "legend_text": "Vulnerability is defined as the susceptibility or sensitivity of exposures to the impact of hazards in the absence of their capacity to cope and adapt to storms. In this analysis, vulnerability to droughts is calculated as adpactive capcity (an output from INFORM) multiplied by the hazard sensitivity score; the product is then divded by two"
-    },
-    "wfp_risk_drought": {
-      "title": "Drought risk",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "drought_ri",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fcae91"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#de2d26"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
-    },
-    "wfp_risk_floods": {
-      "title": "Flood risk",
-      "type": "nso",
-      "path": "../data/myanmar/nso/all-vuln-layers.json",
-      "data_field": "flood_risk",
-      "admin_level": 3,
-      "admin_code": "TS_PCODE",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 0.2 Very Low",
-          "color": "#fee5d9"
-        },
-        {
-          "value": "0.21 to 0.4 Low",
-          "color": "#fcae91"
-        },
-        {
-          "value": "0.41 to 0.6 Medium",
-          "color": "#fb6a4a"
-        },
-        {
-          "value": "0.61 to 0.8 High",
-          "color": "#de2d26"
-        },
-        {
-          "value": "0.81 to 1 Very high",
-          "color": "#a50f15"
-        }
-      ],
-      "legend_text": "Risk indices where calculated by multiplying the vulnerability scores by the hazard score"
-    },
-    "population_exposed_historical_river_floods": {
-      "title": "Population exposed to historical river floods per year",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/River_Flood_Present_conditions.json",
-      "data_field": "affected_popluation_risk",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 100",
-          "color": "#feedde"
-        },
-        {
-          "value": "101 to 500",
-          "color": "#fdd0a2"
-        },
-        {
-          "value": "501 to 1000",
-          "color": "#fdae6b"
-        },
-        {
-          "value": "1001 to 5000",
-          "color": "#fd8d3c"
-        },
-        {
-          "value": "5001 to 10000",
-          "color": "#e6550d"
-        },
-        {
-          "value": "10001 and above",
-          "color": "#a63603"
-        }
-      ],
-      "legend_text": "Population exposed to historical river floods per year (MUDRA)"
-    },
-    "population_exposed_historical_storm_surge": {
-      "title": "Population exposed to historical storm surges per year",
-      "type": "nso",
-      "path": "../data/myanmar/mudra/cyclone_flood_present.json",
-      "data_field": "affected_popluation_risk",
-      "admin_level": 3,
-      "admin_code": "ts_pcode",
-      "opacity": 0.7,
-      "legend": [
-        {
-          "value": "0 to 100",
-          "color": "#feedde"
-        },
-        {
-          "value": "101 to 500",
-          "color": "#fdd0a2"
-        },
-        {
-          "value": "501 to 1000",
-          "color": "#fdae6b"
-        },
-        {
-          "value": "1001 to 5000",
-          "color": "#fd8d3c"
-        },
-        {
-          "value": "5001 to 10000",
-          "color": "#e6550d"
-        },
-        {
-          "value": "10001 and above",
-          "color": "#a63603"
-        }
-      ],
-      "legend_text": "Population exposed to historical storm surges per year (MUDRA)"
-    },
     "adamts_nodes": {
       "title": "Tropical storm - nodes",
       "type": "wms",
@@ -1150,6 +446,72 @@
       "legend": [],
       "legend_text": "",
       "base_url": "https://geonode.wfp.org/geoserver"
-    }
+    },
+    "disaster_report": {
+      "title": "Disaster impact report",
+      "type": "point_data",
+      "data": "https://prism-api.ovio.org/kobo/forms",
+      "date_url": "https://prism-api.ovio.org/kobo/forms",
+      "additional_query_params": {
+        "form_name": "PRISM-KHM-Disaster-Report-v1",
+        "datetime_field": "disaster_date",
+        "geom_field": "location",
+        "measure_field": "num_ppl_affected",
+        "kobo_url": "https://kobo.humanitarianresponse.info/api/v2/assets.json",
+        "filterStatus": "Approved"
+      },
+      "feature_info_props": {
+        "disaster_type": {
+          "type": "text",
+          "label": "Type of disaster"
+        },
+        "num_ppl_affected": {
+          "type": "number",
+          "label": "Number of people affected"
+        }
+      },
+      "opacity": 0.9,
+      "measure": "num_ppl_affected",
+      "legend_text": "Number of people affected",
+      "legend": [
+        {"value": "0", "color": "#909090"},
+        {"value": "< 100", "color": "#ffeda0"},
+        {"value": "100 - 500", "color": "#feb24c"},
+        {"value": "500 or more", "color": "#f03b20"}
+      ]
+    },
+    "incident_report": {
+      "title": "Disaster impact report",
+      "type": "point_data",
+      "data": "https://prism-api.ovio.org/kobo/forms",
+      "date_url": "https://prism-api.ovio.org/kobo/forms",
+      "additional_query_params": {
+        "form_name": "PRISM-KHM-Disaster-Report-v1",
+        "datetime_field": "disaster_date",
+        "geom_field": "location",
+        "measure_field": "num_ppl_affected",
+        "kobo_url": "https://kobo.humanitarianresponse.info/api/v2/assets.json",
+        "filterStatus": "Approved"
+      },
+      "feature_info_props": {
+        "disaster_type": {
+          "type": "text",
+          "label": "Type of disaster"
+        },
+        "num_ppl_affected": {
+          "type": "number",
+          "label": "Number of people affected"
+        }
+      },
+      "opacity": 0.9,
+      "measure": "num_ppl_affected",
+      "legend_text": "Number of people affected",
+      "legend": [
+        {"value": "0", "color": "#909090"},
+        {"value": "< 100", "color": "#ffeda0"},
+        {"value": "100 - 500", "color": "#feb24c"},
+        {"value": "500 or more", "color": "#f03b20"}
+      ]
+    }  
   }
   
