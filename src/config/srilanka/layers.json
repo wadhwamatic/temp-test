@@ -412,11 +412,11 @@
     "admin_code": "dsd_c_1",
     "opacity": 0.7,
     "legend": [
-        { "value": 1000, "color": "#eff3ff" },
-        { "value": 2500, "color": "#bdd7e7" },
-        { "value": 5000, "color": "#6baed6" },
-        { "value": 10000, "color": "#3182bd" },
-        { "value": 25000, "color": "#08519c" }
+        { "value": 1000, "color": "#edf8e9" },
+        { "value": 2500, "color": "#bae4b3" },
+        { "value": 5000, "color": "#74c476" },
+        { "value": 10000, "color": "#31a354" },
+        { "value": 25000, "color": "#006d2c" }
     ],
     "legend_text": "Number of households"    
     }
