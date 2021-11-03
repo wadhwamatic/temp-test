@@ -35,6 +35,12 @@ import { myanmarConfig, myanmarRawLayers, myanmarRawTables } from './myanmar';
 import { rbdConfig, rbdRawLayers, rbdRawTables } from './rbd';
 
 import {
+  srilankaConfig,
+  srilankaRawLayers,
+  srilankaRawTables,
+} from './srilanka';
+
+import {
   tajikistanConfig,
   tajikistanRawLayers,
   tajikistanRawTables,
@@ -48,6 +54,7 @@ type Country =
   | 'mozambique'
   | 'myanmar'
   | 'rbd'
+  | 'srilanka'
   | 'tajikistan';
 
 const DEFAULT: Country = 'myanmar';
@@ -99,11 +106,17 @@ const configMap = {
     rawTables: rbdRawTables,
     defaultBoundariesFile: `${DEFAULT_BOUNDARIES_FOLDER}/rbd_admin_boundaries.json`,
   },
+  srilanka: {
+    appConfig: srilankaConfig,
+    rawLayers: srilankaRawLayers,
+    rawTables: srilankaRawTables,
+    defaultBoundariesFile: `${DEFAULT_BOUNDARIES_FOLDER}/lka_boundaries_admin3.json`,
+  },
   tajikistan: {
     appConfig: tajikistanConfig,
     rawLayers: tajikistanRawLayers,
     rawTables: tajikistanRawTables,
-    defaultBoundariesFile: `${DEFAULT_BOUNDARIES_FOLDER}/tjk_admin_boundaries_v2.json`,
+    defaultBoundariesFile: `${DEFAULT_BOUNDARIES_FOLDER}/tjk_admin2_wgs84_clean.json`,
   },
 } as const;
 
