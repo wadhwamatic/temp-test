@@ -5,7 +5,35 @@
     "opacity": 0.8,
     "admin_code": "TS_PCODE",
     "admin_level_names": ["TS", "ST", "DT"],
-    "admin_level_local_names": ["DT_MMR4", "TS_MMR4"]
+    "admin_level_local_names": ["DT_MMR4", "TS_MMR4"],
+    "styles:": {
+      "fill": {
+        "fill-opacity": 0
+      },
+      "line": {
+        "line-color": "yellow",
+        "line-width": 1,
+        "line-opacity": 0.8
+      }
+    }
+  },
+  "admin_boundaries_test": {
+    "type": "boundary",
+    "path": "../data/myanmar/bounds_sample.json",
+    "opacity": 0.8,
+    "admin_code": "Adm3_NCDD",
+    "admin_level_names": ["Adm3_Name"],
+    "admin_level_local_names": ["Adm3_Name_"],
+    "styles:": {
+      "fill": {
+        "fill-opacity": 0
+      },
+      "line": {
+        "line-color": "gray",
+        "line-width": 1,
+        "line-opacity": 0.8
+      }
+    }
   },
   "inform": {
     "title": "Vulnerability index",

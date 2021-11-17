@@ -21,31 +21,22 @@ function onToggleHover(cursor: string, targetMap: MapboxGL.Map) {
   targetMap.getCanvas().style.cursor = cursor;
 }
 
-const getLinePaintOptions: (
-  layer: BoundaryLayerProps,
-) => MapboxGL.LinePaint = layer => {
-  return {
-    'line-color': 'grey',
-    'line-width': 1,
-    'line-opacity': layer.opacity,
-  };
-};
-
 function BoundaryLayer({ layer }: { layer: BoundaryLayerProps }) {
   const dispatch = useDispatch();
   const boundaryLayer = useSelector(layerDataSelector(layer.id)) as
     | LayerData<BoundaryLayerProps>
     | undefined;
   const { data } = boundaryLayer || {};
+
   if (!data) {
     return null; // boundary layer hasn't loaded yet. We load it on init inside MapView. We can't load it here since its a dependency of other layers.
   }
   return (
     <GeoJSONLayer
-      id="boundaries"
+      id={layer.id}
       data={data}
-      fillPaint={fillPaint}
-      linePaint={getLinePaintOptions(layer)}
+      fillPaint={layer.styles.fill}
+      linePaint={layer.styles.line}
       fillOnMouseEnter={(evt: any) => onToggleHover('pointer', evt.target)}
       fillOnMouseLeave={(evt: any) => onToggleHover('', evt.target)}
       fillOnClick={(evt: any) => {

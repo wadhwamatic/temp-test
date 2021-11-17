@@ -44,6 +44,7 @@ import { useUrlHistory } from '../../utils/url-utils';
 
 import {
   getBoundaryLayerSingleton,
+  getBoundaryLayers,
   LayerDefinitions,
 } from '../../config/utils';
 
@@ -209,13 +210,18 @@ function MapView({ classes }: MapViewProps) {
     updateHistory,
   ]);
 
+  const boundaryLayers = getBoundaryLayers();
+
   useEffect(() => {
     dispatch(loadAvailableDates());
-    dispatch(addLayer(boundaryLayer));
+    //dispatch(addLayer(boundaryLayer));
+    boundaryLayers.map(l => dispatch(addLayer(l)));
+    boundaryLayers.map(l => dispatch(loadLayerData({ layer: l })));
+
     // we must load boundary layer here for two reasons
     // 1. Stop showing two loading screens on startup - Mapbox renders its children very late, so we can't rely on BoundaryLayer to load internally
     // 2. Prevent situations where a user can toggle a layer like NSO (depends on Boundaries) before Boundaries finish loading.
-    dispatch(loadLayerData({ layer: boundaryLayer }));
+    //dispatch(loadLayerData({ layer: boundaryLayer }));
   }, [boundaryLayer, dispatch]);
 
   // calculate possible dates user can pick from the currently selected layers
