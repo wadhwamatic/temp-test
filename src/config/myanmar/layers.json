@@ -1192,7 +1192,7 @@
     "base_url": "https://geonode.wfp.org/geoserver"
   },
   "kobo_test": {
-    "title": "Kobo data",
+    "title": "Disaster impact assessment",
     "type": "point_data",
     "data": "https://prism-api.ovio.org/kobo/forms",
     "date_url": "https://prism-api.ovio.org/kobo/forms",
@@ -1208,28 +1208,32 @@
     "feature_info_props": {
       "number": {
         "type": "number",
-        "label": "Measure"
-      },
-      "username": {
-        "type": "text",
-        "label": "User name"
+        "label": "People affected"
       }
     },
     "opacity": 1,
     "measure": "number",
-    "legend_text": "Test",
+    "legend_text": "Field assessment - people affected",
     "legend": [
       {
-        "value": "2",
-        "color": "#7ab1c0"
+        "value": "0",
+        "color": "#fee5d9"
       },
       {
-        "value": "5",
-        "color": "#9fc3b3"
+        "value": "1 - 99",
+        "color": "#fcae91"
       },
       {
-        "value": "100",
-        "color": "#d9e79a"
+        "value": "100 - 499",
+        "color": "#fb6a4a"
+      },
+      {
+        "value": "500 - 999",
+        "color": "#de2d26"
+      },
+      {
+        "value": "1000 or more",
+        "color": "#de2d26"
       }
     ]
   }
