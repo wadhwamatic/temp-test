@@ -1,6 +1,5 @@
 """Collect and parse kobo forms."""
 from datetime import datetime, timedelta, timezone
-from enum import Enum
 from os import getenv
 from typing import Dict, List
 
@@ -11,14 +10,6 @@ from flask import request
 import requests
 
 from werkzeug.exceptions import BadRequest, InternalServerError, NotFound
-
-
-class FormStatus(Enum):
-    """Values returned from kobo api response."""
-
-    APPROVED = 'Approved'
-    NOT_APPROVED = 'Not Approved'
-    ON_HOLD = 'On Hold'
 
 
 def get_kobo_params():
@@ -43,45 +34,50 @@ def get_kobo_params():
     if geom_field is None:
         raise BadRequest('Missing parameter geomField')
 
-    measure_field = request.args.get('measureField')
-    if measure_field is None:
-        raise BadRequest('Missing parameter measureField')
-
-    filter_status = request.args.get('filterStatus')
-
-    try:
-        status = FormStatus(filter_status) if filter_status is not None else None
-    except ValueError:
-        err_message = 'Invalid filterStatus value. Values are Approved, Not Approved and On Hold'
-        raise BadRequest(err_message)
+    filters = {}
+    filters_params = request.args.get('filters', None)
+    if filters_params is not None:
+        filters = dict([f.split('=') for f in filters_params.split(',')])
 
     form_fields = dict(name=form_name,
                        datetime=datetime_field,
                        geom=geom_field,
-                       measure=measure_field,
-                       status=status)
+                       filters=filters)
 
     auth = (kobo_username, kobo_pw)
 
     return auth, form_fields
 
 
+def parse_form_field(value: str, field_type: str):
+    """Parse strings into type according to field_type provided."""
+    if field_type == 'decimal':
+        return float(value)
+    elif field_type == 'integer':
+        return int(value)
+    elif field_type in ('datetime', 'date'):
+        return dtparser(value).astimezone(timezone.utc)
+    elif field_type == 'geopoint':
+        lat, lon, _, _ = value.split(' ')
+        return {'lat': float(lat), 'lon': float(lon)}
+    else:
+        return value
+
+
 def parse_form_response(form_dict: Dict[str, str], form_fields: Dict[str, str], labels: List[str]):
     """Transform a Kobo form dictionary into a format that is used by the frontend."""
-    measure_field = form_fields.get('measure')
-
-    form_data = {k: form_dict.get(k) if k != measure_field else int(form_dict.get(k))
-                 for k in labels if k != form_fields.get('geom')}
+    form_data = {k: parse_form_field(form_dict.get(k), v) for k, v in labels.items()
+                 if k not in (form_fields.get('geom'), form_fields.get('datetime'))}
 
     datetime_field = form_fields.get('datetime')
+    datetime_value = parse_form_field(form_dict.get(datetime_field), labels.get(datetime_field))
 
-    datetime_value = dtparser(form_dict.get(datetime_field)).astimezone(timezone.utc)
-
-    lat, lon, _, _ = form_dict.get(form_fields.get('geom')).split(' ')
+    geom_field = form_fields.get('geom')
+    latlon_dict = parse_form_field(form_dict.get(geom_field), labels.get(geom_field))
 
     status = form_dict.get('_validation_status').get('label', None)
 
-    form_data = {**form_data, 'date': datetime_value, 'lat': lat, 'lon': lon, 'status': status}
+    form_data = {**form_data, **latlon_dict, 'date': datetime_value, 'status': status}
 
     return form_data
 
@@ -89,7 +85,7 @@ def parse_form_response(form_dict: Dict[str, str], form_fields: Dict[str, str], 
 def parse_datetime_params():
     """Transform into datetime objects used for filtering form responses."""
     begin_datetime_str = request.args.get('beginDateTime', '2000-01-01')
-    begin_datetime = dtparser(begin_datetime_str).astimezone(timezone.utc)
+    begin_datetime = dtparser(begin_datetime_str).replace(tzinfo=timezone.utc)
 
     end_datetime_str = request.args.get('endDateTime')
     if end_datetime_str is not None:
@@ -98,7 +94,7 @@ def parse_datetime_params():
         # 10 years.
         end_datetime = datetime.now() + timedelta(days=365 * 10)
 
-    end_datetime = end_datetime.astimezone(timezone.utc)
+    end_datetime = end_datetime.replace(tzinfo=timezone.utc)
 
     # strptime function includes hours, minutes, and seconds as 00 by default.
     # This check is done in case the begin and end datetime values are the same.
@@ -132,9 +128,14 @@ def get_responses_from_kobo(auth, form_name):
     if form_metadata is None:
         raise NotFound('Form not found')
 
-    # Get form labels.
-    # Replace string is needed since form dictionariy keys use '_' as space.
-    form_labels = [f.replace(' ', '_') for f in form_metadata.get('summary').get('labels')]
+    # Additional request to get label mappings.
+    resp = requests.get(form_metadata.get('url'), auth=auth)
+    resp.raise_for_status()
+    form_metadata = resp.json()
+
+    # Get form fields and field type used for parsing.
+    form_labels = {f.get('$autoname'): f.get('type') for f
+                   in form_metadata.get('content').get('survey')}
 
     # Get all form responses using metadata 'data' key
     resp = requests.get(form_metadata.get('data'), auth=auth)
@@ -156,18 +157,19 @@ def get_form_responses(begin_datetime, end_datetime):
     filtered_forms = []
     for form in forms:
         date_value = form.get('date')
-        status = form_fields.get('status')
 
-        if status is not None and form.get('status') != status.value:
+        conditions = [form.get(k) == v for k, v in form_fields.get('filters').items()]
+        conditions.append(begin_datetime <= date_value)
+        conditions.append(date_value < end_datetime)
+
+        if all(conditions) is False:
             continue
 
-        # Check form submission date is between request dates.
-        if begin_datetime <= date_value <= end_datetime:
-            filtered_forms.append(form)
+        filtered_forms.append(form)
 
     sorted_forms = sorted(filtered_forms, key=lambda x: x.get('date'))
 
-    # Transform into string.
-    sorted_forms = [{**f, 'date': f.get('date').isoformat()} for f in sorted_forms]
+    # Transform date into string.
+    sorted_forms = [{**f, 'date': f.get('date').date().isoformat()} for f in sorted_forms]
 
     return sorted_forms
