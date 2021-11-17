@@ -620,5 +620,56 @@
       }
     ],
     "legend_text": "Source: National IPC Technical Working Group"
-  }  
+  },
+  "mpi": {
+    "title": "Multidimensional Poverty Index",
+    "type": "admin_level_data",
+    "path": "../data/mozambique/moz-mpi-2020.json",
+    "data_field": "mpi",
+    "admin_level": 1,
+    "admin_code": "ADM1_PCODE",
+    "opacity": 0.7,
+    "feature_info_props": {
+      "mpi_headcount": {
+        "type": "number",
+        "label": "Percent of the population in multidimensional poverty"
+      },
+      "mpi_intensity": {
+        "type": "number",
+        "label": "Intensity of deprivation among the poor"
+      },
+      "vuln_poverty": {
+        "type": "number",
+        "label": "Vulnerable to poverty"
+      },
+      "severe_poverty": {
+        "type": "number",
+        "label": "In severe poverty"
+      }
+    },
+    "legend": [
+      {
+        "value": "0 - 0.3",
+        "color": "#fee5d9"
+      },
+      {
+        "value": "0.31 - 0.4",
+        "color": "#fcae91" 
+      },
+      {
+        "value": "0.41 - 0.5",
+        "color": "#fb6a4a" 
+      },
+      {
+        "value": "0.51 - 0.6",
+        "color": "#de2d26" 
+      },
+      {
+        "value": "0.61 or more",
+        "color": "#a50f15" 
+      }
+    ],
+    "legend_text": "Multidimensional Poverty Index. Source: Alkire, S., Kanagaratnam, U. and Suppa, N. (2020). ‘The Global Multidimensional Poverty Index (MPI) 2020’, OPHI MPI"
+  }    
+  
 }

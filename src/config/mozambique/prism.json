@@ -39,7 +39,8 @@
       "tropical_storms": ["adamts_buffers"]
     },
     "vulnerability": {
-      "food_insecurity": ["ipc_phase_12_2020"]   
+      "food_insecurity": ["ipc_phase_12_2020"],
+      "poverty": ["mpi"]   
     }
   }
 }
