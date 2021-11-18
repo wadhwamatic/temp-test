@@ -33,11 +33,16 @@
       ],
       "vegetation_conditions": ["ndvi_dekad", "ndvi_dekad_anomaly"],
       "temperature": ["lst_daytime", "lst_anomaly", "lst_amplitude"],
-      "earthquakes": ["usgs_shakemaps"]
+      "earthquakes": ["usgs_shakemaps"],
+      "flood_frequency": ["Flood_freq"]
     },
     "exposure": {
-      "crops":
-      ["crop_areas"]
+      "crops": ["Agricultural_areas"], 
+      "human_exposure": ["Population_2020"]
+    },
+    "vulnerability": {
+      "food_security_monitoring": ["FS_situation"]
     }
+  
   }
 }

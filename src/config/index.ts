@@ -112,7 +112,7 @@ const configMap = {
     appConfig: tajikistanConfig,
     rawLayers: tajikistanRawLayers,
     rawTables: tajikistanRawTables,
-    defaultBoundariesFile: `${DEFAULT_BOUNDARIES_FOLDER}/tjk_admin_boundaries_v2.json`,
+    defaultBoundariesFile: `${DEFAULT_BOUNDARIES_FOLDER}/tjk_admin2_wgs84_clean.json`,
   },
 } as const;
 
