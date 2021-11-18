@@ -313,7 +313,6 @@
       "id": "wp_pop_cicunadj",
       "key": "label"
     },
-        
     "feature_info_props": {
       "mmi": {
         "type": "text",
@@ -488,5 +487,36 @@
       
     ],
         "legend_text": "Disaster data from the Government of Tajikistan"
-  }
+  },
+  "incident_report": {
+    "title": "Disaster impact report",
+    "type": "point_data",
+    "data": "https://prism-api.ovio.org/kobo/forms",
+    "date_url": "https://prism-api.ovio.org/kobo/forms",
+    "additional_query_params": {
+      "form_name": "tajikistan_prism_test_v1",
+      "datetime_field": "date_assessment",
+      "geom_field": "location",
+      "kobo_url": "https://kobo.humanitarianresponse.info/api/v2/assets.json"
+    },
+    "feature_info_props": {
+      "disaster_type": {
+        "type": "text",
+        "label": "Type of disaster"
+      },
+      "num_ppl_affected": {
+        "type": "number",
+        "label": "Number of people affected"
+      }
+    },
+    "opacity": 0.9,
+    "measure": "num_ppl_affected",
+    "legend_text": "Number of people affected",
+    "legend": [
+      {"value": 0, "color": "#909090"},
+      {"value": 100, "color": "#ffeda0"},
+      {"value": 500, "color": "#feb24c"},
+      {"value": 1000, "color": "#f03b20"}
+    ]
+  }    
 }

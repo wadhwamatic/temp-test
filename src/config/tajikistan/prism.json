@@ -38,7 +38,8 @@
     },
     "exposure": {
       "crops": ["Agricultural_areas"], 
-      "human_exposure": ["Population_2020"]
+      "human_exposure": ["Population_2020"],
+      "field_assessments":["incident_report"]
     },
     "vulnerability": {
       "food_security_monitoring": ["FS_situation"]
