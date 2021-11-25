@@ -342,6 +342,8 @@ export class PointDataLayerProps extends CommonLayerProps {
 
   @optional
   featureInfoProps?: FeatureInfoObject;
+
+  validityDays?: number;
 }
 
 export type RequiredKeys<T> = {

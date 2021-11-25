@@ -42,18 +42,26 @@ export const queryParamsToString = (queryParams?: {
 
 export const fetchPointLayerData: LazyLoader<PointDataLayerProps> = () => async ({
   date,
-  layer: { data: dataUrl, fallbackData, additionalQueryParams },
+  layer: { data: dataUrl, fallbackData, additionalQueryParams, validityDays },
 }) => {
   // This function fetches point data from the API.
   // If this endpoint is not available or we run into an error,
   // we should get the data from the local public file in layer.fallbackData
 
-  const formattedDate = date && moment(date).format('YYYY-MM-DD');
+  const formattedDate = date && moment(date);
+  const daysPeriod = validityDays ?? 0;
+
+  const startDate = formattedDate
+    ? formattedDate.clone().subtract(daysPeriod, 'days').format('YYYY-MM-DD')
+    : '2000-01-01';
+  const endDate = formattedDate
+    ? formattedDate.clone().add(daysPeriod, 'days').format('YYYY-MM-DD')
+    : '2023-12-21';
+
+  console.log(startDate, endDate);
 
   // TODO exclusive to this api...
-  const dateQuery = `beginDateTime=${
-    formattedDate || '2000-01-01'
-  }&endDateTime=${formattedDate || '2023-12-21'}`;
+  const dateQuery = `beginDateTime=${startDate}&endDateTime=${endDate}`;
 
   const requestUrl = `${dataUrl}${
     dataUrl.includes('?') ? '&' : '?'
