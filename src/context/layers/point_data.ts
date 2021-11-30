@@ -58,8 +58,6 @@ export const fetchPointLayerData: LazyLoader<PointDataLayerProps> = () => async 
     ? formattedDate.clone().add(daysPeriod, 'days').format('YYYY-MM-DD')
     : '2023-12-21';
 
-  console.log(startDate, endDate);
-
   // TODO exclusive to this api...
   const dateQuery = `beginDateTime=${startDate}&endDateTime=${endDate}`;
 
