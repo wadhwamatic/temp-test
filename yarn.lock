@@ -2,6 +2,25 @@
 # yarn lockfile v1
 
 
+"@azure/msal-browser@^2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-2.19.0.tgz#6915d200e0679eb8b26368bf0e0fc02ee4a8617a"
+  integrity sha512-nVMMSbFeocGv3SUYGBD+3pkE/pbAciGhER3KCjsBu6Sy9EDaBCiQ418KZfHBcCcrNQgFxf3nleWdeYoYX7281g==
+  dependencies:
+    "@azure/msal-common" "^5.1.0"
+
+"@azure/msal-common@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-5.1.0.tgz#e3a75a8ba1602da040698046161961d6dc59bbc4"
+  integrity sha512-4zHZ5Ec7jAgTIWZO3ap1ozgIPGAirF1wL8UhsmPF9QDoZz0cMHdaNmtov5i2+6Xq37YMzhN5s50EFHBuXd7sDQ==
+  dependencies:
+    debug "^4.1.1"
+
+"@azure/msal-react@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-react/-/msal-react-1.1.1.tgz#d7980647f6929fd94ca34fa453cd4e5bf3210bb3"
+  integrity sha512-tsl+5N/YQM55E8D5YaolZyxaf70frj/BS8EjZQvmPcxpuyOtQ+qKcJZNL7FYetk30eba58IRUcKNmaVxOJ30xQ==
+
 "@babel/code-frame@7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -4887,11 +4906,6 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-dompurify@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.3.0.tgz#07bb39515e491588e5756b1d3e8375b5964814e2"
-  integrity sha512-VV5C6Kr53YVHGOBKO/F86OYX6/iLTw2yVSI721gKetxpHCK/V5TaLEf9ODjRgl1KLSWRMY6cUhAbv/c+IUnwQw==
-
 dompurify@^2.2.0:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.6.tgz#54945dc5c0b45ce5ae228705777e8e59d7b2edc4"
@@ -6626,13 +6640,6 @@ htmlparser2@^3.3.0, htmlparser2@^3.9.1:
     entities "^1.1.1"
     inherits "^2.0.1"
     readable-stream "^3.1.1"
-
-htmlstring-to-react@^5.2.3:
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/htmlstring-to-react/-/htmlstring-to-react-5.2.3.tgz#938384d105514d8b0ae37a584f37c1d2dbe9aff7"
-  integrity sha512-flt6vmBIaxqmQTk1t9gqOO/BYO/obnTZsJsBg8Vzv4QKSgmmcI12ulA87mkHGK4mSqqHf87rnoTj7RLtIslRaQ==
-  dependencies:
-    dompurify "2.3.0"
 
 http-deceiver@^1.2.7:
   version "1.2.7"

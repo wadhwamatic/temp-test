@@ -12,6 +12,7 @@ import notificationStateReduce, {
   errorToNotificationMiddleware,
 } from './notificationStateSlice';
 import analysisResultStateSlice from './analysisResultStateSlice';
+import authStateReduce from './authStateSlice';
 
 const reducer = combineReducers({
   mapState: mapStateReduce,
@@ -20,6 +21,7 @@ const reducer = combineReducers({
   tooltipState: tooltipStateReduce,
   analysisResultState: analysisResultStateSlice,
   notificationState: notificationStateReduce,
+  authState: authStateReduce,
 });
 
 export const store = configureStore({
